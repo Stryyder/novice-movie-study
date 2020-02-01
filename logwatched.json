@@ -461,7 +461,7 @@
 {"id":"459","stamp":"2020-01-20 23:20:53","movie":"Assault on Wall Street","director":"Uwe Boll","rating":"5.3","releasedate":"2013-07-30","comment":"Protagonist is evil - Antagonist is evil. Great."},
 {"id":"460","stamp":"2020-01-20 23:25:13","movie":"Fighter, The","director":"David O. Russell","rating":"5.7","releasedate":"2010-12-17","comment":"Most noticeably, a skinny Bale"},
 {"id":"461","stamp":"2020-01-20 23:31:16","movie":"What Lies Beneath","director":"Robert Zemeckis","rating":"5.0","releasedate":"2000-07-21","comment":"Seen it but forgot it"},
-{"id":"462","stamp":"2020-01-20 23:37:58","movie":"Passion of the Christ, The","director":"Mel Gibson","rating":"6.2","releasedate":"2004-02-25","comment":"Captures the violence, but maybe not the actual message"},
+{"id":"462","stamp":"2020-01-20 23:37:58","movie":"Passion of the Christ, The","director":"Mel Gibson","rating":"6.2","releasedate":"2004-02-25","comment":"Captures the violence, but maybe not the whole message"},
 {"id":"463","stamp":"2020-01-20 23:40:49","movie":"Universal Soldier","director":"Roland Emmerich","rating":"5.4","releasedate":"1992-07-10","comment":"Classic from youth"},
 {"id":"464","stamp":"2020-01-21 17:58:04","movie":"Breakdown","director":"Jonathan Mostow","rating":"6.1","releasedate":"1997-05-02","comment":"Entertaining despite overwhelming coincidences"},
 {"id":"465","stamp":"2020-01-22 09:56:14","movie":"A.I. Artificial Intelligence","director":"Steven Spielberg","rating":"8.2","releasedate":"2001-06-29","comment":"An empty beauty. Empty because it deliberately ignores God."},
@@ -471,7 +471,13 @@
 {"id":"469","stamp":"2020-01-24 15:55:44","movie":"Heart of Wilderness","director":"Towle Neu","rating":"5.7","releasedate":"2015-04-21","comment":"Beautifully shot, but ends with too many unanswered questions"},
 {"id":"470","stamp":"2020-01-24 23:37:29","movie":"Naked Gun 33 1\/3: The Final Insult ","director":"Peter Segal","rating":"5.0","releasedate":"1994-03-18","comment":"just as dumb as it looks but kinda funny"},
 {"id":"471","stamp":"2020-01-25 02:09:08","movie":"Maggie","director":"Henry Hobson","rating":"6.1","releasedate":"2015-05-08","comment":"Decent look at the \"reality\" of becoming a zombie"},
-{"id":"472","stamp":"2020-01-25 02:10:50","movie":"John Q","director":"Nick Cassavetes","rating":"5.8","releasedate":"2002-02-15","comment":"entertaining"}
+{"id":"472","stamp":"2020-01-25 02:10:50","movie":"John Q","director":"Nick Cassavetes","rating":"5.8","releasedate":"2002-02-15","comment":"entertaining"},
+{"id":"473","stamp":"2020-01-26 00:00:36","movie":"Crocodile Dundee in Los Angeles","director":"Simon Wincer","rating":"5.1","releasedate":"2001-04-20","comment":"the one i forgot about"},
+{"id":"474","stamp":"2020-01-26 19:48:17","movie":"Bad News Bears","director":"Richard Linklater","rating":"1.0","releasedate":"2005-07-22","comment":"Billy continues ruining classics by replacing good characters with a caustic version"},
+{"id":"475","stamp":"2020-01-27 21:05:08","movie":"Detour","director":"William Dickerson","rating":"7.1","releasedate":"2014-01-01","comment":"Great work of isolation acting"},
+{"id":"476","stamp":"2020-01-28 16:32:21","movie":"Ghost Town","director":"David Koepp","rating":"6.1","releasedate":"2008-09-19","comment":"Ricky is funny when his sarcasm and caustic jokes are reigned in by a pleasant script."},
+{"id":"477","stamp":"2020-01-29 13:45:09","movie":"Rising Fear (America Has Fallen)","director":"Tom Getty","rating":"4.9","releasedate":"2016-05-30","comment":"Pretty good for a B movie"},
+{"id":"478","stamp":"2020-01-31 10:38:26","movie":"Undertow","director":"David Gordon Green","rating":"6.0","releasedate":"2004-12-17","comment":"A reminder of some of the ugly parts of real life"}
 ]
 }
 ]
