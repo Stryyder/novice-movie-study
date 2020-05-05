@@ -11,4 +11,5 @@ The movie log for one man containing only the essential data + a gut reaction ra
 
 
 ### Notes
+- I've experimented with a sort of grading rubric that would predict how I would enjoy each movie and give me a more "predictable" score. What I've found is that no matter how good the rubric, some movies just hit harder than others. There are too many complex elements to hone in on a rigid, mechanical, unmoving thing like a grading rubric. For that reason, that experiment was a success and I've deleted the rubric.
 - As this is not an active priority, I have not yet implemented a way to update this JSON in any sort of automated way.  My current setup uses PHP/SQL on an Apache-ish home server which I'm manually exporting to JSON
