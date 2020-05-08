@@ -3,11 +3,12 @@
 ## What is this?
 The movie log for one man containing only the essential data + a gut reaction rating score out of 10. (ranked immediately after watching)
 
-- Occasionally the scores are adjusted based on a comparison with surrounding movies in the ranking chain. When they are side by side, it is much easier to decide which movie was preferred
+These are the sort-of rules I've adopted during this:
+1. Occasionally the scores are adjusted based on a comparison with surrounding movies in the ranking chain. When they are side by side, it is much easier to decide which movie was preferred
 
-- I do not enjoy excessively violent films, or those fixated on the evils of the world as a main theme. Because of that, if I end up watching a movie with that kind of content, it is likely to get a lower score.  
+2. I do not enjoy excessively violent films, or those fixated on the evils of the world as a main theme. Because of that, if I end up watching a movie with that kind of content, it is likely to get a lower score. Also, some films are just rate very lowly because I wouldn't recommend anyone bother wasting their time with them. For many of these, it's not necessarily tied to the movie's production quality or director so much as its story is just awful.
 
-- This is an incredibly biased list because it is mine. Anyone expecting to see ratings based on some sort of artistic admiration of the film industry won't find that kind of thing here. I'm responding simply - like a friend telling you what they thought of the movie.
+3. This is an incredibly biased list because it is mine. Anyone expecting to see ratings based on some sort of artistic admiration of the film industry won't find that kind of thing here. I'm responding simply - like a friend telling you what they thought of the movie.
 
 
 ### Notes
