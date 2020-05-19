@@ -10,7 +10,8 @@ These are the sort-of rules I've adopted during this:
 
 3. This is an incredibly biased list because it is mine. Anyone expecting to see ratings based on some sort of artistic admiration of the film industry won't find that kind of thing here. I'm responding simply - like a friend telling you what they thought of the movie.
 
+4. No matter how good the movie is made, if I can't in good conscience recommend it to a friend, it will receive a low score. 
 
 ### Notes
 - I've experimented with a sort of grading rubric that would predict how I would enjoy each movie and give me a more "predictable" score. What I've found is that no matter how good the rubric, some movies just hit harder than others. There are too many complex elements to hone in on a rigid, mechanical, unmoving thing like a grading rubric. For that reason, that experiment was a success and I've deleted the rubric.
-- As this is not an active priority, I have not yet implemented a way to update this JSON in any sort of automated way.  My current setup uses PHP/SQL on an Apache-ish home server which I'm manually exporting to JSON
+- As this is not an active priority, I have not yet implemented a way to update this JSON in any sort of automated way. My current setup uses PHP/SQL on an Apache-ish home server which I'm manually exporting to JSON
