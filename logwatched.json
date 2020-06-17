@@ -571,7 +571,10 @@
 {"id":"569","stamp":"2020-06-04 14:49:56","movie":"Circle","director":"Aaron Hann, Mario Miscione","rating":"5.8","releasedate":"2015-10-16","comment":"Severely bloated stereotypes - but interesting all the way through"},
 {"id":"570","stamp":"2020-06-08 15:15:02","movie":"Bad Day for the Cut","director":"Chris Baugh","rating":"6.0","releasedate":"2017-10-20","comment":"Aptly demonstrates the futility of retaliatory violence"},
 {"id":"571","stamp":"2020-06-09 15:04:57","movie":"About Time","director":"Richard Curtis","rating":"7.1","releasedate":"2013-11-08","comment":"Unexpected gem - brilliant"},
-{"id":"572","stamp":"2020-06-13 20:04:57","movie":"Last Samurai, The","director":"Edward Zwick","rating":"6.8","releasedate":"2003-12-05","comment":"good movie - even if the star is somehow invincible"}
+{"id":"572","stamp":"2020-06-13 20:04:57","movie":"Last Samurai, The","director":"Edward Zwick","rating":"6.8","releasedate":"2003-12-05","comment":"good movie - even if the star is somehow invincible"},
+{"id":"573","stamp":"2020-06-15 14:42:57","movie":"Kicking & Screaming","director":"Noah Baumbach","rating":"5.8","releasedate":"1995-10-06","comment":"very slow, dusty, and mostly pointless"},
+{"id":"574","stamp":"2020-06-15 17:42:57","movie":"Frank & Lola","director":"Matthew Ross","rating":"5.0","releasedate":"2016-12-09","comment":"slow, strange"}
+
 ]
 }
 ]
