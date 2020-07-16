@@ -7,7 +7,7 @@
 {"id":"2","stamp":"2017-03-20 11:48:54","movie":"Armageddon","director":"Michael Bay","rating":"7.0","released":"1998-07-01","comment":"No memory"},
 {"id":"3","stamp":"2017-03-20 11:59:56","movie":"It's a Wonderful Life","director":"Frank Capra","rating":"9.1","released":"1947-01-07","comment":"A perfect film for the right audience"},
 {"id":"4","stamp":"2017-03-20 12:02:29","movie":"Independence Day","director":"Roland Emmerich","rating":"6.8","released":"1996-07-03","comment":"When it came out, this was awesome"},
-{"id":"5","stamp":"2020-07-02 15:10:18","movie":"The Sixth Sense","director":"M. Night Shyamalan","rating":"7.8","released":"1999-08-06","comment":"great story, spooky on screen first time"},
+{"id":"5","stamp":"2020-07-10 17:37:08","movie":"Sixth Sense, The","director":"M. Night Shyamalan","rating":"7.1","released":"1999-08-06","comment":"great story, spooky on screen first time"},
 {"id":"6","stamp":"2017-03-20 12:06:03","movie":"Batman","director":"Tim Burton","rating":"7.0","released":"1989-06-23","comment":"McArthur"},
 {"id":"7","stamp":"2017-03-20 12:17:49","movie":"Titanic","director":"James Cameron","rating":"7.0","released":"1997-12-17","comment":"Red Bluff with Beckie"},
 {"id":"8","stamp":"2017-03-20 12:19:41","movie":"Catch Me If You Can","director":"Steven Spielberg","rating":"7.0","released":"2002-12-25","comment":"No memory"},
@@ -584,7 +584,23 @@
 {"id":"582","stamp":"2020-06-29 18:11:16","movie":"Reliant, The","director":"Paul Munger","rating":"5.0","released":"2019-10-24","comment":"Tries to do far too much - but a marked production quality improvement for the genre"},
 {"id":"583","stamp":"2020-06-30 17:16:48","movie":"Night Clerk, The","director":"Michael Cristofer","rating":"5.2","released":"2020-02-21","comment":"Could not help but analyze displayed traits of Asperger's"},
 {"id":"584","stamp":"2020-07-01 15:12:47","movie":"Fury","director":"David Ayer","rating":"6.0","released":"2014-10-17","comment":"A little Hollywood-esque, but Shia and Jon are great"},
-{"id":"585","stamp":"2020-07-02 14:56:54","movie":"Snakes on a Plane","director":"David R. Ellis","rating":"2.0","released":"2006-08-18","comment":"Exactly as awful as you'd expect"}
+{"id":"585","stamp":"2020-07-06 16:55:25","movie":"Snakes on a Plane","director":"David R. Ellis","rating":"2.0","released":"2006-08-18","comment":"Exactly as awful as you'd expect "},
+{"id":"586","stamp":"2020-07-02 20:06:11","movie":"Answer, The","director":"Iqbal Ahmed","rating":"4.9","released":"2017-07-11","comment":"Starts strong but continues very B"},
+{"id":"587","stamp":"2020-07-03 17:30:43","movie":"Con Air","director":"Simon West","rating":"5.7","released":"1997-06-06","comment":"Very entertaining for its day"},
+{"id":"588","stamp":"2020-07-03 19:32:47","movie":"T-34","director":"Aleksey Sidorov","rating":"7.0","released":"2019-01-01","comment":"Loved it - great score too"},
+{"id":"589","stamp":"2020-07-03 23:32:13","movie":"Arrival, The","director":"David Twohy","rating":"5.3","released":"1996-05-31","comment":"Sci-fi that still kinda holds up with time"},
+{"id":"590","stamp":"2020-07-05 15:13:34","movie":"Paradox Alice","director":"Erika Dapkewicz","rating":"0.1","released":"2013-10-15","comment":"Inept. Bent agenda. Also, just awful."},
+{"id":"591","stamp":"2020-07-05 18:23:57","movie":"Aliens, The","director":"Byron Yee","rating":"4.8","released":"2017-01-01","comment":"Not awful - but very slow"},
+{"id":"592","stamp":"2020-07-06 16:19:24","movie":"2101","director":"Kyle Misak","rating":"3.0","released":"2014-02-23","comment":"A couple of good moments, but overall wooden"},
+{"id":"593","stamp":"2020-07-06 16:51:18","movie":"Left Behind: The Movie","director":"Vic Sarin","rating":"4.7","released":"2001-02-02","comment":"Amazing story with what feels like a very low budget"},
+{"id":"594","stamp":"2020-07-07 11:33:31","movie":"Yuma","director":"Ted Post","rating":"5.8","released":"1971-03-02","comment":"Typical western story - Clint Walker is great"},
+{"id":"595","stamp":"2020-07-08 12:11:10","movie":"Warlock","director":"Edward Dmytryk","rating":"5.9","released":"1959-04-01","comment":"Another decent western"},
+{"id":"596","stamp":"2020-07-09 12:54:03","movie":"Bouncer, The","director":"Julien Leclercq","rating":"6.0","released":"2018-08-22","comment":"None is the right emotion for JCVD to play - great job"},
+{"id":"597","stamp":"2020-07-10 17:37:22","movie":"Snow Walker, The","director":"Charles Martin Smith","rating":"7.2","released":"2004-03-05","comment":"Great work from Barry Pepper and Annabella"},
+{"id":"598","stamp":"2020-07-12 19:42:37","movie":"Left Behind II: Tribulation Force","director":"Bill Corcoran","rating":"6.2","released":"2002-10-29","comment":"When every person got saved - woo - tears"},
+{"id":"599","stamp":"2020-07-14 00:02:11","movie":"Whitewash","director":"Emanuel Hoss-Desmarais","rating":"6.1","released":"2014-05-02","comment":"Directed very well - even if ultimately senseless"},
+{"id":"600","stamp":"2020-07-15 07:58:04","movie":"Texas, Adios","director":"Ferdinando Baldi","rating":"5.3","released":"1966-08-28","comment":"Franco Nero - a cross between Dirty Harry and Indiana Jones - lots of gun-play was fun"},
+{"id":"601","stamp":"2020-07-15 12:57:24","movie":"Stolen","director":"Simon West","rating":"5.3","released":"2012-09-06","comment":"A typical Cage movie"}
 ]
 }
 ]
