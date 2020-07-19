@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 16, 2020 at 02:25 AM
+-- Generation Time: Jul 19, 2020 at 05:52 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -640,7 +640,10 @@ INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, 
 (598, '2020-07-13 02:42:37', 'Left Behind II: Tribulation Force', 'Bill Corcoran', '6.2', '2002-10-29', 'When every person got saved - woo - tears'),
 (599, '2020-07-14 07:02:11', 'Whitewash', 'Emanuel Hoss-Desmarais', '6.1', '2014-05-02', 'Directed very well - even if ultimately senseless'),
 (600, '2020-07-15 14:58:04', 'Texas, Adios', 'Ferdinando Baldi', '5.3', '1966-08-28', 'Franco Nero - a cross between Dirty Harry and Indiana Jones - lots of gun-play was fun'),
-(601, '2020-07-15 19:57:24', 'Stolen', 'Simon West', '5.3', '2012-09-06', 'A typical Cage movie');
+(601, '2020-07-15 19:57:24', 'Stolen', 'Simon West', '5.3', '2012-09-06', 'A typical Cage movie'),
+(602, '2020-07-16 23:49:37', 'Left Behind: World at War', 'Craig R. Baxley', '5.1', '2005-10-21', 'Given the scope of what should have been - this feels short'),
+(603, '2020-07-16 23:49:13', 'Cleaner', 'Renny Harlin', '5.1', '2008-01-18', 'Predictable plot from the start - but still a decent drama'),
+(604, '2020-07-19 03:14:49', 'Big Nothing', 'Jean-Baptiste Andrea', '0.2', '2006-12-01', 'The undercurrent of blasphemy destroys any hope of this being good');
 
 --
 -- Indexes for dumped tables
@@ -660,7 +663,7 @@ ALTER TABLE `movies`
 -- AUTO_INCREMENT for table `movies`
 --
 ALTER TABLE `movies`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=602;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=605;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
