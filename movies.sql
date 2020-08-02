@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 19, 2020 at 05:52 AM
+-- Generation Time: Aug 02, 2020 at 05:49 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -643,7 +643,13 @@ INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, 
 (601, '2020-07-15 19:57:24', 'Stolen', 'Simon West', '5.3', '2012-09-06', 'A typical Cage movie'),
 (602, '2020-07-16 23:49:37', 'Left Behind: World at War', 'Craig R. Baxley', '5.1', '2005-10-21', 'Given the scope of what should have been - this feels short'),
 (603, '2020-07-16 23:49:13', 'Cleaner', 'Renny Harlin', '5.1', '2008-01-18', 'Predictable plot from the start - but still a decent drama'),
-(604, '2020-07-19 03:14:49', 'Big Nothing', 'Jean-Baptiste Andrea', '0.2', '2006-12-01', 'The undercurrent of blasphemy destroys any hope of this being good');
+(604, '2020-07-19 03:14:49', 'Big Nothing', 'Jean-Baptiste Andrea', '0.2', '2006-12-01', 'The undercurrent of blasphemy destroys any hope of this being good'),
+(605, '2020-07-19 21:44:05', 'Dear Zachary: A Letter to a Son About His Father', 'Kurt Kuenne', '5.0', '2008-01-01', 'This is too tragic and personal to recommend'),
+(606, '2020-07-22 03:29:21', 'Letters To God', 'David Nixon, Patrick Doughtie', '6.8', '2010-04-09', 'Refreshingly good - even if a little corny'),
+(607, '2020-07-24 17:22:38', 'Dirty', 'Chris Fisher', '5.0', '2005-01-01', '1 Timothy 6:10'),
+(608, '2020-07-27 21:39:06', 'Close But No Cigar', 'Tom Hutt, Will Hutt', '5.1', '2017-01-01', 'Visually appealing, interesting soundtrack, but a little slow and depicts crime as a playful thing'),
+(609, '2020-07-29 22:33:50', 'Wings over Everest', 'Fay Yu', '5.6', '2019-12-01', 'Good movie - even if jampacked with standard seedy action movie elements'),
+(610, '2020-07-31 16:27:32', 'Carter High', 'Arthur Muhammad', '5.0', '2015-10-30', 'Feels forced, stale, and tries to do too much. Strongest points are actual video footage and the coach.');
 
 --
 -- Indexes for dumped tables
@@ -663,7 +669,7 @@ ALTER TABLE `movies`
 -- AUTO_INCREMENT for table `movies`
 --
 ALTER TABLE `movies`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=605;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=611;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
