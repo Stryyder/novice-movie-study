@@ -1,7 +1,8 @@
 <img src="img/preview.png" width="400">
 
 ## What is this?
-A movie log/curration - converted to JSON
+A movie log/curration with basic reviews and data
+Films marked with (NWF) were so bad, I was Not Willing to Finish them.
 
 ## The vague/flexible guidelines
 1. Occasionally the scores are adjusted based on a comparison with surrounding movies in the ranking chain. When they are side by side, it is much easier to decide which movie was preferred

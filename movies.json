@@ -286,7 +286,7 @@
 {"id":"284","stamp":"2018-10-31 13:22:07","movie":"Robot Overlords","director":"Jon Wright","rating":"5.0","released":"2015-07-03","comment":"A bit too teenage adventure, but not bad"},
 {"id":"285","stamp":"2018-11-05 21:21:27","movie":"Fullmetal Alchemist","director":"Fumihiko Sori","rating":"4.0","released":"2017-12-01","comment":"Cool effects. A little demonic."},
 {"id":"286","stamp":"2018-11-08 09:43:06","movie":"Chronicles of the Ghostly Tribe","director":"Chuan Lu","rating":"5.0","released":"2015-09-30","comment":"A little disconnected, but cool sometimes."},
-{"id":"287","stamp":"2018-12-16 23:25:30","movie":"Ready Player One","director":"Steven Spielberg","rating":"8.1","released":"2018-03-29","comment":"Cinematic candy"},
+{"id":"287","stamp":"2020-09-03 13:54:05","movie":"Ready Player One","director":"Steven Spielberg","rating":"8.1","released":"2018-03-29","comment":"Cinematic candy - epic, but forgettable."},
 {"id":"288","stamp":"2019-02-04 17:22:40","movie":"Magic Town","director":"William A. Wellman","rating":"5.0","released":"1947-10-07","comment":"Decent but not wowing"},
 {"id":"289","stamp":"2019-02-05 22:27:20","movie":"Doctor Takes a Wife, The","director":"Alexander Hall","rating":"4.0","released":"1940-07-18","comment":"Felt like a sitcom more than a movie - no real connection"},
 {"id":"290","stamp":"2019-02-06 22:41:56","movie":"Seventh Heaven","director":"Henry King","rating":"6.0","released":"1937-03-25","comment":"Quirky - dead-eyed, but Stewart"},
@@ -609,7 +609,26 @@
 {"id":"607","stamp":"2020-07-24 10:22:38","movie":"Dirty","director":"Chris Fisher","rating":"5.0","released":"2005-01-01","comment":"1 Timothy 6:10"},
 {"id":"608","stamp":"2020-07-27 14:39:06","movie":"Close But No Cigar","director":"Tom Hutt, Will Hutt","rating":"5.1","released":"2017-01-01","comment":"Visually appealing, interesting soundtrack, but a little slow and depicts crime as a playful thing"},
 {"id":"609","stamp":"2020-07-29 15:33:50","movie":"Wings over Everest","director":"Fay Yu","rating":"5.6","released":"2019-12-01","comment":"Good movie - even if jampacked with standard seedy action movie elements"},
-{"id":"610","stamp":"2020-07-31 09:27:32","movie":"Carter High","director":"Arthur Muhammad","rating":"5.0","released":"2015-10-30","comment":"Feels forced, stale, and tries to do too much. Strongest points are actual video footage and the coach."}
+{"id":"610","stamp":"2020-07-31 09:27:32","movie":"Carter High","director":"Arthur Muhammad","rating":"5.0","released":"2015-10-30","comment":"Feels forced, stale, and tries to do too much. Strongest points are actual video footage and the coach."},
+{"id":"611","stamp":"2020-08-03 22:21:31","movie":"Gladiator","director":"Rowdy Herrington","rating":"6.2","released":"1992-03-06","comment":"Hidden gem - even with generic boxing plot elements"},
+{"id":"612","stamp":"2020-08-04 16:12:51","movie":"A Night in Old Mexico","director":"Emilio Aragón","rating":"5.3","released":"2014-05-09","comment":"It was okay."},
+{"id":"613","stamp":"2020-08-05 08:32:22","movie":"Greyhound Attack","director":"Christopher Forbes","rating":"1.5","released":"2019-04-09","comment":"Not great."},
+{"id":"614","stamp":"2020-08-05 20:41:10","movie":"22 Bullets","director":"Richard Berry","rating":"5.4","released":"2010-03-24","comment":"Standard mobster movie - but with Jean Reno. So it's better."},
+{"id":"615","stamp":"2020-08-10 11:24:38","movie":"Human Capital","director":"Paolo Virzì","rating":"6.0","released":"2014-01-09","comment":"Well constructed story - invisible production (good thing). Overall very good."},
+{"id":"616","stamp":"2020-08-11 08:10:19","movie":"Stagecoach","director":"John Ford","rating":"5.3","released":"1939-03-03","comment":"Stunning visuals for a black and white - pretty decent story"},
+{"id":"617","stamp":"2020-08-11 12:00:53","movie":"A Hologram for the King","director":"Tom Tykwer","rating":"6.0","released":"2016-04-28","comment":"Omar Elba is great. Interesting look at only the positive side of another place."},
+{"id":"618","stamp":"2020-08-19 12:15:56","movie":"Sitting Bull","director":"Sidney Salkow","rating":"5.1","released":"1954-10-06","comment":"A story from another time. Speculative, but as a film - interesting."},
+{"id":"619","stamp":"2020-08-24 08:45:04","movie":"Rampart","director":"Oren Moverman","rating":"5.0","released":"2012-02-24","comment":"Woody sells desperation well. Ben Foster hides masterfully in his characters. Ultimately dark, depressing and unresolved."},
+{"id":"620","stamp":"2020-08-25 16:44:52","movie":"My Name Is Thomas","director":"Terence Hill","rating":"5.0","released":"2018-04-19","comment":"Beautifully shot. Couldn't get into the story. Would be better in Italiano."},
+{"id":"621","stamp":"2020-08-26 15:04:11","movie":"Seven Days in Utopia","director":"Matthew Dean Russell","rating":"6.2","released":"2011-09-02","comment":"Corny and predictable. But clean, refreshing, and ultimately moving."},
+{"id":"622","stamp":"2020-08-28 13:54:49","movie":"Boot Hill","director":"Giuseppe Colizzi","rating":"5.7","released":"1969-12-20","comment":"AKA Trinity Rides Again - Terence Hill is charismatic as always"},
+{"id":"623","stamp":"2020-09-03 13:10:27","movie":"Bullets of Justice","director":"Valeri Milev","rating":"0.1","released":"2019-08-23","comment":"Easily the worst thing ever put into video form."},
+{"id":"624","stamp":"2020-09-03 13:53:02","movie":"Oath of Vengeance","director":"Sam Newfield","rating":"6.1","released":"1944-12-09","comment":"My first introduction to Al St. John. Another clean and enjoyable, funny western."},
+{"id":"625","stamp":"2020-09-08 10:11:28","movie":"Ash Lad: In the Hall of the Mountain King, The","director":"Mikkel Brænne Sandemose","rating":"7.4","released":"2017-09-29","comment":"This is just a beautiful film. Funny and flawlessly shot. The English voice acting was terrific."},
+{"id":"626","stamp":"2020-09-10 11:02:38","movie":"Apache Rifles","director":"William Witney","rating":"5.0","released":"1965-02-12","comment":"Another film which must be viewed through the lens of history"},
+{"id":"627","stamp":"2020-09-10 16:25:18","movie":"Trespass","director":"Joel Schumacher","rating":"5.0","released":"2011-10-21","comment":"Plot is a disaster. Standard disposable \"action\" film."},
+{"id":"628","stamp":"2020-09-21 18:42:42","movie":"Jurassic City","director":"Sean Cain","rating":"3.0","released":"2015-01-01","comment":"Another disposable B movie (NWF)"},
+{"id":"629","stamp":"2020-09-21 18:44:46","movie":"McLintock","director":"Andrew V. McLaglen","rating":"6.0","released":"1963-11-13","comment":"Chock full of good stuff."}
 ]
 }
 ]

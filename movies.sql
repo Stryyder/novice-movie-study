@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 02, 2020 at 05:49 AM
+-- Generation Time: Sep 22, 2020 at 03:55 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -325,7 +325,7 @@ INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, 
 (284, '2018-10-31 20:22:07', 'Robot Overlords', 'Jon Wright', '5.0', '2015-07-03', 'A bit too teenage adventure, but not bad'),
 (285, '2018-11-06 05:21:27', 'Fullmetal Alchemist', 'Fumihiko Sori', '4.0', '2017-12-01', 'Cool effects. A little demonic.'),
 (286, '2018-11-08 17:43:06', 'Chronicles of the Ghostly Tribe', 'Chuan Lu', '5.0', '2015-09-30', 'A little disconnected, but cool sometimes.'),
-(287, '2018-12-17 07:25:30', 'Ready Player One', 'Steven Spielberg', '8.1', '2018-03-29', 'Cinematic candy'),
+(287, '2020-09-03 20:54:05', 'Ready Player One', 'Steven Spielberg', '8.1', '2018-03-29', 'Cinematic candy - epic, but forgettable.'),
 (288, '2019-02-05 01:22:40', 'Magic Town', 'William A. Wellman', '5.0', '1947-10-07', 'Decent but not wowing'),
 (289, '2019-02-06 06:27:20', 'Doctor Takes a Wife, The', 'Alexander Hall', '4.0', '1940-07-18', 'Felt like a sitcom more than a movie - no real connection'),
 (290, '2019-02-07 06:41:56', 'Seventh Heaven', 'Henry King', '6.0', '1937-03-25', 'Quirky - dead-eyed, but Stewart'),
@@ -649,7 +649,26 @@ INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, 
 (607, '2020-07-24 17:22:38', 'Dirty', 'Chris Fisher', '5.0', '2005-01-01', '1 Timothy 6:10'),
 (608, '2020-07-27 21:39:06', 'Close But No Cigar', 'Tom Hutt, Will Hutt', '5.1', '2017-01-01', 'Visually appealing, interesting soundtrack, but a little slow and depicts crime as a playful thing'),
 (609, '2020-07-29 22:33:50', 'Wings over Everest', 'Fay Yu', '5.6', '2019-12-01', 'Good movie - even if jampacked with standard seedy action movie elements'),
-(610, '2020-07-31 16:27:32', 'Carter High', 'Arthur Muhammad', '5.0', '2015-10-30', 'Feels forced, stale, and tries to do too much. Strongest points are actual video footage and the coach.');
+(610, '2020-07-31 16:27:32', 'Carter High', 'Arthur Muhammad', '5.0', '2015-10-30', 'Feels forced, stale, and tries to do too much. Strongest points are actual video footage and the coach.'),
+(611, '2020-08-04 05:21:31', 'Gladiator', 'Rowdy Herrington', '6.2', '1992-03-06', 'Hidden gem - even with generic boxing plot elements'),
+(612, '2020-08-04 23:12:51', 'A Night in Old Mexico', 'Emilio Aragón', '5.3', '2014-05-09', 'It was okay.'),
+(613, '2020-08-05 15:32:22', 'Greyhound Attack', 'Christopher Forbes', '1.5', '2019-04-09', 'Not great.'),
+(614, '2020-08-06 03:41:10', '22 Bullets', 'Richard Berry', '5.4', '2010-03-24', 'Standard mobster movie - but with Jean Reno. So it\'s better.'),
+(615, '2020-08-10 18:24:38', 'Human Capital', 'Paolo Virzì', '6.0', '2014-01-09', 'Well constructed story - invisible production (good thing). Overall very good.'),
+(616, '2020-08-11 15:10:19', 'Stagecoach', 'John Ford', '5.3', '1939-03-03', 'Stunning visuals for a black and white - pretty decent story'),
+(617, '2020-08-11 19:00:53', 'A Hologram for the King', 'Tom Tykwer', '6.0', '2016-04-28', 'Omar Elba is great. Interesting look at only the positive side of another place.'),
+(618, '2020-08-19 19:15:56', 'Sitting Bull', 'Sidney Salkow', '5.1', '1954-10-06', 'A story from another time. Speculative, but as a film - interesting.'),
+(619, '2020-08-24 15:45:04', 'Rampart', 'Oren Moverman', '5.0', '2012-02-24', 'Woody sells desperation well. Ben Foster hides masterfully in his characters. Ultimately dark, depressing and unresolved.'),
+(620, '2020-08-25 23:44:52', 'My Name Is Thomas', 'Terence Hill', '5.0', '2018-04-19', 'Beautifully shot. Couldn\'t get into the story. Would be better in Italiano.'),
+(621, '2020-08-26 22:04:11', 'Seven Days in Utopia', 'Matthew Dean Russell', '6.2', '2011-09-02', 'Corny and predictable. But clean, refreshing, and ultimately moving.'),
+(622, '2020-08-28 20:54:49', 'Boot Hill', 'Giuseppe Colizzi', '5.7', '1969-12-20', 'AKA Trinity Rides Again - Terence Hill is charismatic as always'),
+(623, '2020-09-03 20:10:27', 'Bullets of Justice', 'Valeri Milev', '0.1', '2019-08-23', 'Easily the worst thing ever put into video form.'),
+(624, '2020-09-03 20:53:02', 'Oath of Vengeance', 'Sam Newfield', '6.1', '1944-12-09', 'My first introduction to Al St. John. Another clean and enjoyable, funny western.'),
+(625, '2020-09-08 17:11:28', 'Ash Lad: In the Hall of the Mountain King, The', 'Mikkel Brænne Sandemose', '7.4', '2017-09-29', 'This is just a beautiful film. Funny and flawlessly shot. The English voice acting was terrific.'),
+(626, '2020-09-10 18:02:38', 'Apache Rifles', 'William Witney', '5.0', '1965-02-12', 'Another film which must be viewed through the lens of history'),
+(627, '2020-09-10 23:25:18', 'Trespass', 'Joel Schumacher', '5.0', '2011-10-21', 'Plot is a disaster. Standard disposable \"action\" film.'),
+(628, '2020-09-22 01:42:42', 'Jurassic City', 'Sean Cain', '3.0', '2015-01-01', 'Another disposable B movie (NWF)'),
+(629, '2020-09-22 01:44:46', 'McLintock', 'Andrew V. McLaglen', '6.0', '1963-11-13', 'Chock full of good stuff.');
 
 --
 -- Indexes for dumped tables
@@ -669,7 +688,7 @@ ALTER TABLE `movies`
 -- AUTO_INCREMENT for table `movies`
 --
 ALTER TABLE `movies`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=611;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=630;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
