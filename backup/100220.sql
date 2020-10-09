@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 09, 2020 at 08:52 AM
+-- Generation Time: Sep 30, 2020 at 02:21 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -42,7 +42,7 @@ CREATE TABLE `movies` (
 --
 
 INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, `comment`) VALUES
-(1, '2020-10-01 22:37:46', 'Cast Away', 'Robert Zemeckis', '8.65', '2000-12-22', 'Entertaining from start to finish - Personal bias toward survival themes.'),
+(1, '2017-03-19 00:59:18', 'Cast Away', 'Robert Zemeckis', '8.70', '2000-12-22', 'Entertaining from start to finish'),
 (2, '2017-03-20 18:48:54', 'Armageddon', 'Michael Bay', '7.00', '1998-07-01', 'No memory'),
 (3, '2017-03-20 18:59:56', 'It\'s a Wonderful Life', 'Frank Capra', '9.10', '1947-01-07', 'A perfect film for the right audience'),
 (4, '2017-03-20 19:02:29', 'Independence Day', 'Roland Emmerich', '6.80', '1996-07-03', 'When it came out, this was awesome'),
@@ -85,14 +85,14 @@ INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, 
 (41, '2017-03-20 20:32:34', 'We Are Marshall', 'McG', '5.00', '2006-12-22', 'good sports movie but I don\'t may need a rewatch'),
 (42, '2017-03-20 20:33:26', '2012', 'Roland Emmerich', '7.00', '2009-11-13', 'So corny I couldn\'t look away'),
 (43, '2017-03-20 20:34:25', 'Volcano', 'Mick Jackson', '5.30', '1997-04-25', 'Great for its day'),
-(44, '2020-10-01 22:40:15', 'Saving Private Ryan', 'Steven Spielberg', '8.66', '1998-07-24', 'A movie every veteran knows'),
+(44, '2017-03-20 20:35:20', 'Saving Private Ryan', 'Steven Spielberg', '8.00', '1998-07-24', 'A movie every veteran knows'),
 (45, '2017-03-20 20:36:45', '2-Headed Shark Attack', 'Christopher Ray', '2.00', '2012-01-17', 'TK Show'),
 (46, '2017-03-20 20:37:45', 'Bloodmonkey', 'Robert Young', '1.00', '2008-01-27', 'TK Show'),
 (47, '2017-03-20 20:39:06', 'The Ghost and Mr. Chicken', 'Alan Rafkin', '7.00', '1966-01-20', 'No memory'),
 (48, '2017-03-20 21:15:01', 'Star Wars: Episode IV - A New Hope', 'George Lucas', '6.00', '1977-05-25', 'Requires a rewatch'),
 (49, '2017-03-20 21:20:33', 'Star Wars: Episode V - The Empire Strikes Back', 'Irvin Kershner', '6.20', '1980-06-20', 'Film history'),
 (50, '2017-03-20 21:23:31', 'Star Wars: Episode VI - Return of the Jedi', 'Richard Marquand', '6.00', '1983-05-25', 'Requires a rewatch'),
-(51, '2020-10-08 22:34:25', '8 Seconds', 'John G. Avildsen', '8.05', '1994-02-25', 'Great true story - masterfully told.'),
+(51, '2017-03-20 21:32:13', '8 Seconds', 'John G. Avildsen', '8.00', '1994-02-25', 'hometown tears'),
 (52, '2017-03-20 21:49:27', 'Descent, The', 'Neil Marshall', '5.00', '2006-08-04', 'Pretty scary'),
 (53, '2017-03-20 21:51:04', 'Bourne Identity, The', 'Doug Liman', '7.50', '2002-06-14', 'Great realistic-ish spy stuff'),
 (54, '2017-03-20 21:51:56', 'Bourne Ultimatum, The', 'Paul Greengrass', '6.00', '2007-08-03', 'No memory'),
@@ -161,7 +161,7 @@ INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, 
 (117, '2017-03-21 03:50:11', '13th Warrior, The', 'John McTiernan, Michael Crichton', '5.80', '1999-08-27', 'decent for its time'),
 (118, '2017-03-21 03:51:10', 'The Lord of the Rings: The Fellowship of the Ring', 'Peter Jackson', '7.00', '2001-12-19', 'Epic and awesome'),
 (119, '2017-03-21 03:51:42', 'The Lord of the Rings: The Return of the King', 'Peter Jackson', '7.00', '2003-12-17', 'Loved the fight scenes'),
-(120, '2020-10-01 22:38:37', 'The Lord of the Rings: The Two Towers', 'Peter Jackson', '8.59', '2002-12-18', 'Great representation for the whole series'),
+(120, '2017-03-21 03:52:15', 'The Lord of the Rings: The Two Towers', 'Peter Jackson', '8.30', '2002-12-18', 'Great representation for the whole series'),
 (121, '2017-03-21 03:54:53', 'War of the Worlds', 'Steven Spielberg', '5.80', '2005-06-29', 'Very enjoyable and tense'),
 (122, '2017-03-21 04:20:55', 'Signs', 'M. Night Shyamalan', '6.00', '2002-08-02', 'I enjoyed it'),
 (123, '2017-03-21 04:21:37', 'Taken', 'Pierre Morel', '6.20', '2009-01-30', 'Awesome and should have stood alone'),
@@ -180,7 +180,7 @@ INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, 
 (136, '2017-03-23 00:46:01', 'District 9', 'Neill Blomkamp', '6.00', '2009-08-14', 'No memory'),
 (137, '2017-03-23 00:47:16', 'Assault on Precinct ', 'Jean-François Richet', '5.00', '2005-01-19', 'No memory'),
 (138, '2017-03-23 00:49:23', 'Fried Green Tomatoes', 'Jon Avnet', '4.00', '1992-01-24', 'No memory'),
-(139, '2020-09-30 00:24:37', 'Braveheart', 'Mel Gibson', '8.90', '1995-05-24', 'Violent, but a great story'),
+(139, '2017-03-23 00:50:58', 'Braveheart', 'Mel Gibson', '8.40', '1995-05-24', 'Violent, but a great story'),
 (140, '2017-03-23 03:32:45', 'Freaky Friday (Original)', 'Gary Nelson', '7.00', '1977-01-21', 'No memory'),
 (141, '2017-03-23 03:33:26', 'Freaky Friday', 'Mark Waters', '4.00', '2003-08-06', 'No memory'),
 (142, '2017-03-23 03:34:05', 'True Lies', 'James Cameron', '7.00', '1994-07-15', 'No memory'),
@@ -253,7 +253,7 @@ INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, 
 (212, '2017-08-07 20:19:31', 'Ares', 'Jean-Patrick Benes', '6.00', '2016-11-23', 'Subtitled - Interesting plot'),
 (213, '2017-08-21 18:52:45', 'D Train, The', 'Andrew Mogel, Jarrad Paul', '2.00', '2015-05-08', 'Stupid and unfunny'),
 (214, '2017-08-21 22:00:53', 'Time Lapse', 'Bradley King', '6.00', '2015-05-15', 'What\'s in the photo?'),
-(215, '2020-09-30 00:23:59', 'Secrets of War (Oorlogsgeheimen)', 'Dennis Bots', '8.58', '2014-07-03', 'Beautifully shot, great story'),
+(215, '2017-08-22 18:23:51', 'Secrets of War (Oorlogsgeheimen)', 'Dennis Bots', '8.50', '2014-07-03', 'Beautifully shot, great story'),
 (216, '2020-07-02 22:10:56', 'BFG, The', 'Steven Spielberg', '7.90', '2016-07-01', 'with kids great movie'),
 (217, '2017-09-02 18:18:51', 'Day the Earth Stood Still (1951), The', 'Robert Wise', '7.00', '1951-01-01', 'Great suspense with limited effects'),
 (218, '2017-09-04 23:54:29', 'Always', 'Steven Spielberg', '8.00', '1989-12-22', 'Amazing film, made time fly'),
@@ -334,7 +334,7 @@ INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, 
 (293, '2019-02-11 06:28:17', 'Percy Jackson: Sea of Monsters', 'Thor Freudenthal', '5.00', '2013-08-07', 'way too teenage adventure'),
 (294, '2019-04-17 23:49:10', 'Avengers: Infinity War', 'Anthony Russo, Joe Russo', '6.00', '2018-04-27', 'entertaining and funny'),
 (295, '2019-04-17 23:50:40', 'Bird Box', 'Susanne Bier', '7.00', '2018-12-21', 'I\'m partial to survival movies '),
-(296, '2020-10-01 22:39:51', 'Troy', 'Wolfgang Petersen', '8.15', '2004-05-14', 'Classically good'),
+(296, '2019-04-17 23:52:58', 'Troy', 'Wolfgang Petersen', '8.00', '2004-05-14', 'Classically good'),
 (297, '2019-04-18 01:30:24', 'A Winner Never Quits', 'Mel Damski', '7.00', '1986-04-14', 'Classic movie from youth'),
 (298, '2019-04-18 20:48:37', 'Spectral', 'Nic Mathieu', '6.00', '2016-12-09', 'sok'),
 (299, '2019-04-22 01:38:30', 'Ritual, The', 'David Bruckner', '4.00', '2018-02-09', 'scary witch moose? silly horror movies'),
@@ -484,9 +484,9 @@ INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, 
 (443, '2020-01-09 21:14:50', 'Eruption LA', 'Sean Cain', '4.00', '2018-01-06', 'First in class crap - but decent effects'),
 (444, '2020-01-10 09:04:46', 'Axis', 'Aisha Tyler', '5.00', '2017-09-29', 'Now that\'s a rough commute'),
 (445, '2020-01-10 09:44:51', 'Take This Waltz', 'Sarah Polley', '5.20', '2012-07-06', 'One of the saddest movies ever'),
-(446, '2020-01-10 21:36:54', 'Before We Go', 'Chris Evans', '6.10', '2015-07-21', 'Seems like a generic love story, but give it a chance. Beautifully shot.');
+(446, '2020-01-10 21:36:54', 'Before We Go', 'Chris Evans', '6.10', '2015-07-21', 'Seems like a generic love story, but give it a chance. Beautifully shot.'),
+(447, '2020-01-12 00:38:08', 'Numb', 'Jason R. Goode', '6.20', '2016-03-02', 'Undeniably entertaining');
 INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, `comment`) VALUES
-(447, '2020-01-12 00:38:08', 'Numb', 'Jason R. Goode', '6.20', '2016-03-02', 'Undeniably entertaining'),
 (448, '2020-01-13 20:44:21', 'Outre Ici (Beyond Here)', 'Hugo Bousquet', '6.30', '2015-07-06', 'Compelling but doesn\'t seem to finish.'),
 (449, '2020-01-14 20:56:15', 'Killer Bees', 'Penelope Buitenhuis', '4.20', '2002-11-19', 'Very TV B(ee) movie'),
 (450, '2020-01-15 23:12:45', 'Cloud Atlas', 'Tom Tykwer, Lana Wachowski, Lilly Wachowski', '6.40', '2012-10-26', 'Many great movies smashed into one. Confusing.'),
@@ -504,7 +504,7 @@ INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, 
 (462, '2020-01-21 07:37:58', 'Passion of the Christ, The', 'Mel Gibson', '6.20', '2004-02-25', 'Captures the violence, but maybe not the whole message'),
 (463, '2020-01-21 07:40:49', 'Universal Soldier', 'Roland Emmerich', '5.40', '1992-07-10', 'Classic from youth'),
 (464, '2020-01-22 01:58:04', 'Breakdown', 'Jonathan Mostow', '6.10', '1997-05-02', 'Entertaining despite overwhelming coincidences'),
-(465, '2020-10-01 22:39:20', 'A.I. Artificial Intelligence', 'Steven Spielberg', '8.64', '2001-06-29', 'An empty beauty. Empty because it deliberately ignores God.'),
+(465, '2020-01-22 17:56:14', 'A.I. Artificial Intelligence', 'Steven Spielberg', '8.20', '2001-06-29', 'An empty beauty. Empty because it deliberately ignores God.'),
 (466, '2020-01-23 01:42:37', 'Arcadia', 'Tom Large', '5.30', '2016-10-24', 'interesting'),
 (467, '2020-01-23 07:54:38', 'Deserted', 'Ashley Avis', '5.90', '2016-06-02', 'Pretty good'),
 (468, '2020-01-24 00:27:23', 'Pilgrim\'s Progress, The', 'Robert Fernandez', '6.20', '2019-04-18', 'Not just a cartoon.'),
@@ -669,20 +669,12 @@ INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, 
 (627, '2020-09-10 23:25:18', 'Trespass', 'Joel Schumacher', '5.00', '2011-10-21', 'Plot is a disaster. Standard disposable \"action\" film.'),
 (628, '2020-09-22 01:42:42', 'Jurassic City', 'Sean Cain', '3.00', '2015-01-01', 'Another disposable B movie (NWF)'),
 (629, '2020-09-22 01:44:46', 'McLintock', 'Andrew V. McLaglen', '6.00', '1963-11-13', 'Chock full of good stuff.'),
-(636, '2020-09-30 00:23:27', 'Broken Arrow', 'Delmer Daves', '6.21', '1950-08-01', 'More of a film than most westerns - while feeling less like the west.'),
+(636, '2020-09-30 00:14:36', 'Broken Arrow', 'Delmer Daves', '9.99', '1950-08-01', 'More of a film than most westerns - while feeling less like the west.'),
 (637, '2020-09-30 00:15:31', 'Hacksaw Ridge', 'Mel Gibson', '7.01', '2016-11-04', 'Film deserves less focus than Doss himself - who would point to God instead'),
 (638, '2020-09-30 00:16:18', 'Man from Utah, The', 'Robert N. Bradbury', '5.01', '1934-05-15', 'Clearly early film, but great history.'),
 (639, '2020-09-30 00:17:13', 'Messenger, The', 'Oren Moverman', '6.42', '2009-12-04', 'Sad emotional realities displayed well'),
 (640, '2020-09-30 00:18:08', 'Texas Terror', 'Robert N. Bradbury', '6.34', '1935-02-01', 'Early film genius. Not the story, but the directing.'),
-(641, '2020-10-09 06:51:14', 'No Escape', 'John Erick Dowdle', '8.02', '2015-08-26', 'Though reality is even darker, this was gripping throughout.'),
-(642, '2020-10-01 22:37:00', 'Tillie\'s Punctured Romance', 'Mack Sennett, Charles Bennett ', '5.30', '1914-12-21', 'Time machine to first moving pictures. What an amazing ending!'),
-(643, '2020-10-02 22:02:32', 'Last Rescue, The', 'Eric Colley', '4.25', '2015-06-01', 'Lacked professional tuning. Definitely B, but better than some.'),
-(644, '2020-10-02 22:21:34', 'Wave, The', 'Roar Uthaug', '4.80', '2015-08-28', 'Middle of the road disaster movie.'),
-(645, '2020-10-06 22:26:15', 'Last of the Mohicans, The', 'George B. Seitz', '5.40', '1936-09-04', 'Violent for its time. Still, another highlight of old ways.'),
-(646, '2020-10-07 17:52:01', 'Carjacked', 'John Bonito', '5.20', '2012-01-05', 'The shining moments of this film are from the edit room alone.'),
-(647, '2020-10-08 01:15:10', 'White House Down', 'Roland Emmerich', '6.00', '2013-06-28', 'Normal action movie 101.'),
-(648, '2020-10-08 21:11:24', 'One Week', 'Edward F. Cline, Buster Keaton', '7.89', '1920-08-29', 'Amazing short - historic stunts'),
-(649, '2020-10-08 22:33:14', 'To End All Wars', 'David L. Cunningham', '8.03', '2001-09-02', 'Grim. Sad. But very moving.');
+(641, '2020-09-30 00:19:09', 'No Escape', 'John Erick Dowdle', '8.57', '2015-08-26', 'Though reality is even darker, this was very moving. Gripping throughout.');
 
 --
 -- Indexes for dumped tables
@@ -702,7 +694,7 @@ ALTER TABLE `movies`
 -- AUTO_INCREMENT for table `movies`
 --
 ALTER TABLE `movies`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=650;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=642;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
