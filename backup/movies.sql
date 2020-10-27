@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 03, 2020 at 04:50 AM
+-- Generation Time: Oct 09, 2020 at 08:52 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -92,7 +92,7 @@ INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, 
 (48, '2017-03-20 21:15:01', 'Star Wars: Episode IV - A New Hope', 'George Lucas', '6.00', '1977-05-25', 'Requires a rewatch'),
 (49, '2017-03-20 21:20:33', 'Star Wars: Episode V - The Empire Strikes Back', 'Irvin Kershner', '6.20', '1980-06-20', 'Film history'),
 (50, '2017-03-20 21:23:31', 'Star Wars: Episode VI - Return of the Jedi', 'Richard Marquand', '6.00', '1983-05-25', 'Requires a rewatch'),
-(51, '2020-10-01 22:40:42', '8 Seconds', 'John G. Avildsen', '8.05', '1994-02-25', 'hometown tears'),
+(51, '2020-10-08 22:34:25', '8 Seconds', 'John G. Avildsen', '8.05', '1994-02-25', 'Great true story - masterfully told.'),
 (52, '2017-03-20 21:49:27', 'Descent, The', 'Neil Marshall', '5.00', '2006-08-04', 'Pretty scary'),
 (53, '2017-03-20 21:51:04', 'Bourne Identity, The', 'Doug Liman', '7.50', '2002-06-14', 'Great realistic-ish spy stuff'),
 (54, '2017-03-20 21:51:56', 'Bourne Ultimatum, The', 'Paul Greengrass', '6.00', '2007-08-03', 'No memory'),
@@ -484,9 +484,9 @@ INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, 
 (443, '2020-01-09 21:14:50', 'Eruption LA', 'Sean Cain', '4.00', '2018-01-06', 'First in class crap - but decent effects'),
 (444, '2020-01-10 09:04:46', 'Axis', 'Aisha Tyler', '5.00', '2017-09-29', 'Now that\'s a rough commute'),
 (445, '2020-01-10 09:44:51', 'Take This Waltz', 'Sarah Polley', '5.20', '2012-07-06', 'One of the saddest movies ever'),
-(446, '2020-01-10 21:36:54', 'Before We Go', 'Chris Evans', '6.10', '2015-07-21', 'Seems like a generic love story, but give it a chance. Beautifully shot.'),
-(447, '2020-01-12 00:38:08', 'Numb', 'Jason R. Goode', '6.20', '2016-03-02', 'Undeniably entertaining');
+(446, '2020-01-10 21:36:54', 'Before We Go', 'Chris Evans', '6.10', '2015-07-21', 'Seems like a generic love story, but give it a chance. Beautifully shot.');
 INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, `comment`) VALUES
+(447, '2020-01-12 00:38:08', 'Numb', 'Jason R. Goode', '6.20', '2016-03-02', 'Undeniably entertaining'),
 (448, '2020-01-13 20:44:21', 'Outre Ici (Beyond Here)', 'Hugo Bousquet', '6.30', '2015-07-06', 'Compelling but doesn\'t seem to finish.'),
 (449, '2020-01-14 20:56:15', 'Killer Bees', 'Penelope Buitenhuis', '4.20', '2002-11-19', 'Very TV B(ee) movie'),
 (450, '2020-01-15 23:12:45', 'Cloud Atlas', 'Tom Tykwer, Lana Wachowski, Lilly Wachowski', '6.40', '2012-10-26', 'Many great movies smashed into one. Confusing.'),
@@ -674,10 +674,15 @@ INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, 
 (638, '2020-09-30 00:16:18', 'Man from Utah, The', 'Robert N. Bradbury', '5.01', '1934-05-15', 'Clearly early film, but great history.'),
 (639, '2020-09-30 00:17:13', 'Messenger, The', 'Oren Moverman', '6.42', '2009-12-04', 'Sad emotional realities displayed well'),
 (640, '2020-09-30 00:18:08', 'Texas Terror', 'Robert N. Bradbury', '6.34', '1935-02-01', 'Early film genius. Not the story, but the directing.'),
-(641, '2020-10-01 22:39:01', 'No Escape', 'John Erick Dowdle', '8.52', '2015-08-26', 'Though reality is even darker, this was very moving. Gripping throughout.'),
+(641, '2020-10-09 06:51:14', 'No Escape', 'John Erick Dowdle', '8.02', '2015-08-26', 'Though reality is even darker, this was gripping throughout.'),
 (642, '2020-10-01 22:37:00', 'Tillie\'s Punctured Romance', 'Mack Sennett, Charles Bennett ', '5.30', '1914-12-21', 'Time machine to first moving pictures. What an amazing ending!'),
 (643, '2020-10-02 22:02:32', 'Last Rescue, The', 'Eric Colley', '4.25', '2015-06-01', 'Lacked professional tuning. Definitely B, but better than some.'),
-(644, '2020-10-02 22:21:34', 'Wave, The', 'Roar Uthaug', '4.80', '2015-08-28', 'Middle of the road disaster movie.');
+(644, '2020-10-02 22:21:34', 'Wave, The', 'Roar Uthaug', '4.80', '2015-08-28', 'Middle of the road disaster movie.'),
+(645, '2020-10-06 22:26:15', 'Last of the Mohicans, The', 'George B. Seitz', '5.40', '1936-09-04', 'Violent for its time. Still, another highlight of old ways.'),
+(646, '2020-10-07 17:52:01', 'Carjacked', 'John Bonito', '5.20', '2012-01-05', 'The shining moments of this film are from the edit room alone.'),
+(647, '2020-10-08 01:15:10', 'White House Down', 'Roland Emmerich', '6.00', '2013-06-28', 'Normal action movie 101.'),
+(648, '2020-10-08 21:11:24', 'One Week', 'Edward F. Cline, Buster Keaton', '7.89', '1920-08-29', 'Amazing short - historic stunts'),
+(649, '2020-10-08 22:33:14', 'To End All Wars', 'David L. Cunningham', '8.03', '2001-09-02', 'Grim. Sad. But very moving.');
 
 --
 -- Indexes for dumped tables
@@ -697,7 +702,7 @@ ALTER TABLE `movies`
 -- AUTO_INCREMENT for table `movies`
 --
 ALTER TABLE `movies`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=645;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=650;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
