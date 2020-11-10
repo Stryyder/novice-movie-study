@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 28, 2020 at 12:10 AM
+-- Generation Time: Nov 10, 2020 at 02:30 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -691,7 +691,12 @@ INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, 
 (655, '2020-10-23 01:54:07', 'Rio Lobo', 'Howard Hawks', '5.51', '1970-12-18', 'Very clearly further along with Hollywood. The beginning of a departure from true westerns.'),
 (656, '2020-10-27 21:51:12', 'Music Never Stopped, The', 'Jim Kohlberg', '7.35', '2011-10-27', 'Great story with some nicely layered themes.'),
 (657, '2020-10-26 21:40:18', 'Detachment', 'Tony Kaye', '6.00', '2012-02-01', 'A film which adequately portrays the need for Christian schools. It also deliberately refuses to capture anything positive.'),
-(658, '2020-10-27 21:50:47', 'Bleeding Steel', 'Leo Zhang', '5.12', '2017-12-22', 'An action/comedy/drama - unfortunately never deciding which.');
+(658, '2020-10-27 21:50:47', 'Bleeding Steel', 'Leo Zhang', '5.12', '2017-12-22', 'An action/comedy/drama - unfortunately never deciding which.'),
+(659, '2020-11-03 21:45:59', 'Ink', 'Jamin Winans', '5.12', '2009-01-23', 'Strong B-movie vibe, but a decent story. Vague biblical references. Strange lighting  throughout.'),
+(660, '2020-11-04 03:09:47', 'St. Vincent', 'Theodore Melfi', '5.67', '2014-10-24', 'Touching in a secular way.'),
+(661, '2020-11-04 03:44:28', 'Priceless', 'Ben Smallbone', '5.11', '2016-10-14', 'Good message.'),
+(662, '2020-11-05 19:13:09', 'Ten Commandments, The', 'Cecil B. DeMille', '5.00', '1923-11-23', 'Theologically weak, but interesting look at film in \'23.'),
+(663, '2020-11-10 01:17:38', 'Meanest Man In Texas, The', 'Justin Ward', '5.00', '2019-05-17', 'Slow, but an interesting story of what can happen with God');
 
 --
 -- Indexes for dumped tables
@@ -711,7 +716,7 @@ ALTER TABLE `movies`
 -- AUTO_INCREMENT for table `movies`
 --
 ALTER TABLE `movies`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=659;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=664;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
