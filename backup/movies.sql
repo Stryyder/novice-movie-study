@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 03, 2020 at 01:31 AM
+-- Generation Time: Dec 08, 2020 at 06:23 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -712,7 +712,11 @@ INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, 
 (676, '2020-12-01 01:15:54', 'Flora', 'Sasha Louis Vukovic', '5.13', '2017-04-29', 'A definite amateur feel - but still pretty good'),
 (677, '2020-12-01 22:24:03', 'Last of the Mohicans, The (1920)', 'Clarence Brown ', '5.03', '1920-11-21', 'Some surprising scenes from such an old film'),
 (678, '2020-12-02 04:40:50', 'Involution', 'Pavel Khvaleev', '4.12', '2019-09-03', 'Beautifully shot but totally pointless.'),
-(679, '2020-12-03 00:30:05', 'Hector', 'Jake Gavin', '5.65', '2015-12-11', 'Unquestionably good, but also aimless.');
+(679, '2020-12-03 00:30:05', 'Hector', 'Jake Gavin', '5.65', '2015-12-11', 'Unquestionably good, but also aimless.'),
+(680, '2020-12-04 04:52:05', 'Last Days In The Desert', 'Rodrigo García', '3.01', '2016-06-23', 'Makes no attempt to describe the biblical Jesus. Therefore dismal and juvenile.'),
+(681, '2020-12-07 05:08:26', '2001: A Space Odyssey', 'Stanley Kubrick', '5.42', '1968-05-12', 'weirdly culturally popular- it was just strange'),
+(682, '2020-12-07 05:07:53', 'Major Payne', 'Nick Castle', '5.01', '1995-03-24', 'disposable comedy'),
+(683, '2020-12-08 01:19:45', 'Robot & Frank', 'Jake Schreier', '5.24', '2012-09-19', 'strange look at a future where robots replace caring');
 
 --
 -- Indexes for dumped tables
@@ -732,7 +736,7 @@ ALTER TABLE `movies`
 -- AUTO_INCREMENT for table `movies`
 --
 ALTER TABLE `movies`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=680;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=684;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
