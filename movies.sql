@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 10, 2021 at 02:24 AM
+-- Generation Time: Feb 15, 2021 at 10:52 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -318,7 +318,7 @@ INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, 
 (277, '2018-10-18 20:46:23', 'Dead Pool, The', 'Buddy Van Horn', '5.00', '1988-07-13', 'Strangest car chase so far'),
 (278, '2018-10-19 06:09:23', 'Founder, The', 'John Lee Hancock', '5.00', '2017-01-20', 'Interesting, but nothing surprising'),
 (279, '2018-10-19 23:22:00', 'Aviator, The', 'Martin Scorsese', '5.00', '2004-12-25', 'Had me wondering about Hughes'),
-(280, '2018-10-23 23:59:38', 'Sun Valley Serenade', 'H. Bruce Humberstone', '7.00', '1941-08-29', 'Great music - Great camera work for the day'),
+(280, '2021-02-12 04:19:32', 'Sun Valley Serenade', 'H. Bruce Humberstone', '6.59', '1941-08-29', 'Great music - Great camera work for the day'),
 (281, '2018-10-24 20:32:34', 'Revolt', 'Joe Miale', '5.00', '2017-07-01', 'Mysteriously felt like a B movie - but had great effects'),
 (282, '2018-10-27 01:56:36', 'Tau', 'Federico D\'Alessandro', '6.00', '2018-06-29', 'Slow build up - worthwhile payoff'),
 (283, '2018-10-30 22:08:51', 'Orbiter 9', 'Hatem Khraiche', '5.00', '2017-04-07', 'Decent, but not amazing'),
@@ -736,7 +736,11 @@ INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, 
 (700, '2021-02-04 02:33:11', 'Boulevard', 'Dito Montiel', '3.21', '2015-07-10', 'Pointless and sad. DNF'),
 (701, '2021-02-05 23:41:30', 'Unthinkable', 'Gregor Jordan', '5.32', '2010-05-26', 'Sick. But asks an important question.'),
 (702, '2021-02-09 02:04:59', 'Black Oak Conspiracy', 'Bob Kelljan', '5.01', '1977-04-01', 'Dukes of Hazard - plus violence'),
-(703, '2021-02-10 01:22:57', 'Three Ages', ' Edward F. Cline, Buster Keaton', '6.12', '1923-09-24', 'Better jokes and stunts than most modern movies');
+(703, '2021-02-10 01:22:57', 'Three Ages', ' Edward F. Cline, Buster Keaton', '6.12', '1923-09-24', 'Better jokes and stunts than most modern movies'),
+(704, '2021-02-12 04:18:26', 'Sniper: Special Ops', 'Fred Olen Ray', '5.01', '2016-05-03', 'Cheesy. Annoying reporter. Tim Abell is really its only perk. '),
+(705, '2021-02-13 23:46:32', 'Wildlike', 'Frank Hall Green', '6.21', '2015-09-25', 'A movie that ends the way it should. Displays the evil of man, but also some good.'),
+(706, '2021-02-15 20:02:31', 'Land Beyond the Sunset, The', 'Harold M. Shaw', '6.54', '1912-10-28', 'Some terrific technique in this great short story.'),
+(707, '2021-02-15 21:51:51', 'Erik the Viking', 'Terry Jones', '5.03', '1989-09-22', 'Couple of chuckles. Otherwise dull and slow.');
 
 --
 -- Indexes for dumped tables
@@ -756,7 +760,7 @@ ALTER TABLE `movies`
 -- AUTO_INCREMENT for table `movies`
 --
 ALTER TABLE `movies`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=704;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=708;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

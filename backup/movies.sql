@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 08, 2020 at 06:23 AM
+-- Generation Time: Feb 10, 2021 at 02:24 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -576,7 +576,7 @@ INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, 
 (534, '2020-04-27 06:46:23', 'Same Kind of Different As Me', 'Michael Carney', '5.50', '2017-10-20', 'Great story'),
 (535, '2020-04-27 21:56:37', 'Weeds on Fire', 'Chi Fat Chan', '6.00', '2016-08-25', 'Entertaining camera work - very enjoyable. Peculiar sad undertone.'),
 (536, '2020-04-28 22:05:43', 'Spider-Man 3', 'Sam Raimi', '5.00', '2007-05-04', 'Entertaining effects but an eye-rolling script.'),
-(537, '2020-05-04 20:47:06', 'Decline, The', 'Patrice Laliberté', '6.00', '2020-03-27', 'Unrealistic fights, but entertaining'),
+(537, '2021-02-03 22:40:20', 'Decline, The', 'Patrice Laliberté', '5.56', '2020-03-27', 'Unrealistic fights, but entertaining'),
 (538, '2020-05-05 00:37:37', 'Solo (Alone)', 'Hugo Stuven', '6.20', '2019-01-11', 'Beautifully shot and scored'),
 (539, '2020-05-05 04:42:01', 'Triple Frontier', 'J.C. Chandor', '6.10', '2019-03-13', 'Very good for the vet crowd'),
 (540, '2020-05-05 21:26:19', 'Edge of Fear', 'Bobby Roth', '5.10', '2018-08-01', 'The luckiest doctor ever'),
@@ -590,7 +590,7 @@ INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, 
 (548, '2020-05-08 17:37:36', 'World Trade Center', 'Oliver Stone', '5.50', '2006-08-09', 'There are better movies on this - but not bad'),
 (549, '2020-05-08 17:39:49', 'There Will Be Blood', 'Paul Thomas Anderson', '5.00', '2008-01-25', 'Well-shot, but I remember it being kinda boring'),
 (550, '2020-05-09 01:19:04', 'Bounty Hunter, The', 'Andy Tennant', '4.50', '2010-03-19', 'Disposable \"romance\" flick'),
-(551, '2020-05-09 17:15:57', 'Extraction', 'Sam Hargrave', '6.30', '2020-04-24', 'Another unrealistic action movie - pretty good'),
+(551, '2021-02-10 01:23:26', 'Extraction', 'Sam Hargrave', '6.13', '2020-04-24', 'Another unrealistic action movie - pretty good'),
 (552, '2020-05-10 05:19:44', 'Wine Country', 'Amy Poehler', '5.00', '2019-05-10', 'Dorky movie that middle-aged women probably love'),
 (553, '2020-05-10 07:19:24', 'Armed Response', 'John Stockwell', '5.00', '2017-08-09', 'Another dull clone of a tired concept'),
 (554, '2020-05-12 22:22:57', 'Spenser Confidential', 'Peter Berg', '5.40', '2020-03-06', 'Modern day Lethal Weapon'),
@@ -708,7 +708,7 @@ INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, 
 (672, '2020-11-24 01:51:12', 'School of Life', 'Nicolas Vanier', '6.54', '2018-09-07', 'Beautiful production - story was just okay.'),
 (673, '2020-11-24 21:04:08', '15:17 To Paris, The', 'Clint Eastwood', '5.87', '2018-02-09', 'Great story - very loose on the script'),
 (674, '2020-11-25 15:25:17', 'A Walk in the Woods', 'Ken Kwapis', '6.43', '2015-09-02', 'Bryson, what\'s next?'),
-(675, '2020-11-28 21:13:17', 'Robot World', ' Neil Rowe', '5.42', '2015-12-04', 'Overall - not too bad if you excuse some minor problems.'),
+(675, '2021-02-09 02:05:14', 'Robot World', 'Neil Rowe', '5.42', '2015-12-04', 'Overall - not too bad if you excuse some minor problems.'),
 (676, '2020-12-01 01:15:54', 'Flora', 'Sasha Louis Vukovic', '5.13', '2017-04-29', 'A definite amateur feel - but still pretty good'),
 (677, '2020-12-01 22:24:03', 'Last of the Mohicans, The (1920)', 'Clarence Brown ', '5.03', '1920-11-21', 'Some surprising scenes from such an old film'),
 (678, '2020-12-02 04:40:50', 'Involution', 'Pavel Khvaleev', '4.12', '2019-09-03', 'Beautifully shot but totally pointless.'),
@@ -716,7 +716,27 @@ INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, 
 (680, '2020-12-04 04:52:05', 'Last Days In The Desert', 'Rodrigo García', '3.01', '2016-06-23', 'Makes no attempt to describe the biblical Jesus. Therefore dismal and juvenile.'),
 (681, '2020-12-07 05:08:26', '2001: A Space Odyssey', 'Stanley Kubrick', '5.42', '1968-05-12', 'weirdly culturally popular- it was just strange'),
 (682, '2020-12-07 05:07:53', 'Major Payne', 'Nick Castle', '5.01', '1995-03-24', 'disposable comedy'),
-(683, '2020-12-08 01:19:45', 'Robot & Frank', 'Jake Schreier', '5.24', '2012-09-19', 'strange look at a future where robots replace caring');
+(683, '2020-12-08 01:19:45', 'Robot & Frank', 'Jake Schreier', '5.24', '2012-09-19', 'strange look at a future where robots replace caring'),
+(684, '2020-12-09 15:37:57', 'Five Guns West', 'Roger Corman', '5.21', '1955-04-15', 'Pretty good'),
+(685, '2020-12-10 19:56:29', 'Redemption (Hummingbird)', 'Steven Knight', '5.13', '2013-06-28', 'A movie which imagines violence is equivalent to redemption'),
+(686, '2020-12-11 17:12:29', 'Redemption', 'Antonio Jefferson', '4.87', '2019-08-04', 'Loose script.Loose doctrine. But good intent.'),
+(687, '2020-12-12 20:17:10', 'Vanishing, The', 'Kristoffer Nyholm', '5.31', '2019-01-04', 'Captivating - but ultimately empty.'),
+(688, '2020-12-15 23:46:21', 'Redwood Highway', 'Gary Lundgren', '5.55', '2013-04-05', 'Sweet and charming.'),
+(689, '2020-12-17 21:35:51', 'Meteler', 'Burak Akyol', '5.02', '2019-04-19', 'Tactically bonkers but entertaining enough. Oddly anti-American.'),
+(690, '2020-12-21 23:27:57', 'Texas Cotton', 'Tyler Russell', '5.00', '2018-10-28', 'Predictable script and characters but pretty well done.'),
+(691, '2020-12-22 22:47:48', 'Gravity', 'Alfonso Cuarón', '6.25', '2013-10-04', 'This was truly entertaining.'),
+(692, '2021-01-26 23:39:59', 'Made for Each Other', 'John Cromwell', '6.21', '1939-02-10', 'Significant story shift makes it something else entirely toward the end'),
+(693, '2021-01-06 00:15:42', 'One Shot', 'John Lyde', '4.35', '2014-10-07', 'Incredibly corn, but some good elements.'),
+(694, '2021-01-27 03:02:41', 'Cell', 'Tod Williams', '2.01', '2016-06-10', 'More sickness from the mind of King'),
+(695, '2021-01-27 21:55:00', 'Apache Kid\'s Escape, The', 'Robert J. Horner', '4.11', '1930-11-22', 'This wasn\'t terrific - even for its day.'),
+(696, '2021-01-29 05:01:37', 'Deja Vu', 'Tony Scott', '5.11', '2006-11-22', 'Denzel is always good'),
+(697, '2021-02-02 18:17:22', 'Deadly Adoption, A', 'Rachel Lee Goldenberg', '3.21', '2015-06-20', 'Could barely stand 14 minutes of this'),
+(698, '2021-02-03 02:39:13', 'Trust, The', 'Alex Brewer, Benjamin Brewer', '4.87', '2016-05-13', 'Characters made no sense.'),
+(699, '2021-02-03 18:57:32', 'Lawless Frontier, The', 'Robert N. Bradbury', '5.00', '1934-11-22', 'Amazing work by the horses'),
+(700, '2021-02-04 02:33:11', 'Boulevard', 'Dito Montiel', '3.21', '2015-07-10', 'Pointless and sad. DNF'),
+(701, '2021-02-05 23:41:30', 'Unthinkable', 'Gregor Jordan', '5.32', '2010-05-26', 'Sick. But asks an important question.'),
+(702, '2021-02-09 02:04:59', 'Black Oak Conspiracy', 'Bob Kelljan', '5.01', '1977-04-01', 'Dukes of Hazard - plus violence'),
+(703, '2021-02-10 01:22:57', 'Three Ages', ' Edward F. Cline, Buster Keaton', '6.12', '1923-09-24', 'Better jokes and stunts than most modern movies');
 
 --
 -- Indexes for dumped tables
@@ -736,7 +756,7 @@ ALTER TABLE `movies`
 -- AUTO_INCREMENT for table `movies`
 --
 ALTER TABLE `movies`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=684;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=704;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
