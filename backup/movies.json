@@ -279,7 +279,7 @@
 {"id":"277","stamp":"2018-10-18 13:46:23","movie":"Dead Pool, The","director":"Buddy Van Horn","rating":"5.00","released":"1988-07-13","comment":"Strangest car chase so far"},
 {"id":"278","stamp":"2018-10-18 23:09:23","movie":"Founder, The","director":"John Lee Hancock","rating":"5.00","released":"2017-01-20","comment":"Interesting, but nothing surprising"},
 {"id":"279","stamp":"2018-10-19 16:22:00","movie":"Aviator, The","director":"Martin Scorsese","rating":"5.00","released":"2004-12-25","comment":"Had me wondering about Hughes"},
-{"id":"280","stamp":"2018-10-23 16:59:38","movie":"Sun Valley Serenade","director":"H. Bruce Humberstone","rating":"7.00","released":"1941-08-29","comment":"Great music - Great camera work for the day"},
+{"id":"280","stamp":"2021-02-11 20:19:32","movie":"Sun Valley Serenade","director":"H. Bruce Humberstone","rating":"6.59","released":"1941-08-29","comment":"Great music - Great camera work for the day"},
 {"id":"281","stamp":"2018-10-24 13:32:34","movie":"Revolt","director":"Joe Miale","rating":"5.00","released":"2017-07-01","comment":"Mysteriously felt like a B movie - but had great effects"},
 {"id":"282","stamp":"2018-10-26 18:56:36","movie":"Tau","director":"Federico D'Alessandro","rating":"6.00","released":"2018-06-29","comment":"Slow build up - worthwhile payoff"},
 {"id":"283","stamp":"2018-10-30 15:08:51","movie":"Orbiter 9","director":"Hatem Khraiche","rating":"5.00","released":"2017-04-07","comment":"Decent, but not amazing"},
@@ -696,7 +696,11 @@
 {"id":"700","stamp":"2021-02-03 18:33:11","movie":"Boulevard","director":"Dito Montiel","rating":"3.21","released":"2015-07-10","comment":"Pointless and sad. DNF"},
 {"id":"701","stamp":"2021-02-05 15:41:30","movie":"Unthinkable","director":"Gregor Jordan","rating":"5.32","released":"2010-05-26","comment":"Sick. But asks an important question."},
 {"id":"702","stamp":"2021-02-08 18:04:59","movie":"Black Oak Conspiracy","director":"Bob Kelljan","rating":"5.01","released":"1977-04-01","comment":"Dukes of Hazard - plus violence"},
-{"id":"703","stamp":"2021-02-09 17:22:57","movie":"Three Ages","director":" Edward F. Cline, Buster Keaton","rating":"6.12","released":"1923-09-24","comment":"Better jokes and stunts than most modern movies"}
+{"id":"703","stamp":"2021-02-09 17:22:57","movie":"Three Ages","director":" Edward F. Cline, Buster Keaton","rating":"6.12","released":"1923-09-24","comment":"Better jokes and stunts than most modern movies"},
+{"id":"704","stamp":"2021-02-11 20:18:26","movie":"Sniper: Special Ops","director":"Fred Olen Ray","rating":"5.01","released":"2016-05-03","comment":"Cheesy. Annoying reporter. Tim Abell is really its only perk. "},
+{"id":"705","stamp":"2021-02-13 15:46:32","movie":"Wildlike","director":"Frank Hall Green","rating":"6.21","released":"2015-09-25","comment":"A movie that ends the way it should. Displays the evil of man, but also some good."},
+{"id":"706","stamp":"2021-02-15 12:02:31","movie":"Land Beyond the Sunset, The","director":"Harold M. Shaw","rating":"6.54","released":"1912-10-28","comment":"Some terrific technique in this great short story."},
+{"id":"707","stamp":"2021-02-15 13:51:51","movie":"Erik the Viking","director":"Terry Jones","rating":"5.03","released":"1989-09-22","comment":"Couple of chuckles. Otherwise dull and slow."}
 ]
 }
 ]
