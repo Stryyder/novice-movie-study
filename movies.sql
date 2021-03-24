@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 23, 2021 at 04:05 AM
+-- Generation Time: Mar 24, 2021 at 12:52 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -675,7 +675,7 @@ INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, 
 (639, '2020-09-30 00:17:13', 'Messenger, The', 'Oren Moverman', '6.42', '2009-12-04', 'Sad emotional realities displayed well'),
 (640, '2020-09-30 00:18:08', 'Texas Terror', 'Robert N. Bradbury', '6.34', '1935-02-01', 'Early film genius. Not the story, but the directing.'),
 (641, '2020-10-09 06:51:14', 'No Escape', 'John Erick Dowdle', '8.02', '2015-08-26', 'Though reality is even darker, this was gripping throughout.'),
-(642, '2020-12-01 22:25:03', 'Tillie\'s Punctured Romance', 'Mack Sennett, Charles Bennett ', '5.02', '1914-12-21', 'Time machine to first moving pictures. What an amazing ending!'),
+(642, '2021-03-02 01:45:55', 'Tillie\'s Punctured Romance', 'Mack Sennett, Charles Bennett ', '5.23', '1914-12-21', 'Time machine to first moving pictures. What an amazing ending!'),
 (643, '2020-10-02 22:02:32', 'Last Rescue, The', 'Eric Colley', '4.25', '2015-06-01', 'Lacked professional tuning. Definitely B, but better than some.'),
 (644, '2020-10-02 22:21:34', 'Wave, The', 'Roar Uthaug', '4.80', '2015-08-28', 'Middle of the road disaster movie.'),
 (645, '2020-10-06 22:26:15', 'Last of the Mohicans, The', 'George B. Seitz', '5.40', '1936-09-04', 'Violent for its time. Still, another highlight of old ways.'),
@@ -743,7 +743,22 @@ INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, 
 (707, '2021-02-16 01:28:06', 'Erik the Viking', 'Terry Jones', '5.03', '1989-09-22', 'I chuckled once. Otherwise dull.'),
 (708, '2021-02-18 01:05:45', 'Les Miserables', 'Glenn Jordan', '6.34', '1978-12-27', 'Great film. '),
 (709, '2021-02-19 21:33:55', 'Avalanche', 'Corey Allen', '5.24', '1978-09-29', 'Movie begins at the 45 minute mark - where it becomes comical and ridiculous.'),
-(710, '2021-02-23 02:59:22', 'Trackers, The', 'Earl Bellamy', '5.25', '1971-12-14', 'A western that explores racism - but still makes Indians the bad guys.');
+(710, '2021-02-23 02:59:22', 'Trackers, The', 'Earl Bellamy', '5.25', '1971-12-14', 'A western that explores racism - but still makes Indians the bad guys.'),
+(711, '2021-02-24 03:11:22', 'Tumbleweeds', 'King Baggot, William S. Hart', '5.56', '1925-12-27', 'Great silent movie with a timeless intro.'),
+(712, '2021-02-28 00:29:56', 'Joe', 'David Gordon Green', '5.55', '2014-04-11', 'Okay, but forgettable.'),
+(713, '2021-03-02 01:45:45', 'Cabinet of Dr. Caligari, The', 'Robert Wiene', '5.02', '1920-02-27', 'The set was crazy, but the story simple.'),
+(714, '2021-03-03 18:08:47', 'Surveillance', 'Jennifer Lynch', '2.10', '2008-07-31', 'Trash. An excuse to show violence.'),
+(715, '2021-03-05 22:23:03', 'Survival on the Mountain', 'John Patterson', '5.02', '1997-05-12', 'Corny but clean.'),
+(716, '2021-03-08 21:27:02', 'Coming 2 America', 'Craig Brewer', '4.78', '2021-05-05', 'Any comedy (not much) is destroyed by propaganda.'),
+(717, '2021-03-09 21:24:42', 'All Quiet on the Western Front', 'Delbert Mann', '7.98', '1979-11-14', 'The Saving Private Ryan level movie of WWI.'),
+(718, '2021-03-11 02:21:04', 'Frozen Ground, The', 'Scott Walker', '5.78', '2013-02-01', 'Evil never prevails forever'),
+(719, '2021-03-12 20:59:09', 'Patriots Day', 'Peter Berg', '7.32', '2017-01-13', 'Critics will pick on the details. But the message is positive and touching.'),
+(720, '2021-03-12 21:19:16', 'Vicious Kind, The', 'Lee Toland Krieger', '5.00', '2009-01-17', 'A celebration of failure - very sad.'),
+(721, '2021-03-15 21:07:04', 'First Snow', 'Mark Fergus', '5.78', '2007-03-23', 'Slowly pulls you in. Pretty well done.'),
+(722, '2021-03-19 01:29:34', 'Zulu', 'Cy Endfield', '6.89', '1964-06-17', 'Lots of history summarized well. Though the missionary was a strange character.'),
+(723, '2021-03-20 07:07:15', 'Singularity', 'Robert Kouba', '5.45', '2017-11-24', 'Predictable. A bit slow. But not terrible.'),
+(724, '2021-03-22 23:39:26', 'Big Stakes', 'Clifford S. Elfelt', '5.64', '1922-08-15', 'Such great early film elements.'),
+(725, '2021-03-23 23:49:36', 'Southpaw', 'Antoine Fuqua', '6.37', '2015-07-24', 'Pretty well acted, but more sad than victorious.');
 
 --
 -- Indexes for dumped tables
@@ -763,7 +778,7 @@ ALTER TABLE `movies`
 -- AUTO_INCREMENT for table `movies`
 --
 ALTER TABLE `movies`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=711;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=726;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

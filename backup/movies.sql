@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 15, 2021 at 10:52 PM
+-- Generation Time: Feb 23, 2021 at 04:05 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -740,7 +740,10 @@ INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, 
 (704, '2021-02-12 04:18:26', 'Sniper: Special Ops', 'Fred Olen Ray', '5.01', '2016-05-03', 'Cheesy. Annoying reporter. Tim Abell is really its only perk. '),
 (705, '2021-02-13 23:46:32', 'Wildlike', 'Frank Hall Green', '6.21', '2015-09-25', 'A movie that ends the way it should. Displays the evil of man, but also some good.'),
 (706, '2021-02-15 20:02:31', 'Land Beyond the Sunset, The', 'Harold M. Shaw', '6.54', '1912-10-28', 'Some terrific technique in this great short story.'),
-(707, '2021-02-15 21:51:51', 'Erik the Viking', 'Terry Jones', '5.03', '1989-09-22', 'Couple of chuckles. Otherwise dull and slow.');
+(707, '2021-02-16 01:28:06', 'Erik the Viking', 'Terry Jones', '5.03', '1989-09-22', 'I chuckled once. Otherwise dull.'),
+(708, '2021-02-18 01:05:45', 'Les Miserables', 'Glenn Jordan', '6.34', '1978-12-27', 'Great film. '),
+(709, '2021-02-19 21:33:55', 'Avalanche', 'Corey Allen', '5.24', '1978-09-29', 'Movie begins at the 45 minute mark - where it becomes comical and ridiculous.'),
+(710, '2021-02-23 02:59:22', 'Trackers, The', 'Earl Bellamy', '5.25', '1971-12-14', 'A western that explores racism - but still makes Indians the bad guys.');
 
 --
 -- Indexes for dumped tables
@@ -760,7 +763,7 @@ ALTER TABLE `movies`
 -- AUTO_INCREMENT for table `movies`
 --
 ALTER TABLE `movies`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=708;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=711;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
