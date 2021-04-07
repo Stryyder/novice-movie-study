@@ -171,7 +171,7 @@
 {"id":"166","stamp":"2017-03-23 13:17:12","movie":"Flags of Our Fathers","director":"Clint Eastwood","rating":"4.00","released":"2006-10-20","comment":"unexpectedly political"},
 {"id":"167","stamp":"2017-03-23 13:17:45","movie":"Gran Torino","director":"Clint Eastwood","rating":"5.00","released":"2009-01-09","comment":"Post entry"},
 {"id":"168","stamp":"2017-03-23 13:18:27","movie":"Space Cowboys","director":"Clint Eastwood","rating":"5.00","released":"2000-08-04","comment":"No memory"},
-{"id":"169","stamp":"2020-11-09 17:38:03","movie":"Fugitive, The","director":"Andrew Davis","rating":"6.00","released":"1993-08-06","comment":"solid 6.00"},
+{"id":"169","stamp":"2021-04-02 14:54:41","movie":"Fugitive, The","director":"Andrew Davis","rating":"7.41","released":"1993-08-06","comment":"One of the great dramas of its day"},
 {"id":"170","stamp":"2017-03-23 13:21:16","movie":"Rumble in the Bronx","director":"Stanley Tong","rating":"5.00","released":"1996-02-23","comment":"No memory"},
 {"id":"171","stamp":"2017-03-23 13:23:02","movie":"Rush Hour","director":"Brett Ratner","rating":"4.00","released":"1998-09-18","comment":"No memory"},
 {"id":"172","stamp":"2017-03-23 13:23:38","movie":"Rush Hour 2","director":"Brett Ratner","rating":"4.00","released":"2001-08-03","comment":"No memory"},
@@ -718,7 +718,13 @@
 {"id":"722","stamp":"2021-03-18 18:29:34","movie":"Zulu","director":"Cy Endfield","rating":"6.89","released":"1964-06-17","comment":"Lots of history summarized well. Though the missionary was a strange character."},
 {"id":"723","stamp":"2021-03-20 00:07:15","movie":"Singularity","director":"Robert Kouba","rating":"5.45","released":"2017-11-24","comment":"Predictable. A bit slow. But not terrible."},
 {"id":"724","stamp":"2021-03-22 16:39:26","movie":"Big Stakes","director":"Clifford S. Elfelt","rating":"5.64","released":"1922-08-15","comment":"Such great early film elements."},
-{"id":"725","stamp":"2021-03-23 16:49:36","movie":"Southpaw","director":"Antoine Fuqua","rating":"6.37","released":"2015-07-24","comment":"Pretty well acted, but more sad than victorious."}
+{"id":"725","stamp":"2021-03-23 16:49:36","movie":"Southpaw","director":"Antoine Fuqua","rating":"6.37","released":"2015-07-24","comment":"Pretty well acted, but more sad than victorious."},
+{"id":"726","stamp":"2021-03-29 17:55:32","movie":"Steamboat Bill, Jr.","director":" Charles Reisner (as Chas. F. Reisner), Buster Keaton","rating":"8.37","released":"1928-05-20","comment":"Plays as a full course in film acting and direction from start to finish. Amazing."},
+{"id":"727","stamp":"2021-03-30 17:52:45","movie":"Edge of Darkness","director":"Martin Campbell","rating":"6.74","released":"2010-01-29","comment":"Decent action detective thriller"},
+{"id":"728","stamp":"2021-04-01 12:21:16","movie":"College","director":"James W. Horne, Buster Keaton","rating":"7.23","released":"1927-11-01","comment":"Such a great film - but will trigger some more modern viewers."},
+{"id":"729","stamp":"2021-04-01 16:25:42","movie":"Reclaim","director":"Alan White","rating":"5.21","released":"2014-09-19","comment":"Cornball action but sheds light on more evil."},
+{"id":"730","stamp":"2021-04-06 13:34:01","movie":"Collateral Damage","director":"Andrew Davis","rating":"6.54","released":"2002-02-08","comment":"Forgettable but entertaining action."},
+{"id":"731","stamp":"2021-04-07 16:20:56","movie":"Stargate","director":"Roland Emmerich","rating":"7.10","released":"1994-10-28","comment":"Epic music carried a predictable and otherwise average action movie further."}
 ]
 }
 ]

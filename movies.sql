@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 24, 2021 at 12:52 AM
+-- Generation Time: Apr 08, 2021 at 01:25 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -210,7 +210,7 @@ INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, 
 (166, '2017-03-23 20:17:12', 'Flags of Our Fathers', 'Clint Eastwood', '4.00', '2006-10-20', 'unexpectedly political'),
 (167, '2017-03-23 20:17:45', 'Gran Torino', 'Clint Eastwood', '5.00', '2009-01-09', 'Post entry'),
 (168, '2017-03-23 20:18:27', 'Space Cowboys', 'Clint Eastwood', '5.00', '2000-08-04', 'No memory'),
-(169, '2020-11-10 01:38:03', 'Fugitive, The', 'Andrew Davis', '6.00', '1993-08-06', 'solid 6.00'),
+(169, '2021-04-02 21:54:41', 'Fugitive, The', 'Andrew Davis', '7.41', '1993-08-06', 'One of the great dramas of its day'),
 (170, '2017-03-23 20:21:16', 'Rumble in the Bronx', 'Stanley Tong', '5.00', '1996-02-23', 'No memory'),
 (171, '2017-03-23 20:23:02', 'Rush Hour', 'Brett Ratner', '4.00', '1998-09-18', 'No memory'),
 (172, '2017-03-23 20:23:38', 'Rush Hour 2', 'Brett Ratner', '4.00', '2001-08-03', 'No memory'),
@@ -758,7 +758,13 @@ INSERT INTO `movies` (`id`, `stamp`, `movie`, `director`, `rating`, `released`, 
 (722, '2021-03-19 01:29:34', 'Zulu', 'Cy Endfield', '6.89', '1964-06-17', 'Lots of history summarized well. Though the missionary was a strange character.'),
 (723, '2021-03-20 07:07:15', 'Singularity', 'Robert Kouba', '5.45', '2017-11-24', 'Predictable. A bit slow. But not terrible.'),
 (724, '2021-03-22 23:39:26', 'Big Stakes', 'Clifford S. Elfelt', '5.64', '1922-08-15', 'Such great early film elements.'),
-(725, '2021-03-23 23:49:36', 'Southpaw', 'Antoine Fuqua', '6.37', '2015-07-24', 'Pretty well acted, but more sad than victorious.');
+(725, '2021-03-23 23:49:36', 'Southpaw', 'Antoine Fuqua', '6.37', '2015-07-24', 'Pretty well acted, but more sad than victorious.'),
+(726, '2021-03-30 00:55:32', 'Steamboat Bill, Jr.', ' Charles Reisner (as Chas. F. Reisner), Buster Keaton', '8.37', '1928-05-20', 'Plays as a full course in film acting and direction from start to finish. Amazing.'),
+(727, '2021-03-31 00:52:45', 'Edge of Darkness', 'Martin Campbell', '6.74', '2010-01-29', 'Decent action detective thriller'),
+(728, '2021-04-01 19:21:16', 'College', 'James W. Horne, Buster Keaton', '7.23', '1927-11-01', 'Such a great film - but will trigger some more modern viewers.'),
+(729, '2021-04-01 23:25:42', 'Reclaim', 'Alan White', '5.21', '2014-09-19', 'Cornball action but sheds light on more evil.'),
+(730, '2021-04-06 20:34:01', 'Collateral Damage', 'Andrew Davis', '6.54', '2002-02-08', 'Forgettable but entertaining action.'),
+(731, '2021-04-07 23:20:56', 'Stargate', 'Roland Emmerich', '7.10', '1994-10-28', 'Epic music carried a predictable and otherwise average action movie further.');
 
 --
 -- Indexes for dumped tables
@@ -778,7 +784,7 @@ ALTER TABLE `movies`
 -- AUTO_INCREMENT for table `movies`
 --
 ALTER TABLE `movies`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=726;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=732;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
