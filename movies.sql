@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 19, 2021 at 04:12 AM
+-- Generation Time: Jul 31, 2021 at 08:07 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -665,7 +665,7 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (622, '2021-05-08 21:05:44', 'boot-hill', 'Boot Hill', 'Giuseppe Colizzi', '5.70', '1969-12-20', 'AKA Trinity Rides Again - Terence Hill is charismatic as always'),
 (623, '2021-05-12 01:22:28', 'bullets-of-justice', 'Bullets of Justice', 'Valeri Milev', '0.00', '2019-08-23', 'Easily the worst thing ever put into video form.'),
 (624, '2021-05-12 01:24:14', 'oath-of-vengeance', 'Oath of Vengeance', 'Sam Newfield', '6.10', '1944-12-09', 'My first introduction to Al St. John. Another clean and enjoyable, funny western.'),
-(625, '2021-04-22 18:45:44', 'ash-lad-in-the-hall-of-the-mountain-king', 'Ash Lad: In the Hall of the Mountain King, The', 'Mikkel Brænne Sandemose', '7.40', '2017-09-29', 'This is just a beautiful film. Funny and flawlessly shot. The English voice acting was terrific.'),
+(625, '2021-07-13 23:30:06', 'ash-lad-in-the-hall-of-the-mountain-king', 'Ash Lad: In the Hall of the Mountain King, The', 'Mikkel Brænne Sandemose', '7.57', '2017-09-29', 'This is just a beautiful film. Funny and flawlessly shot. The English voice acting was terrific.'),
 (626, '2021-04-22 18:42:57', 'apache-rifles', 'Apache Rifles', 'William Witney', '5.00', '1965-02-12', 'Another film which must be viewed through the lens of history'),
 (627, '2021-05-12 01:31:44', 'trespass', 'Trespass', 'Joel Schumacher', '5.00', '2011-10-21', 'Plot is a disaster. Standard disposable \"action\" film.'),
 (628, '2021-05-12 01:32:08', 'jurassic-city', 'Jurassic City', 'Sean Cain', '3.00', '2015-01-01', 'Another disposable B movie (NWF)'),
@@ -787,7 +787,7 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (749, '2021-04-23 19:59:14', 'a-most-wanted-man', 'Most Wanted Man, A', 'Anton Corbijn', '5.51', '2014-08-01', 'Realistic-ish intel movie - which means it\'s slow, boring, and shady.'),
 (750, '2021-04-23 22:45:43', 'and-then-i-go', 'Then I Go, And', 'Vincent Grashaw', '6.89', '2018-04-17', 'Paints a world full of incompetent parents, uncaring adults, irresponsible gunowners, bullies, peer pressure, emotionally unstable teenagers, and without a doubt a world that needs Jesus Christ. Moving and very sad.'),
 (751, '2021-04-24 05:56:08', 'basic', 'Basic', 'John McTiernan', '5.65', '2003-03-28', 'A movie where the whole cast is guilty, then innocent. Ridiculous and strange.'),
-(752, '2021-05-04 16:51:33', 'the-spiders', 'Spiders, The', 'Glenn Erickson', '5.55', '1919-01-01', 'A mixture of interesting tech and Indiana Jones, but also some dull shots.'),
+(752, '2021-06-19 20:14:38', 'the-spiders', 'Spiders, The', 'Glenn Erickson', '5.04', '1919-01-01', 'A mixture of interesting tech and Indiana Jones, but also some dull shots. Ultimately, this is the only silent film that ever bored me... so far.'),
 (753, '2021-04-28 05:03:44', 'firewall', 'Firewall', 'Richard Loncraine', '6.32', '2006-02-10', 'This was a great Ford movie that is \"Fugitive\"-esque'),
 (754, '2021-04-29 06:00:08', 'aladdin', 'Aladdin', 'Ron Clements, John Musker', '6.09', '1992-11-25', 'Instant classic'),
 (755, '2021-04-30 02:11:58', 'riot', 'Riot', 'Simon Phillips', '5.45', '2017-01-04', 'Paints an unwinnable war against crime. Not a happy story.'),
@@ -827,7 +827,44 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (789, '2021-06-08 00:31:06', 'passenger-57', 'Passenger 57', 'Kevin Hooks', '5.01', '1992-11-06', 'in progress'),
 (790, '2021-06-14 23:17:32', 'blue-ridge-fall', 'Blue Ridge Fall (End of Innocence)', 'James Rowe', '6.21', '1999-10-07', 'This is a pretty decent small town crime movie. It seems made for TV - but still pretty good.'),
 (791, '2021-06-18 19:43:02', 'tom-sawyer-1973', 'Tom Sawyer (1973)', 'Don Taylor', '7.55', '1973-03-15', 'Remains a classic story that everyone should watch.'),
-(792, '2021-06-19 02:12:05', 'lazarus', 'Lazarus', 'R. L. Scott', '5.00', '2021-02-26', 'A concept stolen from the Bible and turned into a low-budget \"superhero\" movie. Just to be clear, it\'s not good.');
+(792, '2021-06-19 02:12:05', 'lazarus', 'Lazarus', 'R. L. Scott', '5.00', '2021-02-26', 'A concept stolen from the Bible and turned into a low-budget \"superhero\" movie. Just to be clear, it\'s not good.'),
+(793, '2021-06-19 20:13:50', 'dumb-and-dumberer-when-harry-met-lloyd', 'Dumb and Dumberer: When Harry Met Lloyd ', 'Troy Miller', '5.01', '2003-06-13', 'They should have just stopped with the original.'),
+(794, '2021-06-19 22:16:04', 'a-history-of-violence', 'History of Violence, A', 'David Cronenberg', '6.03', '2005-09-23', 'Interesting but violent and the plot could have been teased out a bit more smoothly.'),
+(795, '2021-06-22 02:15:17', 'shark-lake', 'Shark Lake', 'Jerry Dugan', '3.21', '2015-10-02', 'Runs ok for 10 minutes, then turns into the most generic B-movie about sharks. From there on it gets progressively worse until the only option you have left is to cringe heavily.'),
+(796, '2021-06-23 01:18:16', 'man-down', 'Man Down', 'Adam G. Simon', '7.99', '2017-03-09', 'Builds slowly but hits hard. Too close to home.'),
+(797, '2021-06-23 01:47:17', 'layer-cake', 'Layer Cake', 'Matthew Vaughn', '5.01', '2005-05-13', 'Just another drug movie. You get what you\'d expect. For me it\'s insufferably dull.'),
+(798, '2021-06-23 01:55:44', 'gamer', 'Gamer', 'Mark Neveldine.  Brian Taylor', '5.00', '2009-09-04', 'Forgettable'),
+(799, '2021-06-23 03:03:37', 'a-family-lost', 'Family Lost, A', 'John Fasano', '3.00', '2007-03-11', 'A TV movie that seems like it\'s from the 90\'s. Don\'t look for good acting, a decent script, or a quality soundtrack.'),
+(800, '2021-06-27 21:06:34', 'stargate-continuum', 'Stargate Continuum', 'Martin Wood', '5.55', '2008-07-29', 'Just when you think the action is going to really start, the movie ends. Okay for Stargate faithfuls - but not a terrific film.'),
+(801, '2021-06-27 22:49:40', 'cowboy', 'Cowboy', 'Delmer Daves', '6.23', '1958-02-19', 'Pretty good western even if it felt rushed toward the end.'),
+(802, '2021-06-28 00:57:45', 'marauders', 'Marauders', 'Steven C. Miller', '5.75', '2016-07-14', 'Too much story to comfortably follow. It starts interestingly enough but fades into a whodunit that isn\'t especially entertaining.'),
+(803, '2021-06-29 02:05:08', 'as-far-as-the-eye-can-see', 'As Far as the Eye Can See', 'David Franklin', '6.00', '2016-08-27', 'Not a bad movie, but very slow.'),
+(804, '2021-06-29 19:23:44', 'the-competition', 'Competition, The', 'Joel Oliansky', '6.17', '1980-12-03', 'It was a treat to see young Dreyfuss and to see another angle of music appreciation.'),
+(805, '2021-06-30 00:59:05', 'roman-j-israel-esq', 'Roman J. Israel Esquire', 'Dan Gilroy', '6.00', '2017-11-22', 'Speaks volumes about the ineffectiveness of law to provide true justice. Only God can do that.'),
+(806, '2021-07-01 00:27:21', 'the-water-diviner', 'Water Diviner, The', 'Russell Crowe', '6.00', '2014-12-25', 'Weird demonization of religion again, but appeared as if it would be a good movie. Tubi removed it mid-movie so I didn\'t get to finish it.'),
+(807, '2021-07-01 22:44:49', 'jackson-county-jail', 'Jackson County Jail', 'Michael Miller', '5.51', '1976-03-31', 'Another testament to what happens when people are not obedient to God. A film that wanders.'),
+(808, '2021-07-02 03:30:51', 'samuel-the-last-of-the-judges', 'Samuel: The Last of the Judges', 'Robert Savo', '5.00', '2021-01-01', 'Feels like a TV special - dubbed and very B movie-ish'),
+(809, '2021-07-02 21:57:26', '10x10', '10x10', 'Suzi Ewing', '6.01', '2018-04-13', 'This was entertaining but man, the dude was so unprepared/prepared and a horrible fighter against a tiny woman.'),
+(810, '2021-07-06 20:44:39', 'birdy', 'Birdy', 'Alan Parker', '5.74', '1984-12-14', 'This was a bit strange. Interesting to see young Cage and Modine. The bird thing was... odd. The ending bumps it up a smidge though.'),
+(811, '2021-07-09 06:01:30', 'the-day-the-earth-stood-still-2008', 'Day The Earth Stood Still, The', 'Scott Derrickson', '6.03', '2008-12-12', 'Decent remake of the original with updated effects.'),
+(812, '2021-07-12 02:18:46', 'the-piano-in-a-factory', 'Piano in a Factory, The', 'Zhang Meng', '6.57', '2011-07-15', 'Dryly Funny and tells great stories on two fronts. (subtitled)'),
+(813, '2021-07-12 03:13:21', 'everest-2009', 'Everest-2009', 'Graeme Campbell', '6.87', '2009-01-01', 'Everything that you expect occurs in this movie - but that it was based on a true story makes it great.'),
+(814, '2021-07-13 23:29:37', 'the-ash-lad-in-search-of-the-golden-castle', 'Ash Lad: In Search of the Golden Castle, The', 'Mikkel Brænne', '7.57', '2019-08-23', 'This is a terrific pair of movies with cinematography that makes me also want to see a more serious film from this director. Very well done and clean as a bonus.'),
+(815, '2021-07-14 04:01:48', 'flight-plan', 'Flight Plan', 'Robert Schwentke', '7.78', '2005-09-23', 'I\'m always partial to Jodie Foster, but this one is a great thriller. The person who did the transitions for credits/scenes also needs an award. Well done.'),
+(816, '2021-07-15 01:17:39', 'man-on-fire', 'Man On Fire', 'Tony Scott', '7.73', '2004-04-23', 'This kind of movie will always appeal to a good person\'s sense of vengeance. It doesn\'t make it right - but it sure is satisfying.'),
+(817, '2021-07-16 00:49:24', 'knowing', 'Knowing', 'Alex Proyas', '6.21', '2009-03-20', 'A movie which tries to suggest that God is an alien. Entertaining, but philosophically flawed.'),
+(818, '2021-07-16 22:45:18', 'rocknrolla', 'RocknRolla', 'Guy Ritchie', '5.00', '2008-10-30', 'Another disposable \"crime is cool\" movie. Not my tempo. Did not finish it.'),
+(819, '2021-07-17 18:38:37', 'street-kings', 'Street Kings', 'David Ayer', '5.45', '2008-04-10', 'A forgettable \"crime and how bad it is\" movie.'),
+(820, '2021-07-18 01:10:05', 'the-infiltrator', 'Infiltrator, The', 'Brad Furman', '6.01', '2016-07-13', 'Crime movies seem to be popular these days. This one is no surprise but interesting to have been based off of a true story.'),
+(821, '2021-07-19 01:40:28', 'ragnarok', 'Ragnarok', 'Mikkel Brænne Sandemose', '7.02', '2013-01-01', 'Quickly becoming one of my favorite directors - even if this one is predictable and follows common \"main character always wins\" conventions'),
+(822, '2021-07-21 04:15:56', 'the-pride-of-the-yankees', 'Pride of the Yankees, The', 'Sam Wood', '7.87', '1942-07-14', 'For a baseball fan, this is  one you won\'t have missed. Sports hold a special place for many of us. Some camera work which is ahead of its time too. For Gehrig, it must have been a wonderful life. 2,131 games.'),
+(823, '2021-07-22 03:55:11', 'hush-money-2016', 'Hush Money', 'Terrell Lamont', '6.25', '2017-09-05', 'A darker ending than I think was appropriate for the style of movie before it. But still well constructed. The soundtrack is also well done.'),
+(824, '2021-07-22 20:48:12', 'war-of-the-worlds-tv', 'War of the Worlds (TV Series)', 'Peter Harness', '5.98', '2019-01-01', 'Another show that mysteriously vilifies Christianity as if it has anything to do with aliens. Otherwise well constructed, but dark and a bit dull. '),
+(825, '2021-07-23 01:46:15', 'the-contract', 'Contract, The', 'Bruce Beresford', '6.00', '2006-10-09', 'A good one-time movie night watch. Nothing is stand-out amazing about it. One of a long line of idiot-henchmen type movies.'),
+(826, '2021-07-23 02:27:11', 'noise', 'Noise', 'Henry Bean', '5.21', '2007-11-06', 'Intriguing the first time, but it vanished quickly from memory. So it must not have been stellar.'),
+(827, '2021-07-23 21:40:16', 'rain-man', 'Rain Man', 'Barry Levinson', '7.14', '1988-12-11', 'Having any experience with autism will make you really appreciate this movie. Fairly well done - even if the \"genius\" part got overplayed.'),
+(828, '2021-07-24 00:55:05', 'the-code', 'Code, The', 'Mimi Leder', '6.01', '2009-01-01', 'This is another movie that I remember having watched - but also remember nothing about. It\'s a standard heist movie. It has been done before. It will be done again.'),
+(829, '2021-07-30 20:56:56', 'rain-fall', 'Rain Fall', 'Max Mannix', '6.01', '2009-04-24', 'It was very distracting to switch from English to subtitles back and forth. It\'s sort of a generic script as well that flashes from short action to slow story elements repeatedly.');
 
 --
 -- Indexes for dumped tables
@@ -847,7 +884,7 @@ ALTER TABLE `movies`
 -- AUTO_INCREMENT for table `movies`
 --
 ALTER TABLE `movies`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=793;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=830;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
