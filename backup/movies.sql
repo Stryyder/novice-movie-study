@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 31, 2021 at 08:07 PM
+-- Generation Time: Aug 10, 2021 at 03:11 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -864,7 +864,15 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (826, '2021-07-23 02:27:11', 'noise', 'Noise', 'Henry Bean', '5.21', '2007-11-06', 'Intriguing the first time, but it vanished quickly from memory. So it must not have been stellar.'),
 (827, '2021-07-23 21:40:16', 'rain-man', 'Rain Man', 'Barry Levinson', '7.14', '1988-12-11', 'Having any experience with autism will make you really appreciate this movie. Fairly well done - even if the \"genius\" part got overplayed.'),
 (828, '2021-07-24 00:55:05', 'the-code', 'Code, The', 'Mimi Leder', '6.01', '2009-01-01', 'This is another movie that I remember having watched - but also remember nothing about. It\'s a standard heist movie. It has been done before. It will be done again.'),
-(829, '2021-07-30 20:56:56', 'rain-fall', 'Rain Fall', 'Max Mannix', '6.01', '2009-04-24', 'It was very distracting to switch from English to subtitles back and forth. It\'s sort of a generic script as well that flashes from short action to slow story elements repeatedly.');
+(829, '2021-07-31 20:17:00', 'rain-fall', 'Rain Fall', 'Max Mannix', '6.01', '2009-04-24', 'Two movies mashed into one. Unfortunately, the one intriguing character (John Rain) isn\'t featured with enough action. Script is very generic.'),
+(830, '2021-07-31 20:18:55', 'i-robot', 'I, Robot', 'Alex Proyas', '7.24', '2004-07-16', 'A great Will Smith style action movie. Not a fan of the blasphemy and cursing (unnecessary). But otherwise a great film.'),
+(831, '2021-08-01 22:59:26', 'the-old-man-and-the-sea', 'Old Man and the Sea, The', 'Jud Taylor', '7.67', '1990-03-25', 'A great clean story that will be difficult to find in the future. '),
+(832, '2021-08-03 22:57:54', 'death-of-a-salesman', 'Death of a Salesman', 'Volker Schlöndorff', '7.21', '1985-08-16', 'Directed beautifully. One of those movies that will mean a ton to some and nothing for others. Speaks volumes about the struggles of a man.'),
+(833, '2021-08-07 00:24:16', '9-11', '9-11', 'Martin Guigui', '5.16', '2017-09-07', 'Not a great film. Stale acting and weird moments of \"lesson teaching\" that were silly. Okay to watch once but will fade quickly in film history.'),
+(834, '2021-08-04 20:45:49', 'the-second-coming-of-Christ', 'Second Coming of Christ, The', 'Daniel Anghelcev', '5.25', '2018-03-06', 'Lacks a professional touch. Definitely a B-movie. But the subject matter is of utmost importance. Evidence of the Bible\'s truth can be found in the lack of high quality products supporting the greatest stories ever told.'),
+(835, '2021-08-07 00:24:00', 'ride-in-the-whirlwind', 'Ride in the Whirlwind', 'Monte Hellman', '6.55', '1966-10-23', 'More of a story-driven Western than many I\'ve seen. My first time seeing Jack Nicholson in a Western. He also wrote it.'),
+(836, '2021-08-09 21:48:11', 'jupiter-ascending', 'Jupiter Ascending', 'Lana Wachowski', '5.78', '2015-02-27', 'Some great action that is slowed down by a character who instantly falls in love with her bodyguard/bird. The tech is very cool. The \"Twilight\" aspect is not so much. Several eye-rolling moments.'),
+(837, '2021-08-10 00:23:43', 'bait', 'Bait', 'Antoine Fuqua', '6.54', '2000-09-15', 'Jaime Foxx is funny. Doug Hutchison plays a good villain. Mike Epps is also funny as usual. Good 2000\'s era movie. It\'s a shame they can\'t make this kind of movie cleanly though.');
 
 --
 -- Indexes for dumped tables
@@ -884,7 +892,7 @@ ALTER TABLE `movies`
 -- AUTO_INCREMENT for table `movies`
 --
 ALTER TABLE `movies`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=830;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=838;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
