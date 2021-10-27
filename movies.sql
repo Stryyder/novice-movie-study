@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 29, 2021 at 08:46 PM
+-- Generation Time: Oct 27, 2021 at 04:13 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -45,7 +45,7 @@ CREATE TABLE `movies` (
 INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `released`, `comment`) VALUES
 (1, '2021-06-18 19:41:26', 'castaway', 'Cast Away', 'Robert Zemeckis', '9.57', '2000-12-22', 'Entertaining from start to finish - Personal bias toward survival themes.'),
 (2, '2021-04-22 18:44:45', 'armageddon', 'Armageddon', 'Michael Bay', '7.00', '1998-07-01', 'Awesome for its day'),
-(3, '2021-06-18 19:41:07', 'its-a-wonderful-life', 'It\'s a Wonderful Life', 'Frank Capra', '9.87', '1947-01-07', 'A perfect film for the right audience'),
+(3, '2021-10-02 13:42:13', 'its-a-wonderful-life', 'It\'s a Wonderful Life', 'Frank Capra', '9.87', '1947-01-07', 'A perfect film for the right audience. What makes it so great is that it is clean, with a good message, old-fashioned values (most of which are far better than these days), and a generally terrific directorial construction.'),
 (4, '2021-04-22 23:52:07', 'independence-day', 'Independence Day', 'Roland Emmerich', '6.80', '1996-07-03', 'When it came out, this was awesome'),
 (5, '2021-04-23 00:03:49', 'the-sixth-sense', 'Sixth Sense, The', 'M. Night Shyamalan', '7.10', '1999-08-06', 'great story, spooky on screen first time'),
 (6, '2021-04-23 00:32:26', 'batman', 'Batman', 'Tim Burton', '7.00', '1989-06-23', 'McArthur'),
@@ -420,9 +420,9 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (378, '2021-04-22 18:48:42', 'the-babe', 'Babe, The', 'Arthur Hiller', '6.00', '1992-04-17', 'Abrupt ending, but great baseball legend'),
 (379, '2021-05-16 22:52:14', 'the-reef', 'Reef, The', 'Andrew Traucki', '6.00', '2011-03-17', 'Pretty good acting for a predictable movie'),
 (380, '2021-05-16 22:54:20', 'ernest-goes-to-school', 'Ernest Goes to School', 'Coke Sams', '5.00', '1994-05-06', 'so dumb and corny - but watched with Nate'),
-(381, '2021-05-20 02:27:56', 'hitting-the-cycle', 'Hitting the Cycle', 'Darin Anthony, J. Richey Nash', '5.00', '2012-05-19', 'pretty good even with \"B\"-ish feel'),
-(382, '2021-05-20 02:28:09', 'undrafted', 'Undrafted', 'Joseph Mazzello', '7.00', '2016-07-15', 'Captures baseball pretty well - good one');
+(381, '2021-05-20 02:27:56', 'hitting-the-cycle', 'Hitting the Cycle', 'Darin Anthony, J. Richey Nash', '5.00', '2012-05-19', 'pretty good even with \"B\"-ish feel');
 INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `released`, `comment`) VALUES
+(382, '2021-05-20 02:28:09', 'undrafted', 'Undrafted', 'Joseph Mazzello', '7.00', '2016-07-15', 'Captures baseball pretty well - good one'),
 (383, '2021-05-20 02:28:22', 'milltown-pride', 'Milltown Pride', 'Tim Rogers', '5.00', '2011-04-08', 'Very, very old disneyish'),
 (384, '2021-04-22 16:57:44', 'no-image', 'Mile in His Shoes, A', 'William Dear', '6.00', '2011-09-05', 'pretty good Asperger\'s movie with baseball'),
 (385, '2021-05-20 02:28:53', 'meet-john-doe', 'Meet John Doe', 'Frank Capra', '7.00', '1941-05-03', 'Some Christ comparisons - decent movie again from Frank'),
@@ -755,9 +755,9 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (718, '2021-06-08 00:30:12', 'the-frozen-ground', 'Frozen Ground, The', 'Scott Walker', '5.78', '2013-02-01', 'Evil never prevails forever'),
 (719, '2021-06-08 00:30:38', 'patriots-day', 'Patriots Day', 'Peter Berg', '7.32', '2017-01-13', 'Critics will pick on the details. But the message is positive and touching.'),
 (720, '2021-06-11 01:57:36', 'the-vicious-kind', 'Vicious Kind, The', 'Lee Toland Krieger', '5.00', '2009-01-17', 'A celebration of failure - very sad.'),
-(721, '2021-06-11 01:57:48', 'first-snow', 'First Snow', 'Mark Fergus', '5.78', '2007-03-23', 'Slowly pulls you in. Pretty well done.'),
-(722, '2021-04-22 04:26:52', 'zulu', 'Zulu', 'Cy Endfield', '6.89', '1964-06-17', 'Lots of history summarized well. Though the missionary was a strange character.');
+(721, '2021-06-11 01:57:48', 'first-snow', 'First Snow', 'Mark Fergus', '5.78', '2007-03-23', 'Slowly pulls you in. Pretty well done.');
 INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `released`, `comment`) VALUES
+(722, '2021-04-22 04:26:52', 'zulu', 'Zulu', 'Cy Endfield', '6.89', '1964-06-17', 'Lots of history summarized well. Though the missionary was a strange character.'),
 (723, '2021-06-11 01:58:06', 'singularity', 'Singularity', 'Robert Kouba', '5.45', '2017-11-24', 'Predictable. A bit slow. But not terrible.'),
 (724, '2021-06-11 01:58:21', 'big-stakes', 'Big Stakes', 'Clifford S. Elfelt', '5.64', '1922-08-15', 'Such great early film elements.'),
 (725, '2021-06-12 19:20:18', 'southpaw', 'Southpaw', 'Antoine Fuqua', '6.37', '2015-07-24', 'Pretty well acted, but more sad than victorious.'),
@@ -903,7 +903,24 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (865, '2021-09-29 18:31:28', 'rage', 'Rage', 'John Balazs', '6.00', '2021-02-22', 'A violent and sad movie. I\'m not sure why you would make a film like this.'),
 (866, '2021-09-29 18:34:38', 'i-can-only-imagine', 'I Can Only Imagine', 'Jon Erwin', '6.78', '2018-02-14', 'Compared to other movies, this one is refreshingly clean. Unfortunately, there is a subtle pretentious element that seems to override the better message of the Gospel of Jesus Christ.'),
 (867, '2021-09-29 18:36:25', 'serena', 'Serena', 'Susanne Bier', '6.00', '2014-12-25', 'There are good elements to this and it is overall an interesting enough story. Still, it felt very Hollywood.'),
-(868, '2021-09-29 18:39:02', 'the-homesman', 'Homesman, The', 'Tommy Lee Jones', '3.01', '2014-08-29', 'DNF - Subtle message of feminism. Killing of babies. No thanks, Tommy.');
+(868, '2021-10-02 13:37:25', 'the-homesman', 'Homesman, The', 'Tommy Lee Jones', '3.01', '2014-08-29', 'DNF - There is a scene in this movie that is so reprehensible that I will never finish this. Irresponsible filmmaking.'),
+(869, '2021-10-02 13:35:35', 'what-every-woman-wants', 'What Every Woman Wants', 'Maurice Elvey', '6.87', '1954-06-10', 'The title is a bit misleading - because of modern movies with similar names. A great look at a time that will never exist again. '),
+(870, '2021-10-02 13:34:29', 'burnt', 'Burnt', 'John Wells', '6.24', '2015-10-30', 'Nothing really groundbreaking here story-wise. But everything is done professionally and the food looks amazing.'),
+(871, '2021-10-16 21:08:58', 'bulldog-drummonds-revenge', 'Bulldog Drummond\'s Revenge', 'Louis King', '5.55', '1937-12-16', 'Short. Kinda choppy. Some redeeming qualities, but overall falls flat.'),
+(872, '2021-10-04 20:46:18', 'the-guardian', 'Guardian, The', 'Andrew Davis', '6.67', '2006-09-28', 'Right off the bat we have a generic script where Costner plays a savior-figure so dedicated to his work that his wife wants to leave him. But by the end of the movie, you find that you were wrapt completely. Fairly well done overall. It\'s a bit of a shame that it\'s so predictable that the impactful moments are less impactful.'),
+(873, '2021-10-10 03:11:15', 'blood-on-her-name', 'Blood On Her Name', 'Matthew Pope', '5.54', '2020-02-28', 'Watching this was stressful because of the absolutely terrible decisions each character made. More ugly violence.'),
+(874, '2021-10-15 05:18:27', 'butch-cassidy-and-the-sundance-kid', 'Butch Cassidy and the Sundance Kid', 'George Roy Hill', '7.74', '1969-09-23', 'The way Newman and Redford play the roles is something special. This one is a forever classic.'),
+(875, '2021-10-12 23:32:40', 'shackletons-captain', 'Shackleton\'s Captain ', 'Leanne Pooley', '5.00', '2012-03-01', 'dnf - more like a documentary'),
+(876, '2021-10-12 23:32:12', 'shenandoah', 'Shenandoah', 'Andrew V. McLaglen', '6.78', '1965-06-03', 'Putting yourself in the shoes of someone from the 60\'s, this is a very good anti-racism movie. Lots of biblical themes even if the main character is a bit flippant about them.'),
+(877, '2021-10-12 23:38:27', 'begin-again', 'Begin Again', 'John Carney', '6.35', '2014-07-11', 'For a secular music movie, it\'s pretty good. It\'s sad that such a love of music is sought after such that it\'s the music that becomes someone\'s \"savior\".'),
+(878, '2021-10-13 20:17:06', 'five-grand', 'Five Grand', 'Tyler Graham Pavey', '5.98', '2016-09-06', 'There is a very subtle B-movie feel that emerges a short way in. Still, this is an interesting story that won\'t let you down on entertainment.'),
+(879, '2021-10-16 21:08:22', 'man-of-tai-chi', 'Man of Tai Chi', 'Keanu Reeves', '6.01', '2013-11-01', 'The fight scenes are choreographed pretty well, but the movie overall was corny and cliché.  '),
+(880, '2021-10-19 19:27:58', 'fireproof', 'Fireproof', 'Alex Kendrick', '8.87', '2008-09-26', 'This movie is... indescribably good. It hits home on a personal level.'),
+(881, '2021-10-19 19:24:54', 'flywheel', 'Flywheel', 'Alex Kendrick', '7.67', '2003-04-09', 'This will be especially impactful for Christians. It is a low-budget film, but that hardly matters. The message is just too good to allow that to stop you from enjoying it.'),
+(882, '2021-10-19 19:28:08', 'overcomer', 'Overcomer', 'Alex Kendrick', '8.87', '2019-08-23', 'Few films these days will be as special  as this. Kendrick gives Christians a story that is almost sure to bring tears of joy.'),
+(883, '2021-10-20 03:05:25', 'war-room', 'War Room', 'Alex Kendrick', '7.57', '2015-08-28', 'Clearly the production quality has increased for the Kendrick brothers by the time this movie was released. Still, the stories are a bit better in some of the others. Terrific acting throughout and the grandmother character is especially charming.'),
+(884, '2021-10-25 03:20:13', 'courageous', 'Courageous', 'Alex Kendrick', '7.77', '2011-09-30', 'A strong step up in the quality of Christian movies. This one is a great watch for fathers across the world.'),
+(885, '2021-10-27 02:07:34', 'left-behind', 'Left Behind', 'Vic Armstrong', '5.11', '2014-10-03', 'Easily the worst copycat of this story. The script holds more atheism than Bible and doesn\'t even attempt to discuss God in any meaningful way. Also, the characters - just about all of them - react unrealistically and wander about aimlessly in contrived \"panic\". Not a good film.');
 
 --
 -- Indexes for dumped tables
@@ -923,7 +940,7 @@ ALTER TABLE `movies`
 -- AUTO_INCREMENT for table `movies`
 --
 ALTER TABLE `movies`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=869;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=886;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

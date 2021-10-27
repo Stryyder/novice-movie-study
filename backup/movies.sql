@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 24, 2021 at 12:52 AM
+-- Generation Time: Sep 29, 2021 at 08:46 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -65,7 +65,7 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (20, '2021-04-23 04:12:20', 'the-terminator', 'Terminator, The', 'James Cameron', '7.00', '1984-10-26', 'Pretty cool for its day'),
 (21, '2021-04-23 04:13:16', 'terminator-2', 'Terminator 2', 'James Cameron', '8.00', '1991-07-03', 'One of the best action movies of its era'),
 (22, '2021-04-23 04:13:36', 'terminator-3', 'Terminator 3', 'Jonathan Mostow', '5.20', '2003-07-02', 'Forgettable but action-packed'),
-(23, '2021-04-23 04:15:06', 'the-perfect-storm', 'Perfect Storm, The', 'Wolfgang Petersen', '7.34', '2000-06-30', 'Something special about the ocean, captains, and the grueling nature of ocean work'),
+(23, '2021-09-21 20:21:03', 'the-perfect-storm', 'Perfect Storm, The', 'Wolfgang Petersen', '7.37', '2000-06-30', 'Something special about the ocean, captains, and the grueling nature of ocean work'),
 (24, '2021-04-23 04:15:37', 'war-horse', 'War Horse', 'Steven Spielberg', '6.70', '2011-12-25', 'Great film'),
 (25, '2021-04-23 18:32:28', 'fight-club', 'Fight Club', 'David Fincher', '6.00', '1999-10-15', 'Well written'),
 (26, '2021-04-23 18:32:49', 'forrest-gump', 'Forrest Gump', 'Robert Zemeckis', '7.00', '1994-07-06', 'Legendary for its day'),
@@ -326,7 +326,7 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (284, '2021-04-23 18:33:42', 'robot-overlords', 'Robot Overlords', 'Jon Wright', '5.00', '2015-07-03', 'A bit too teenage adventure, but not bad'),
 (285, '2021-04-23 21:59:04', 'fullmetal-alchemist', 'Fullmetal Alchemist', 'Fumihiko Sori', '4.00', '2017-12-01', 'Cool effects. A little demonic.'),
 (286, '2021-04-23 22:17:10', 'chronicles-of-the-ghostly-tribe', 'Chronicles of the Ghostly Tribe', 'Chuan Lu', '5.00', '2015-09-30', 'A little disconnected, but cool sometimes.'),
-(287, '2021-08-23 22:29:35', 'ready-player-one', 'Ready Player One', 'Steven Spielberg', '8.19', '2018-03-29', 'Cinematic candy - epic, but ultimately forgettable.'),
+(287, '2021-09-21 20:18:37', 'ready-player-one', 'Ready Player One', 'Steven Spielberg', '8.01', '2018-03-29', 'Cinematic candy - epic, but ultimately forgettable.'),
 (288, '2021-04-23 22:21:28', 'magic-town', 'Magic Town', 'William A. Wellman', '5.00', '1947-10-07', 'Decent but not wowing'),
 (289, '2021-04-23 22:23:43', 'the-doctor-takes-a-wife', 'Doctor Takes a Wife, The', 'Alexander Hall', '4.00', '1940-07-18', 'Felt like a sitcom more than a movie - no real connection'),
 (290, '2021-04-24 05:47:27', 'seventh-heaven', 'Seventh Heaven', 'Henry King', '6.00', '1937-03-25', 'Quirky - dead-eyed, but Stewart'),
@@ -591,7 +591,7 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (548, '2021-04-24 05:55:30', 'world-trade-center', 'World Trade Center', 'Oliver Stone', '5.50', '2006-08-09', 'There are better movies on this - but not bad'),
 (549, '2021-04-28 04:05:09', 'there-will-be-blood', 'There Will Be Blood', 'Paul Thomas Anderson', '5.00', '2008-01-25', 'Well-shot, but boring, violent, and another movie which vilifies preachers.'),
 (550, '2021-04-28 04:07:04', 'the-bounty-hunter', 'Bounty Hunter, The', 'Andy Tennant', '4.50', '2010-03-19', 'Disposable \"romance\" flick'),
-(551, '2021-04-28 23:33:55', 'extraction', 'Extraction', 'Sam Hargrave', '6.46', '2020-04-24', 'Another unrealistic action movie - pretty good'),
+(551, '2021-09-21 20:17:56', 'extraction', 'Extraction', 'Sam Hargrave', '6.87', '2020-04-24', 'Another unrealistic action movie - pretty good. Some of the best camera work I have ever seen in any film. Storytelling at its finest.'),
 (552, '2021-04-29 00:47:37', 'wine-country', 'Wine Country', 'Amy Poehler', '5.00', '2019-05-10', 'Dorky movie that middle-aged women probably love'),
 (553, '2021-04-22 18:44:58', 'armed-response', 'Armed Response', 'John Stockwell', '5.00', '2017-08-09', 'Another dull clone of a tired concept'),
 (554, '2021-04-29 00:50:33', 'spenser-confidential', 'Spenser Confidential', 'Peter Berg', '5.40', '2020-03-06', 'Modern day Lethal Weapon'),
@@ -604,7 +604,7 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (561, '2021-04-22 06:23:59', '3022', '3022', 'John Suits', '6.40', '2019-11-22', 'Captivating all the way through'),
 (562, '2021-04-29 05:42:46', 'sommeren-92', 'Sommeren \'92', 'Kasper Barfoed', '6.00', '2015-08-27', 'Great sports movie'),
 (563, '2021-04-29 05:45:43', 'the-stand-at-paxton-county', 'Stand at Paxton County, The', 'Brett Hedlund', '4.90', '2020-05-02', 'As a movie - meh'),
-(564, '2021-04-29 05:43:39', 'kon-tiki', 'Kon-Tiki', 'Joachim Rønning, Espen Sandberg', '7.10', '2013-04-26', 'Great movie of a mindset only a few understand'),
+(564, '2021-09-21 20:22:07', 'kon-tiki', 'Kon-Tiki', 'Joachim Rønning, Espen Sandberg', '7.99', '2013-04-26', 'Great movie of a mindset only a few understand'),
 (565, '2021-04-29 05:54:37', 'greater', 'Greater', 'David L. Hunt', '7.00', '2016-08-26', 'A greater story than most'),
 (566, '2021-04-29 05:55:16', 'the-good-the-bad-and-the-ugly', 'Good, the Bad and the Ugly, The', 'Sergio Leone', '6.50', '1967-12-29', 'Some repetitive scenes, but a good western'),
 (567, '2021-04-29 05:55:43', 'ordinary-world', 'Ordinary World', 'Lee Kirk', '5.40', '2016-10-14', 'What\'s to say about it?'),
@@ -756,9 +756,9 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (719, '2021-06-08 00:30:38', 'patriots-day', 'Patriots Day', 'Peter Berg', '7.32', '2017-01-13', 'Critics will pick on the details. But the message is positive and touching.'),
 (720, '2021-06-11 01:57:36', 'the-vicious-kind', 'Vicious Kind, The', 'Lee Toland Krieger', '5.00', '2009-01-17', 'A celebration of failure - very sad.'),
 (721, '2021-06-11 01:57:48', 'first-snow', 'First Snow', 'Mark Fergus', '5.78', '2007-03-23', 'Slowly pulls you in. Pretty well done.'),
-(722, '2021-04-22 04:26:52', 'zulu', 'Zulu', 'Cy Endfield', '6.89', '1964-06-17', 'Lots of history summarized well. Though the missionary was a strange character.'),
-(723, '2021-06-11 01:58:06', 'singularity', 'Singularity', 'Robert Kouba', '5.45', '2017-11-24', 'Predictable. A bit slow. But not terrible.');
+(722, '2021-04-22 04:26:52', 'zulu', 'Zulu', 'Cy Endfield', '6.89', '1964-06-17', 'Lots of history summarized well. Though the missionary was a strange character.');
 INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `released`, `comment`) VALUES
+(723, '2021-06-11 01:58:06', 'singularity', 'Singularity', 'Robert Kouba', '5.45', '2017-11-24', 'Predictable. A bit slow. But not terrible.'),
 (724, '2021-06-11 01:58:21', 'big-stakes', 'Big Stakes', 'Clifford S. Elfelt', '5.64', '1922-08-15', 'Such great early film elements.'),
 (725, '2021-06-12 19:20:18', 'southpaw', 'Southpaw', 'Antoine Fuqua', '6.37', '2015-07-24', 'Pretty well acted, but more sad than victorious.'),
 (726, '2021-04-22 16:07:37', 'steamboat-bill-jr', 'Steamboat Bill, Jr.', 'Charles Reisner (as Chas. F. Reisner), Buster Keaton', '8.37', '1928-05-20', 'Plays as a full course in film acting and direction from start to finish. Amazing.'),
@@ -886,7 +886,24 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (848, '2021-08-19 19:32:09', '1942-unknown-battle', '1942: Unknown Battle (Rzhev)', 'Igor Kopylov', '6.34', '2019-12-05', 'Even with dubbed voices, this was pretty good. And I had never heard of the battle at Rzhev before.'),
 (849, '2021-08-23 22:28:45', 'a-brilliant-young-mind', 'Brilliant Young Mind, A (x+y)', 'Morgan Matthews', '8.29', '2015-09-11', 'This movie is just well done all the way around. The story is beautiful. The direction and the music are great. The actors nailed the roles. Just plain excellent.'),
 (850, '2021-08-23 22:15:50', 'spooks-the-greater-good', 'Spooks: The Greater Good (MI-5)', 'Bharat Nalluri', '6.02', '2015-12-04', 'Fairly typical movie of this type. It\'s good but will not climb any charts.'),
-(851, '2021-08-23 22:27:04', 'cedar-rapids', 'Cedar Rapids', 'Miguel Arteta', '4.50', '2011-02-11', 'Grown men and women acting like teenagers. There\'s an obvious and extended mockery of religion in general and a glamorization of the normal worldly ways. Skip this one. Especially if you are looking for a real film.');
+(851, '2021-08-23 22:27:04', 'cedar-rapids', 'Cedar Rapids', 'Miguel Arteta', '4.50', '2011-02-11', 'Grown men and women acting like teenagers. There\'s an obvious and extended mockery of religion in general and a glamorization of the normal worldly ways. Skip this one. Especially if you are looking for a real film.'),
+(852, '2021-08-24 21:12:45', 'two-night-stand', 'Two Night Stand', 'Max Nichols', '4.59', '2014-09-26', 'Glorifies sex and \"getting high\". A sad, ignorant , and juvenile view of a love story. I tried to watch it but didn\'t find it worth finishing. (I survived 20 minutes or so)'),
+(853, '2021-08-26 19:14:15', 'erased', 'Erased', 'Philipp Stölzl', '6.21', '2012-08-23', 'Pretty standard script with the generic father/daughter bonding undercurrent. Pretty well put together. The energetic soundtrack keeps things rolling.'),
+(854, '2021-08-27 01:58:06', 'citizen-four', 'Citizen Four (D)', 'Laura Poitras', '6.34', '2014-11-24', 'A bit of a chilling documentary to see video of a man now exiled in real life. Who is reading this?'),
+(855, '2021-08-27 03:21:53', 'dave-not-coming-back', 'Dave Not Coming Back (D)', 'Jonah Malak', '6.15', '2020-09-11', 'Sad and chilling record of a man who died trying to do something good for someone else - and the team who worked with him.'),
+(856, '2021-08-27 20:40:18', 'the-tiger-hunter', 'Tiger Hunter, The', 'Lena Khan', '6.32', '2017-03-31', 'Charming movie of clashing cultures and real American dreams. It is a refreshing standout as a PG movie among \"MA\" movies.'),
+(857, '2021-09-06 21:11:20', 'burning', 'Burning', 'Lee Chang-dong', '7.21', '2018-05-17', 'Though there were some scenes that were definitely not necessary, this is overall a compelling movie which depicts vigilante justice for the most pernicious and evil of men.'),
+(858, '2021-09-10 16:31:23', 'meru', 'Meru', 'Elizabeth Chai Vasarhelyi, Jimmy Chin', '6.54', '2015-01-25', 'Interesting look at the mentality and somewhat obscure (to most people) world of climbing tall mountains.'),
+(859, '2021-09-17 22:46:41', 'aftermath', 'Aftermath', 'Elliott Lester', '6.49', '2017-02-28', 'Deeply sad and depressing look at how lives can be forever altered by one small moment.'),
+(860, '2021-09-21 20:06:14', '99-homes', '99 Homes', 'Ramin Bahrani', '6.78', '2014-10-09', 'Sad look at how greed can override moral integrity'),
+(861, '2021-09-21 20:09:21', 'death-rides-a-horse', 'Death Rides a Horse', 'Giulio Petroni', '6.78', '1968-03-08', 'This one is a terrific western. Another story of vengeance. I was not a fan of the opening scenes which led to the vengeance, but it was kept clean enough to get the point across.'),
+(862, '2021-09-24 02:44:19', 'the-numbers-station', 'Numbers Station, The', 'Kasper Barfoed', '6.01', '2013-04-06', 'Cusack plays a very stale man with an evil job, who gets evil-ed at. I don\'t know what else to say about it.'),
+(863, '2021-09-25 04:30:09', 'the-tunnel', 'Tunnel, The', 'Pål Øie', '6.05', '2019-12-25', 'Pretty good play of a very simple script. The voice-acting was well done. (Norwegian film)'),
+(864, '2021-09-25 18:43:11', 'brimstone', 'Brimstone', 'Martin Koolhoven', '3.00', '2017-03-10', 'A movie which does everything it can to paint religion as evil. Strange. Sick. Aptly named.'),
+(865, '2021-09-29 18:31:28', 'rage', 'Rage', 'John Balazs', '6.00', '2021-02-22', 'A violent and sad movie. I\'m not sure why you would make a film like this.'),
+(866, '2021-09-29 18:34:38', 'i-can-only-imagine', 'I Can Only Imagine', 'Jon Erwin', '6.78', '2018-02-14', 'Compared to other movies, this one is refreshingly clean. Unfortunately, there is a subtle pretentious element that seems to override the better message of the Gospel of Jesus Christ.'),
+(867, '2021-09-29 18:36:25', 'serena', 'Serena', 'Susanne Bier', '6.00', '2014-12-25', 'There are good elements to this and it is overall an interesting enough story. Still, it felt very Hollywood.'),
+(868, '2021-09-29 18:39:02', 'the-homesman', 'Homesman, The', 'Tommy Lee Jones', '3.01', '2014-08-29', 'DNF - Subtle message of feminism. Killing of babies. No thanks, Tommy.');
 
 --
 -- Indexes for dumped tables
@@ -906,7 +923,7 @@ ALTER TABLE `movies`
 -- AUTO_INCREMENT for table `movies`
 --
 ALTER TABLE `movies`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=852;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=869;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
