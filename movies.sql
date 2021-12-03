@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 27, 2021 at 04:13 AM
+-- Generation Time: Dec 04, 2021 at 12:25 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -781,7 +781,7 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (743, '2021-06-13 01:49:52', 'sphere', 'Sphere', 'Barry Levinson', '5.45', '1998-02-13', 'Interesting until everyone went crazy.'),
 (744, '2021-06-13 01:51:19', 'the-bucket-list', 'Bucket List, The', 'Rob Reiner', '5.52', '2008-01-11', 'Decently good but apparently forgettable'),
 (745, '2021-06-13 01:55:03', 'soldier', 'Soldier', 'Paul W.S. Anderson', '6.98', '1998-10-23', 'Kurt Russell in action - what\'s not to like?'),
-(746, '2021-04-21 21:26:27', 'grudge-match', 'Grudge Match', 'Peter Segal', '5.78', '2013-12-25', 'Good'),
+(746, '2021-12-03 23:17:36', 'grudge-match', 'Grudge Match', 'Peter Segal', '5.78', '2013-12-25', 'Good to see these two together in a movie. Hard to imagine De Niro as a boxer though.'),
 (747, '2021-04-22 23:13:36', 'a-man-apart', 'Man Apart, A', 'F. Gary Gray', '5.34', '2003-04-04', 'Sort of a generic cop revenge story. Vin\'s charisma makes it okay.'),
 (748, '2021-04-23 01:05:38', 'grand-piano', 'Grand Piano', 'Eugenio Mira', '5.54', '2013-10-25', 'Elijah Wood playing the piano with a gunman pointing at him to open a piano lock. Comedy?'),
 (749, '2021-04-23 19:59:14', 'a-most-wanted-man', 'Most Wanted Man, A', 'Anton Corbijn', '5.51', '2014-08-01', 'Realistic-ish intel movie - which means it\'s slow, boring, and shady.'),
@@ -920,7 +920,23 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (882, '2021-10-19 19:28:08', 'overcomer', 'Overcomer', 'Alex Kendrick', '8.87', '2019-08-23', 'Few films these days will be as special  as this. Kendrick gives Christians a story that is almost sure to bring tears of joy.'),
 (883, '2021-10-20 03:05:25', 'war-room', 'War Room', 'Alex Kendrick', '7.57', '2015-08-28', 'Clearly the production quality has increased for the Kendrick brothers by the time this movie was released. Still, the stories are a bit better in some of the others. Terrific acting throughout and the grandmother character is especially charming.'),
 (884, '2021-10-25 03:20:13', 'courageous', 'Courageous', 'Alex Kendrick', '7.77', '2011-09-30', 'A strong step up in the quality of Christian movies. This one is a great watch for fathers across the world.'),
-(885, '2021-10-27 02:07:34', 'left-behind', 'Left Behind', 'Vic Armstrong', '5.11', '2014-10-03', 'Easily the worst copycat of this story. The script holds more atheism than Bible and doesn\'t even attempt to discuss God in any meaningful way. Also, the characters - just about all of them - react unrealistically and wander about aimlessly in contrived \"panic\". Not a good film.');
+(885, '2021-10-27 02:07:34', 'left-behind', 'Left Behind', 'Vic Armstrong', '5.11', '2014-10-03', 'Easily the worst copycat of this story. The script holds more atheism than Bible and doesn\'t even attempt to discuss God in any meaningful way. Also, the characters - just about all of them - react unrealistically and wander about aimlessly in contrived \"panic\". Not a good film.'),
+(886, '2021-10-29 15:14:00', 'bible-stories-esther', 'Bible Stories: Esther', 'Raffaele Mertes', '6.01', '1999-03-29', 'Corny, but still a bit of an upgrade from the older Bible shows'),
+(887, '2021-11-03 21:37:08', 'fearless-faith', 'Fearless Faith', 'Kevin Rushing', '6.45', '2020-12-01', 'Fairly well done. A bit basic in all areas and not groundbreaking. But it\'s a clean movie with a decent enough plot and some spice of basic Bible themes. Marked improvement for the genre of \"faith films\". Yet something about it felt a little stale.'),
+(888, '2021-11-16 22:48:47', '2149-the-aftermath', '2149: The Aftermath', 'Benjamin Duffield', '6.24', '2021-05-18', 'A bit teenage-adventure-ish, but the deep voice of the narration keeps it grounded enough to be pretty good in the end. No violence, or swearing, or other unnecessary scenes. Well done overall.'),
+(889, '2021-11-16 22:52:00', 'saul-journey-to-damascus', 'Saul: Journey to Damascus', 'Mario Philip Azzopardi', '5.24', '2014-04-01', 'A bit stale and doesn\'t particularly follow the Bible account too closely. Other characters are introduced that aren\'t really part of the story. Overall, just kinda odd.'),
+(890, '2021-11-22 02:25:16', 'bible-collection-solomon', 'Bible Collection: Solomon', 'Roger Young', '5.98', '1997-12-15', 'Not bad, especially for the \'90s. A good reminder of some of the lesser known characters in the Bible surrounding Solomon.'),
+(891, '2021-11-28 03:49:02', 'lifted', 'Lifted', 'Lexi Alexander', '5.12', '2010-08-13', 'This movie starts out with a very professional feel and is well done. Then it continues. I\'ve never cringed so much in my life.'),
+(892, '2021-11-28 03:51:03', 'one-special-night', 'One Special Night', 'Roger Young', '6.12', '1999-11-28', 'Great classic movie that doesn\'t feel much like Christmas. But it\'s clean and funny. Well done.'),
+(893, '2021-11-28 03:53:38', 'christmas-lodge', 'Christmas Lodge', 'Terry Ingram', '5.01', '2011-10-11', 'It doesn\'t get much worse. One of the most predictable scripts of all time. At least it\'s clean though.'),
+(894, '2021-11-28 03:55:16', 'the-notebook', 'Notebook, The', 'Nick Cassavetes', '6.23', '2004-06-25', 'Very sad but very romantic. A film that tests whether or not you have a heart.'),
+(895, '2021-12-01 00:56:17', 'monsters-of-man', 'Monsters of Man', 'Mark Toia', '6.00', '2020-12-08', 'Pretty standard action movie tropes throughout - but also excessively violent. It\'s a one-time-watch movie for me.'),
+(896, '2021-12-01 00:57:37', 'the-fare', 'Fare, The', 'D.C. Hamilton', '5.24', '2019-11-19', 'Kinda drags a bit and is clearly a low budget movie. Interesting enough to get through once, but not particularly mind-blowing.'),
+(897, '2021-12-03 23:06:44', 'jingle-all-the-way', 'Jingle All The Way', 'Brian Levant', '5.45', '1996-11-22', 'Dorky, but an okay early December watch to prepare for Christmas.'),
+(898, '2021-12-03 23:07:47', 'jingle-all-the-way-2', 'Jingle All The Way 2', 'Alex Zamm', '5.46', '2014-12-02', 'Dorky, but an okay early December watch to prepare for Christmas... 2. '),
+(899, '2021-12-03 23:11:39', 'the-rising-hawk', 'Rising Hawk, The', 'John Wynn', '6.01', '2019-10-10', 'Doesn\'t quite have the visceral feel of other films in this genre. It feels a bit too soft. Also, the female empowerment scenes are getting very old in movies like this. '),
+(900, '2021-12-03 23:11:30', 'meet-dave', 'Meet Dave', 'Brian Robbins', '5.56', '2008-07-08', 'Definitely has its moments. Eddie is funny as always. No landmark of film, but a clean movie for the whole family.'),
+(901, '2021-12-03 23:16:18', 'unhinged', 'Unhinged', 'Derrick Borte', '6.00', '2020-08-21', 'It will keep you watching, but also a grim reminder of just how broken this world is.');
 
 --
 -- Indexes for dumped tables
@@ -940,7 +956,7 @@ ALTER TABLE `movies`
 -- AUTO_INCREMENT for table `movies`
 --
 ALTER TABLE `movies`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=886;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=902;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
