@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 04, 2021 at 12:25 AM
+-- Generation Time: Dec 19, 2021 at 11:05 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -936,7 +936,19 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (898, '2021-12-03 23:07:47', 'jingle-all-the-way-2', 'Jingle All The Way 2', 'Alex Zamm', '5.46', '2014-12-02', 'Dorky, but an okay early December watch to prepare for Christmas... 2. '),
 (899, '2021-12-03 23:11:39', 'the-rising-hawk', 'Rising Hawk, The', 'John Wynn', '6.01', '2019-10-10', 'Doesn\'t quite have the visceral feel of other films in this genre. It feels a bit too soft. Also, the female empowerment scenes are getting very old in movies like this. '),
 (900, '2021-12-03 23:11:30', 'meet-dave', 'Meet Dave', 'Brian Robbins', '5.56', '2008-07-08', 'Definitely has its moments. Eddie is funny as always. No landmark of film, but a clean movie for the whole family.'),
-(901, '2021-12-03 23:16:18', 'unhinged', 'Unhinged', 'Derrick Borte', '6.00', '2020-08-21', 'It will keep you watching, but also a grim reminder of just how broken this world is.');
+(901, '2021-12-03 23:16:18', 'unhinged', 'Unhinged', 'Derrick Borte', '6.00', '2020-08-21', 'It will keep you watching, but also a grim reminder of just how broken this world is.'),
+(902, '2021-12-09 04:30:21', 'the-starving-games', 'Starving Games, The', 'Aaron Seltzer', '3.54', '2013-11-08', 'Started off okay, but got progressively worse. Like many modern spoofs, the potential for humor is ruined by crass, stupid, overly sexual, violent, or otherwise crude content.'),
+(903, '2021-12-09 04:32:26', 'exit-speed', 'Exit Speed', 'Scott Ziehl', '3.25', '2008-08-26', 'The potential for quality is ruined by crass, stupid, overly sexual, violent, or otherwise crude content. Basic script, ridiculous villains. Not great.'),
+(904, '2021-12-09 04:34:22', 'hidalgo', 'Hidalgo', 'Joe Johnston', '6.57', '2004-03-05', 'Like Indiana Jones for horseback riders. There is a slight flavor of Hollywood cowboy instead of real cowboy. But it\'s clean, adventurous, and has a great story behind it.'),
+(905, '2021-12-11 21:42:31', '41', '41', 'Glenn Triggs', '5.64', '2013-08-09', 'Low budget. Had a great ending, but took a bit too long to get to it.'),
+(906, '2021-12-11 21:41:00', 'wonder-man', 'Wonder Man', 'H. Bruce Humberstone', '6.21', '1945-06-08', 'Starts out great, but Danny Kaye\'s voices and facial expressions were overplayed. Like watching cartoons in real life. Definitely has great moments.'),
+(907, '2021-12-11 21:41:46', 'all-is-lost', 'All Is Lost', 'J.C. Chandor', '6.89', '2013-10-18', 'Redford is awesome as usual. Almost zero lines, but hardly any needed anyway. My kind of movie. Loved it. Just a tiny bit too much looking around instead of showing action - otherwise I would place this much higher on my list.'),
+(908, '2021-12-19 21:54:35', 'national-lampoons-christmas-vacation', 'National Lampoon\'s Christmas Vacation', 'Jeremiah S. Chechik', '6.79', '1989-12-01', 'Great movie to close out the 80s. It\'s a little unfortunate that they ruined it by adding so much blasphemy and swearing. It would have been a terrific family movie otherwise.'),
+(909, '2021-12-19 21:56:49', 'a-christmas-carol', 'Christmas Carol, A', 'Robert Zemeckis', '6.89', '2009-11-06', 'Although this movie has been done over and over, Zemeckis adds a beautiful flow to the story that is punctuated by terrific animation and storytelling. It\'s a wonderful update to a classic.'),
+(910, '2021-12-19 21:58:34', 'fred-claus', 'Fred Claus', 'Dan Fogelman', '6.38', '2007-11-03', 'Fast-talking Vaughn is always hilarious to me. This doesn\'t quite make the list of greats, but is still a good one to add to the list for Christmastime.'),
+(911, '2021-12-19 22:00:37', 'frosty-the-snowman', 'Frosty the Snowman', 'Jules Bass', '6.19', '1969-12-07', 'This one will have major nostalgic value for the right age group. And for them, I don\'t have to describe it to you. It doesn\'t quite have that same connection for me - but still a clean family cartoon. For that, I love it.'),
+(912, '2021-12-19 22:02:10', 'frosty-returns', 'Frosty Returns', 'Evert Brown', '5.97', '1992-12-01', 'A good continuation of the previously released classic. Clean and decent for the whole family. For those who love Christmas, this one makes the list for those with kids.'),
+(913, '2021-12-19 22:04:23', 'how-the-grinch-stole-christmas', 'How the Grinch Stole Christmas', 'Ron Howard', '6.76', '2000-11-17', 'To make this live-action is a huge endeavor. Howard does so in the best way possible. The entire movie feels exactly the way it should, is led by a very funny Jim Carrey, along with a full cast of greats. Among the top of the list for the Christmas season.');
 
 --
 -- Indexes for dumped tables
@@ -956,7 +968,7 @@ ALTER TABLE `movies`
 -- AUTO_INCREMENT for table `movies`
 --
 ALTER TABLE `movies`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=902;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=914;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

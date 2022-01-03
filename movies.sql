@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 19, 2021 at 11:05 PM
+-- Generation Time: Jan 03, 2022 at 08:37 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -824,7 +824,7 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (786, '2021-06-03 03:12:36', 'a-perfect-getaway', 'Perfect Getaway, A', 'David Twohy', '6.54', '2009-06-08', 'This movie has some violence, but it\'s written really well and the most likable characters are vindicated by the script.'),
 (787, '2021-06-13 02:04:40', 'leaving-las-vegas', 'Leaving Las Vegas', 'Mike Figgis', '5.00', '1995-10-27', 'A concentration on horrible mentalities being medicated by horrible things. A broken film about broken people. Also just dull and slow.'),
 (788, '2021-06-05 21:46:23', 'police-story-4-first-strike', 'Police Story 4: First Strike', 'Stanley Tong', '6.00', '1997-01-10', 'This is a great one-time watch as anything with Jackie Chan is.'),
-(789, '2021-06-08 00:31:06', 'passenger-57', 'Passenger 57', 'Kevin Hooks', '5.01', '1992-11-06', 'in progress'),
+(789, '2021-12-29 01:33:01', 'passenger-57', 'Passenger 57', 'Kevin Hooks', '5.24', '1992-11-06', 'Not a bad one for its day. But also, kinda forgettable.'),
 (790, '2021-06-14 23:17:32', 'blue-ridge-fall', 'Blue Ridge Fall (End of Innocence)', 'James Rowe', '6.21', '1999-10-07', 'This is a pretty decent small town crime movie. It seems made for TV - but still pretty good.'),
 (791, '2021-06-18 19:43:02', 'tom-sawyer-1973', 'Tom Sawyer (1973)', 'Don Taylor', '7.55', '1973-03-15', 'Remains a classic story that everyone should watch.'),
 (792, '2021-06-19 02:12:05', 'lazarus', 'Lazarus', 'R. L. Scott', '5.00', '2021-02-26', 'A concept stolen from the Bible and turned into a low-budget \"superhero\" movie. Just to be clear, it\'s not good.'),
@@ -948,7 +948,19 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (910, '2021-12-19 21:58:34', 'fred-claus', 'Fred Claus', 'Dan Fogelman', '6.38', '2007-11-03', 'Fast-talking Vaughn is always hilarious to me. This doesn\'t quite make the list of greats, but is still a good one to add to the list for Christmastime.'),
 (911, '2021-12-19 22:00:37', 'frosty-the-snowman', 'Frosty the Snowman', 'Jules Bass', '6.19', '1969-12-07', 'This one will have major nostalgic value for the right age group. And for them, I don\'t have to describe it to you. It doesn\'t quite have that same connection for me - but still a clean family cartoon. For that, I love it.'),
 (912, '2021-12-19 22:02:10', 'frosty-returns', 'Frosty Returns', 'Evert Brown', '5.97', '1992-12-01', 'A good continuation of the previously released classic. Clean and decent for the whole family. For those who love Christmas, this one makes the list for those with kids.'),
-(913, '2021-12-19 22:04:23', 'how-the-grinch-stole-christmas', 'How the Grinch Stole Christmas', 'Ron Howard', '6.76', '2000-11-17', 'To make this live-action is a huge endeavor. Howard does so in the best way possible. The entire movie feels exactly the way it should, is led by a very funny Jim Carrey, along with a full cast of greats. Among the top of the list for the Christmas season.');
+(913, '2021-12-19 22:04:23', 'how-the-grinch-stole-christmas', 'How the Grinch Stole Christmas', 'Ron Howard', '6.76', '2000-11-17', 'To make this live-action is a huge endeavor. Howard does so in the best way possible. The entire movie feels exactly the way it should, is led by a very funny Jim Carrey, along with a full cast of greats. Among the top of the list for the Christmas season.'),
+(914, '2021-12-29 01:11:57', 'crazy-on-the-outside', 'Crazy on the Outside', 'Tim Allen', '5.10', '2010-01-08', 'A mild chuckle from time to time. Unnecessary language and a predictable plot. I also can\'t seem to buy Tim as a convict.'),
+(915, '2021-12-29 01:20:52', 'honest-thief', 'Honest Thief', 'Mark Williams', '6.51', '2020-10-16', 'There\'s nothing really special about the plot. It\'s pretty predictable and could have been even a little boring. The actors made the best of it, though, and it turned out to be an entertaining one-time watch.'),
+(916, '2021-12-29 01:15:24', 'home-alone', 'Home Alone', 'Chris Columbus', '8.15', '1990-11-16', 'All-star cast and worth the title \"classic\". Stands the test of time as a funny but impactful Christmas movie to watch every year.'),
+(917, '2021-12-29 01:17:32', 'elf', 'Elf', 'Jon Favreau', '7.99', '2003-10-09', 'Part of the every-year-watch club for Christmas. Great Christmas movie with the standard \"Christmas Spirit\" message. Will is hilarious in this.'),
+(918, '2021-12-29 01:20:44', 'searching', 'Searching', 'Aneesh Chaganty', '5.78', '2018-08-24', 'At first, the gimmick of a windows computer system as the main set piece was distracting. But as the movie goes on, it becomes more comfortable. The film ends up being memorable for its difference - even if it lacks a little polish.'),
+(919, '2021-12-29 01:23:47', 'the-santa-claus', 'Santa Claus, The', 'John Pasquin', '5.49', '1994-11-11', 'Sort of a made-for-tv feel. Nothing that puts it squarely into the watch-every-year-at-Christmas club. But it was clean and just funny enough.'),
+(920, '2021-12-29 01:28:22', 'the-Christmas-edition', 'Christmas Edition, The', 'Peter Sullivan', '4.52', '2021-07-15', 'One of the dorkiest, corniest movies of all time. Nearly triggers the pharyngeal reflex. It gets the high rating of over four only because it is clean - which is rare these days.'),
+(921, '2021-12-29 01:30:27', 'a-Christmas-story', 'Christmas Story, A', 'Bob Clark', '8.14', '1983-11-18', 'Something about this is honest, humble, and tells a realistic Christmas story that resonates with my childhood. Some people don\'t like. Those people are probably not my friends.'),
+(922, '2021-12-29 01:31:58', 'run-all-night', 'Run All Night', 'Jaume Collet-Serra', '5.00', '2015-03-13', 'in progress'),
+(923, '2022-01-03 19:28:29', 'beaconsfield', 'Beaconsfield', 'Glendyn Ivin', '7.21', '2012-04-22', 'I\'m always a fan of a film that is both interesting and based on reality. I\'m very happy that it wasn\'t done as a documentary. Great story of survival. RIP Larry Knight.'),
+(924, '2022-01-03 19:30:13', 'brotherhood', 'Brotherhood', 'Richard Bell', '6.98', '2019-12-06', 'A little slow and there\'s something not quite visceral enough about the story - but it\'s clean and based on a true story which I love. Very sad.'),
+(925, '2022-01-03 19:32:40', 'abandoned', 'Abandoned', 'John Laing', '6.99', '2016-05-03', 'I\'m a sucker for survival-type films. This one is built well and is beautifully shot. There\'s something I can\'t put my finger on that is just off on the storytelling part of it. But altogether really good.');
 
 --
 -- Indexes for dumped tables
@@ -968,7 +980,7 @@ ALTER TABLE `movies`
 -- AUTO_INCREMENT for table `movies`
 --
 ALTER TABLE `movies`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=914;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=926;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
