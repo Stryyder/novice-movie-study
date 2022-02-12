@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 03, 2022 at 08:37 PM
+-- Generation Time: Feb 12, 2022 at 04:57 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -382,7 +382,7 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (340, '2021-05-06 04:25:20', 'the-last-day-on-mars', 'Last Day on Mars, The', 'Ruairi Robinson', '6.00', '2013-09-19', 'space zombies'),
 (341, '2021-05-06 04:25:40', 'europa-report', 'Europa Report', 'Sebastian Cordero', '5.00', '2013-06-27', 'well it\'s space'),
 (342, '2021-05-06 04:25:55', 'dances-with-wolves', 'Dances With Wolves', 'Kevin Costner', '5.00', '1990-11-21', 'great as a kid anyway'),
-(343, '2021-04-22 16:58:22', 'no-image', 'Simple Plan, A', 'Sam Raimi', '5.00', '1999-01-22', 'Weird money murder show'),
+(343, '2022-02-12 03:51:15', 'a-simple-plan', 'Simple Plan, A', 'Sam Raimi', '5.00', '1999-01-22', 'Weird money murder show'),
 (344, '2021-05-06 04:26:40', 'tucker-the-man-and-his-dream', 'Tucker: The Man and His Dream', 'Francis Ford Coppola', '6.00', '1988-08-12', 'Entrepreneur'),
 (345, '2021-05-06 04:26:52', 'memento', 'Memento', 'Christopher Nolan', '5.00', '2001-05-25', 'odd memory loss thing'),
 (346, '2021-04-22 16:54:59', '5th-passenger', '5th Passenger', 'Scotty Baker', '3.00', '2017-12-13', 'Star Trek actors - but wow bad'),
@@ -424,7 +424,7 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `released`, `comment`) VALUES
 (382, '2021-05-20 02:28:09', 'undrafted', 'Undrafted', 'Joseph Mazzello', '7.00', '2016-07-15', 'Captures baseball pretty well - good one'),
 (383, '2021-05-20 02:28:22', 'milltown-pride', 'Milltown Pride', 'Tim Rogers', '5.00', '2011-04-08', 'Very, very old disneyish'),
-(384, '2021-04-22 16:57:44', 'no-image', 'Mile in His Shoes, A', 'William Dear', '6.00', '2011-09-05', 'pretty good Asperger\'s movie with baseball'),
+(384, '2022-02-12 03:51:28', 'a-mile-in-his-shoes', 'Mile in His Shoes, A', 'William Dear', '6.00', '2011-09-05', 'pretty good Asperger\'s movie with baseball'),
 (385, '2021-05-20 02:28:53', 'meet-john-doe', 'Meet John Doe', 'Frank Capra', '7.00', '1941-05-03', 'Some Christ comparisons - decent movie again from Frank'),
 (386, '2021-04-22 18:47:10', 'atlantic-rim', 'Atlantic Rim', 'Jared Cohn', '3.00', '2013-07-09', 'Bad acting montage - possibly worst acting ever recorded'),
 (387, '2021-04-22 18:46:45', 'astro', 'Astro', 'Asif Akbar', '2.00', '2018-06-08', 'Managed to make a mysteriously bad movie'),
@@ -652,7 +652,7 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (609, '2021-05-07 19:22:11', 'wings-over-everest', 'Wings over Everest', 'Fay Yu', '5.60', '2019-12-01', 'Good movie - even if jampacked with standard seedy action movie elements'),
 (610, '2021-05-07 19:24:47', 'carter-high', 'Carter High', 'Arthur Muhammad', '5.00', '2015-10-30', 'Feels forced, stale, and tries to do too much. Strongest points are actual video footage and the coach.'),
 (611, '2021-05-07 19:26:18', 'gladiator', 'Gladiator', 'Rowdy Herrington', '6.20', '1992-03-06', 'Hidden gem - even with generic boxing plot elements'),
-(612, '2021-04-22 16:58:01', 'no-image', 'Night in Old Mexico, A', 'Emilio Aragón', '5.30', '2014-05-09', 'It was okay.'),
+(612, '2022-02-12 03:51:49', 'a-night-in-old-mexico', 'Night in Old Mexico, A', 'Emilio Aragón', '5.30', '2014-05-09', 'It was okay.'),
 (613, '2021-05-07 19:30:37', 'greyhound-attack', 'Greyhound Attack', 'Christopher Forbes', '1.50', '2019-04-09', 'Not great. More like watching a play.'),
 (614, '2021-04-22 06:20:40', '22-bullets', '22 Bullets', 'Richard Berry', '5.40', '2010-03-24', 'Standard mobster movie - but with Jean Reno. So it\'s better.'),
 (615, '2021-05-07 19:33:51', 'human-capital', 'Human Capital', 'Paolo Virzì', '6.00', '2014-01-09', 'Well constructed story - invisible production (good thing). Overall very good.'),
@@ -708,7 +708,7 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (671, '2021-05-23 01:38:14', 'safe', 'Safe', 'Paul Ruven', '5.21', '2017-06-10', 'Started interesting but then flattened.'),
 (672, '2021-05-23 01:43:55', 'school-of-life', 'School of Life', 'Nicolas Vanier', '6.54', '2018-09-07', 'Beautiful production - story was just okay.'),
 (673, '2021-04-22 04:23:00', '1517-to-paris', '15:17 To Paris, The', 'Clint Eastwood', '5.87', '2018-02-09', 'Great story - very loose on the script'),
-(674, '2021-04-22 16:58:34', 'no-image', 'Walk in the Woods, A', 'Ken Kwapis', '6.43', '2015-09-02', 'Bryson, what\'s next?'),
+(674, '2022-02-12 03:47:53', 'a-walk-in-the-woods', 'Walk in the Woods, A', 'Ken Kwapis', '6.43', '2015-09-02', 'Bryson, what\'s next?'),
 (675, '2021-05-23 23:18:02', 'robot-world', 'Robot World', 'Neil Rowe', '5.42', '2015-12-04', 'Overall - not too bad if you excuse some minor problems.'),
 (676, '2021-05-23 23:18:26', 'flora', 'Flora', 'Sasha Louis Vukovic', '5.13', '2017-04-29', 'A definite amateur feel - but still pretty good'),
 (677, '2021-05-24 16:43:21', 'the-last-of-the-mohicans-1920', 'Last of the Mohicans, The (1920)', 'Clarence Brown ', '5.03', '1920-11-21', 'Some surprising scenes from such an old film'),
@@ -957,10 +957,24 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (919, '2021-12-29 01:23:47', 'the-santa-claus', 'Santa Claus, The', 'John Pasquin', '5.49', '1994-11-11', 'Sort of a made-for-tv feel. Nothing that puts it squarely into the watch-every-year-at-Christmas club. But it was clean and just funny enough.'),
 (920, '2021-12-29 01:28:22', 'the-Christmas-edition', 'Christmas Edition, The', 'Peter Sullivan', '4.52', '2021-07-15', 'One of the dorkiest, corniest movies of all time. Nearly triggers the pharyngeal reflex. It gets the high rating of over four only because it is clean - which is rare these days.'),
 (921, '2021-12-29 01:30:27', 'a-Christmas-story', 'Christmas Story, A', 'Bob Clark', '8.14', '1983-11-18', 'Something about this is honest, humble, and tells a realistic Christmas story that resonates with my childhood. Some people don\'t like. Those people are probably not my friends.'),
-(922, '2021-12-29 01:31:58', 'run-all-night', 'Run All Night', 'Jaume Collet-Serra', '5.00', '2015-03-13', 'in progress'),
+(922, '2022-02-05 05:55:58', 'run-all-night', 'Run All Night', 'Jaume Collet-Serra', '6.78', '2015-03-13', 'Pretty good shoot \'em up. Nothing very unpredictable happens - but it doesn\'t matter. Interesting camera shots.'),
 (923, '2022-01-03 19:28:29', 'beaconsfield', 'Beaconsfield', 'Glendyn Ivin', '7.21', '2012-04-22', 'I\'m always a fan of a film that is both interesting and based on reality. I\'m very happy that it wasn\'t done as a documentary. Great story of survival. RIP Larry Knight.'),
 (924, '2022-01-03 19:30:13', 'brotherhood', 'Brotherhood', 'Richard Bell', '6.98', '2019-12-06', 'A little slow and there\'s something not quite visceral enough about the story - but it\'s clean and based on a true story which I love. Very sad.'),
-(925, '2022-01-03 19:32:40', 'abandoned', 'Abandoned', 'John Laing', '6.99', '2016-05-03', 'I\'m a sucker for survival-type films. This one is built well and is beautifully shot. There\'s something I can\'t put my finger on that is just off on the storytelling part of it. But altogether really good.');
+(925, '2022-01-03 19:32:40', 'abandoned', 'Abandoned', 'John Laing', '6.99', '2016-05-03', 'I\'m a sucker for survival-type films. This one is built well and is beautifully shot. There\'s something I can\'t put my finger on that is just off on the storytelling part of it. But altogether really good.'),
+(926, '2022-01-10 08:12:20', 'cold-pursuit', 'Cold Pursuit', 'Hans Petter Moland', '4.91', '2019-02-08', 'The movie trailer I saw made this movie seem like it would be much more serious and realistic. Instead we have a random, almost comically bad and violent film. This is the same kind of random nonsense as Pulp Fiction. Not good. At least it wasn\'t as grotesque as PF.'),
+(927, '2022-01-10 17:18:57', 'surviving-the-game', 'Surviving the Game', 'Ernest R. Dickerson', '5.24', '1994-04-15', 'Possibly the worst soundtrack ever. Also a man chops down a tree with a shotgun - which he also used to shoot at someone from 800 meters away. A silly, stupid movie. Memorable for its corn.'),
+(928, '2022-01-11 16:47:59', 'premium-rush', 'Premium Rush', 'David Koepp', '5.54', '2012-08-24', 'This movie was dorky, a bit strange, a little lost, full of blasphemy, and wanted to be a movie from the \'90s about skateboarders. Very odd. Not all bad, but merely cinematic candy.'),
+(929, '2022-01-11 16:51:04', 'jungle', 'Jungle', 'Greg McLean', '7.24', '2017-06-27', 'A visceral re-telling of the true story of Yossi Ghinsberg\'s ordeal in the Amazon rain forest. Excellent work from Daniel Radcliffe as the main character.'),
+(930, '2022-01-11 17:03:19', 'die-hard-2', 'Die Hard 2', 'Renny Harlin', '5.67', '1990-07-03', 'The action-packed but ultimately forgettable sequel to the real Die Hard (the first one).'),
+(931, '2022-01-20 00:26:52', 'moving', 'Moving', 'Alan Metter', '5.14', '1988-03-04', 'The subtle negativity of Pryor and his overall persona comes through. It feels as if Richard is always on the verge of actually losing it completely. It sorta deflates any comedic value.'),
+(932, '2022-01-23 22:53:05', 'the-rifleman', 'Rifleman, The', 'Sam Peckinpah', '7.87', '1958-01-01', 'A great series which cannot be viewed through a modern lens. Values were different then. Most of them seem to have been far better.'),
+(933, '2022-01-26 06:01:44', 'panhandle', 'Panhandle', 'Lesley Selander', '6.01', '1948-02-22', 'A bit slow even for a western. It seems as if the director was leaning on the charisma of Rod Cameron to make up for a sort of basic plot.'),
+(934, '2022-01-26 17:54:38', 'freeway', 'Freeway', 'Matthew Bright', '5.24', '1997-09-03', 'Couldn\'t take this film seriously. Violent, strange, and seems flippant concerning some extremely serious issues of the world.'),
+(935, '2022-02-11 06:01:05', 'american-fighter', 'American Fighter', 'Shaun Paul Piccinino', '6.24', '2021-05-21', 'Pretty good fighting movie with some likable characters. Nothing unexpected really happens - same fight-movie recipe. But since it\'s based on a true story, it gets extra props.'),
+(936, '2022-02-11 19:02:26', 'forced-to-fight', 'Forced To Fight', 'Jonas Quastel', '6.12', '2011-08-31', 'This was about 30 minutes too long. Some interesting enough fight scenes, but a tired old retelling of the same thing we\'ve seen hundreds of times. Additionally, the main character\'s temperament fluctuated wildly and didn\'t really make sense. '),
+(937, '2022-02-11 21:11:39', 'unknown', 'Unknown', 'Jaume Collet-Serra', '6.56', '2011-02-18', 'Pretty decent cerebral-ish thriller. It would have been a bit better if the amnesia of the main character didn\'t last so long - but ultimately that drove the plot... so. I liked it.'),
+(938, '2022-02-12 03:43:41', 'pork-chop-hill', 'Pork Chop Hill', 'Lewis Milestone', '6.57', '1959-05-29', 'Sad confirmation of how history treats the sacrifice of Soldiers from all countries who are lost to the foolishness of war.'),
+(939, '2022-02-12 03:02:23', 'mister-scarface', 'Mister Scarface', 'Fernando Di Leo', '5.45', '1976-12-03', 'Weird movie from the 70s that only super fans of mobster movies will remember. It has a certain charm to it - but the script is basically guy punches, guy shoots. Repeat.');
 
 --
 -- Indexes for dumped tables
@@ -980,7 +994,7 @@ ALTER TABLE `movies`
 -- AUTO_INCREMENT for table `movies`
 --
 ALTER TABLE `movies`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=926;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=940;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
