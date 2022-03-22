@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 12, 2022 at 04:57 AM
+-- Generation Time: Mar 22, 2022 at 05:42 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -974,7 +974,27 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (936, '2022-02-11 19:02:26', 'forced-to-fight', 'Forced To Fight', 'Jonas Quastel', '6.12', '2011-08-31', 'This was about 30 minutes too long. Some interesting enough fight scenes, but a tired old retelling of the same thing we\'ve seen hundreds of times. Additionally, the main character\'s temperament fluctuated wildly and didn\'t really make sense. '),
 (937, '2022-02-11 21:11:39', 'unknown', 'Unknown', 'Jaume Collet-Serra', '6.56', '2011-02-18', 'Pretty decent cerebral-ish thriller. It would have been a bit better if the amnesia of the main character didn\'t last so long - but ultimately that drove the plot... so. I liked it.'),
 (938, '2022-02-12 03:43:41', 'pork-chop-hill', 'Pork Chop Hill', 'Lewis Milestone', '6.57', '1959-05-29', 'Sad confirmation of how history treats the sacrifice of Soldiers from all countries who are lost to the foolishness of war.'),
-(939, '2022-02-12 03:02:23', 'mister-scarface', 'Mister Scarface', 'Fernando Di Leo', '5.45', '1976-12-03', 'Weird movie from the 70s that only super fans of mobster movies will remember. It has a certain charm to it - but the script is basically guy punches, guy shoots. Repeat.');
+(939, '2022-02-12 03:02:23', 'mister-scarface', 'Mister Scarface', 'Fernando Di Leo', '5.45', '1976-12-03', 'Weird movie from the 70s that only super fans of mobster movies will remember. It has a certain charm to it - but the script is basically guy punches, guy shoots. Repeat.'),
+(940, '2022-02-13 08:44:37', 'out-of-the-furnace', 'Out of the Furnace', 'Scott Cooper', '5.42', '2013-12-06', 'Not a bad movie, but has some very strange and nebulous symbology/references and flat-out mistakes that it somehow comes off as ingenuous. The acting is well done, but the \"message\" of it is broken.'),
+(941, '2022-02-23 01:52:26', 'man-on-the-train', 'Man on the Train', 'Mary McGuckian', '5.14', '2011-10-28', 'Pretty dull and pseudo-cerebral. The music tries to make every single scene something super meaningful. But really it\'s just two sad men with regrets who have no clue how to find true happiness.'),
+(942, '2022-02-20 21:24:50', 'the-negotiator', 'Negotiator, The', 'F. Gary Gray', '6.87', '1998-07-29', 'This one is a good one that actually stands the test of time. Dirty cops get taken down by one man willing to stand up for the truth. Samuel L. Jackson being a good guy is pretty cool.'),
+(943, '2022-02-24 16:15:28', 'spacewalker', 'Spacewalker', 'Dmitry Kiselev', '7.27', '2018-11-28', 'Stunning visuals and pretty good voice acting. Overall, it\'s a great film.'),
+(944, '2022-02-24 15:58:33', 'loving-the-bad-man', 'Loving the Bad Man', 'Peter Engert', '6.24', '2012-07-10', 'Powerful message that feels otherworldly because it is. The kind of love Jesus taught will always seem strange on an earth that tries so desperately to reject God.');
+INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `released`, `comment`) VALUES
+(945, '2022-03-02 18:57:07', 'ip-man-the-final-fight', 'Ip Man: The Final Fight', 'Herman Yau', '6.78', '2013-09-20', 'There are some beautiful shots in this - but it\'s impossible to beat the first Ip Man movie.'),
+(946, '2022-03-02 20:57:29', 'take-shelter', 'Take Shelter', 'Jeff Nichols', '6.54', '2011-09-30', 'Such a good buildup in a movie. Maybe a little slow and the payoff is dulled by the psychiatry aspect. But a very good one-time watch.'),
+(947, '2022-03-05 05:00:02', 'starfish', 'Starfish', 'A.T. White', '5.14', '2019-03-14', 'So slow. So dull. The good effects are so far between that it isn\'t worth waiting for.'),
+(948, '2022-03-05 05:48:43', 'doors', 'Doors', 'Dugan O\'Neal', '5.87', '2021-03-23', 'Not bad to start with, but devolves into another overly surreal, what-in-the-world-is-going-on type movie.'),
+(949, '2022-03-08 06:06:50', 'meteor', 'Meteor', 'Ernie Barbarash', '5.07', '2009-07-19', 'Weird combination of high-profile actors with bad production quality and fx. It\'s like an expensive B movie. Odd.'),
+(950, '2022-03-13 21:55:55', 'solitary', 'Solitary', 'Luke Armstrong', '5.22', '2020-08-31', 'I can\'t really say this was directed badly or even produced badly. But what it was was kind of dull and boring. I\'d call it a pseudo-cerebral.'),
+(951, '2022-03-13 21:59:06', 'after-the-end', 'After The End', 'Ron Hanks', '5.34', '2021-08-17', 'Sort of like a well-done B movie. I don\'t really understand why there was so much blasphemy and strange, out-of-context biblical references. The script was just okay. Beautifully shot though. '),
+(952, '2022-03-13 22:00:50', 'city-beneath-the-sea', 'City Beneath the Sea', 'Irwin Allen', '5.27', '1971-01-25', 'Proves that not all classic movies are good. There are some redeeming qualities, but there are also a lot of scenes and sub-plots that are kinda pointless.'),
+(953, '2022-03-13 22:02:05', 'the-one', 'One, The', 'James Wong', '5.43', '2001-11-02', 'Cornball action but full of well-known actors. Not terrible.. but.. not great.'),
+(954, '2022-03-18 15:50:47', 'the-stranger-wore-a-gun', 'Stranger Wore a Gun, The', 'André De Toth', '6.07', '1953-07-30', 'Very cool camera shots that were ahead of their time. They were a bit overused in the movie though and the story wasn\'t all that good.'),
+(955, '2022-03-18 23:54:45', 'green-zone', 'Green Zone', 'Rajiv Chandrasekaran', '6.54', '2010-03-11', 'A bit Hollywood, but the payoff message is good. Just tell the truth.'),
+(956, '2022-03-19 00:00:38', 'found', 'Found', 'David Alford', '4.12', '2020-11-24', 'The script placed the wrong people in the wrong roles. The man is an effeminate weakling. The woman is the tough guy sheriff. I couldn\'t buy it if I tried. It started off with some beautiful camera work and hope for a good picture. That hope quickly disintegrates as the script plays out.'),
+(957, '2022-03-21 05:40:10', 'starman', 'Starman', 'John Carpenter', '5.98', '1984-12-14', 'Very well done for a movie of this time period. Jeff Bridges and Karen Allen do a great job and the movie doesn\'t bog you down with a super slow script. Unfortunately it makes a creepy and blasphemous parallel to Jesus about an hour and a half in (and a couple more later) that is inexcusable. '),
+(958, '2022-03-22 06:07:40', 'young-billy-young', 'Young Billy Young', 'Burt Kennedy', '6.02', '1969-10-15', 'Some interesting camera work. Also some very strange and whimsical music. The overall film wasn\'t too bad - but I\'m still not a fan of the flashback montage.');
 
 --
 -- Indexes for dumped tables
@@ -994,7 +1014,7 @@ ALTER TABLE `movies`
 -- AUTO_INCREMENT for table `movies`
 --
 ALTER TABLE `movies`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=940;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=959;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
