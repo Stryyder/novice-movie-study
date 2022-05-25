@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 25, 2022 at 02:45 AM
+-- Generation Time: Mar 22, 2022 at 05:42 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -193,7 +193,7 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (148, '2021-05-21 00:58:46', 'gladiator', 'Gladiator', 'Ridley Scott', '5.00', '2000-05-05', 'No memory'),
 (149, '2021-05-21 02:48:46', 'the-wrestler', 'Wrestler, The', 'Darren Aronofsky', '5.01', '2009-01-30', 'No memory'),
 (150, '2021-05-21 02:49:35', 'rocky', 'Rocky', 'John G. Avildsen', '5.55', '1976-12-03', 'A classic for its day - but a rewatch leaves me very bored'),
-(151, '2022-04-11 04:11:06', 'cliffhanger', 'Cliffhanger', 'Renny Harlin', '6.01', '1993-05-28', 'The most memorable thing from this movie is how a woman needlessly plummets to her death while shaking around like a dying fish.'),
+(151, '2021-05-21 02:48:21', 'cliffhanger', 'Cliffhanger', 'Renny Harlin', '5.00', '1993-05-28', 'No memory'),
 (152, '2021-05-22 01:10:05', 'flubber-1997', 'Flubber', 'Les Mayfield', '4.00', '1997-11-26', 'No memory'),
 (153, '2021-05-22 01:10:32', 'the-birds', 'Birds, The', 'Alfred Hitchcock', '3.00', '1963-03-29', 'At grandpas house - terrifying as a kid'),
 (154, '2021-05-22 01:10:50', 'the-hurt-locker', 'Hurt Locker, The', 'Kathryn Bigelow', '5.32', '2009-07-31', 'Enjoyable - even if unrealistic'),
@@ -224,7 +224,7 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (181, '2021-05-30 02:13:08', 'charlie-and-the-chocolate-factory', 'Charlie and the Chocolate Factory', 'Tim Burton', '4.00', '2005-07-15', 'No memory'),
 (182, '2021-05-30 02:13:28', 'iron-man', 'Iron Man', 'Jon Favreau', '6.00', '2008-05-02', 'No memory'),
 (183, '2021-06-01 01:17:21', 'pearl-harbor', 'Pearl Harbor', 'Michael Bay', '4.00', '2001-05-25', 'No memory'),
-(184, '2022-03-29 05:48:27', 'the-patriot', 'Patriot, The', 'Roland Emmerich', '7.01', '2000-06-28', 'Pretty good film that still stands the test of time.'),
+(184, '2021-06-01 01:19:58', 'the-patriot', 'Patriot, The', 'Roland Emmerich', '5.00', '2000-06-28', 'No memory'),
 (185, '2021-06-01 01:20:33', 'harvey', 'Harvey', 'Henry Koster', '7.00', '1950-10-13', 'No memory'),
 (186, '2021-04-22 06:25:12', '4-minute-mile', '4 Minute Mile', 'Charles-Olivier Michaud', '7.00', '2014-08-01', 'brutal training montages'),
 (187, '2021-06-01 01:33:47', 'pressure', 'Pressure (II)', 'Ron Scalpello', '7.00', '2015-06-12', 'While Captioning'),
@@ -419,9 +419,9 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (377, '2021-05-13 01:15:48', 'chasing-3000', 'Chasing 3000', 'Gregory J. Lanesey', '6.00', '2010-07-16', 'pretty decent baseball movie - Roberto Clemente'),
 (378, '2021-04-22 18:48:42', 'the-babe', 'Babe, The', 'Arthur Hiller', '6.00', '1992-04-17', 'Abrupt ending, but great baseball legend'),
 (379, '2021-05-16 22:52:14', 'the-reef', 'Reef, The', 'Andrew Traucki', '6.00', '2011-03-17', 'Pretty good acting for a predictable movie'),
-(380, '2021-05-16 22:54:20', 'ernest-goes-to-school', 'Ernest Goes to School', 'Coke Sams', '5.00', '1994-05-06', 'so dumb and corny - but watched with Nate');
+(380, '2021-05-16 22:54:20', 'ernest-goes-to-school', 'Ernest Goes to School', 'Coke Sams', '5.00', '1994-05-06', 'so dumb and corny - but watched with Nate'),
+(381, '2021-05-20 02:27:56', 'hitting-the-cycle', 'Hitting the Cycle', 'Darin Anthony, J. Richey Nash', '5.00', '2012-05-19', 'pretty good even with \"B\"-ish feel');
 INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `released`, `comment`) VALUES
-(381, '2021-05-20 02:27:56', 'hitting-the-cycle', 'Hitting the Cycle', 'Darin Anthony, J. Richey Nash', '5.00', '2012-05-19', 'pretty good even with \"B\"-ish feel'),
 (382, '2021-05-20 02:28:09', 'undrafted', 'Undrafted', 'Joseph Mazzello', '7.00', '2016-07-15', 'Captures baseball pretty well - good one'),
 (383, '2021-05-20 02:28:22', 'milltown-pride', 'Milltown Pride', 'Tim Rogers', '5.00', '2011-04-08', 'Very, very old disneyish'),
 (384, '2022-02-12 03:51:28', 'a-mile-in-his-shoes', 'Mile in His Shoes, A', 'William Dear', '6.00', '2011-09-05', 'pretty good Asperger\'s movie with baseball'),
@@ -754,9 +754,9 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (717, '2021-04-22 17:16:11', 'all-quiet-on-the-western-front', 'All Quiet on the Western Front', 'Delbert Mann', '7.98', '1979-11-14', 'The Saving Private Ryan level movie of WWI.'),
 (718, '2021-06-08 00:30:12', 'the-frozen-ground', 'Frozen Ground, The', 'Scott Walker', '5.78', '2013-02-01', 'Evil never prevails forever'),
 (719, '2021-06-08 00:30:38', 'patriots-day', 'Patriots Day', 'Peter Berg', '7.32', '2017-01-13', 'Critics will pick on the details. But the message is positive and touching.'),
-(720, '2021-06-11 01:57:36', 'the-vicious-kind', 'Vicious Kind, The', 'Lee Toland Krieger', '5.00', '2009-01-17', 'A celebration of failure - very sad.');
+(720, '2021-06-11 01:57:36', 'the-vicious-kind', 'Vicious Kind, The', 'Lee Toland Krieger', '5.00', '2009-01-17', 'A celebration of failure - very sad.'),
+(721, '2021-06-11 01:57:48', 'first-snow', 'First Snow', 'Mark Fergus', '5.78', '2007-03-23', 'Slowly pulls you in. Pretty well done.');
 INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `released`, `comment`) VALUES
-(721, '2021-06-11 01:57:48', 'first-snow', 'First Snow', 'Mark Fergus', '5.78', '2007-03-23', 'Slowly pulls you in. Pretty well done.'),
 (722, '2021-04-22 04:26:52', 'zulu', 'Zulu', 'Cy Endfield', '6.89', '1964-06-17', 'Lots of history summarized well. Though the missionary was a strange character.'),
 (723, '2021-06-11 01:58:06', 'singularity', 'Singularity', 'Robert Kouba', '5.45', '2017-11-24', 'Predictable. A bit slow. But not terrible.'),
 (724, '2021-06-11 01:58:21', 'big-stakes', 'Big Stakes', 'Clifford S. Elfelt', '5.64', '1922-08-15', 'Such great early film elements.'),
@@ -978,9 +978,9 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (940, '2022-02-13 08:44:37', 'out-of-the-furnace', 'Out of the Furnace', 'Scott Cooper', '5.42', '2013-12-06', 'Not a bad movie, but has some very strange and nebulous symbology/references and flat-out mistakes that it somehow comes off as ingenuous. The acting is well done, but the \"message\" of it is broken.'),
 (941, '2022-02-23 01:52:26', 'man-on-the-train', 'Man on the Train', 'Mary McGuckian', '5.14', '2011-10-28', 'Pretty dull and pseudo-cerebral. The music tries to make every single scene something super meaningful. But really it\'s just two sad men with regrets who have no clue how to find true happiness.'),
 (942, '2022-02-20 21:24:50', 'the-negotiator', 'Negotiator, The', 'F. Gary Gray', '6.87', '1998-07-29', 'This one is a good one that actually stands the test of time. Dirty cops get taken down by one man willing to stand up for the truth. Samuel L. Jackson being a good guy is pretty cool.'),
-(943, '2022-02-24 16:15:28', 'spacewalker', 'Spacewalker', 'Dmitry Kiselev', '7.27', '2018-11-28', 'Stunning visuals and pretty good voice acting. Overall, it\'s a great film.');
+(943, '2022-02-24 16:15:28', 'spacewalker', 'Spacewalker', 'Dmitry Kiselev', '7.27', '2018-11-28', 'Stunning visuals and pretty good voice acting. Overall, it\'s a great film.'),
+(944, '2022-02-24 15:58:33', 'loving-the-bad-man', 'Loving the Bad Man', 'Peter Engert', '6.24', '2012-07-10', 'Powerful message that feels otherworldly because it is. The kind of love Jesus taught will always seem strange on an earth that tries so desperately to reject God.');
 INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `released`, `comment`) VALUES
-(944, '2022-02-24 15:58:33', 'loving-the-bad-man', 'Loving the Bad Man', 'Peter Engert', '6.24', '2012-07-10', 'Powerful message that feels otherworldly because it is. The kind of love Jesus taught will always seem strange on an earth that tries so desperately to reject God.'),
 (945, '2022-03-02 18:57:07', 'ip-man-the-final-fight', 'Ip Man: The Final Fight', 'Herman Yau', '6.78', '2013-09-20', 'There are some beautiful shots in this - but it\'s impossible to beat the first Ip Man movie.'),
 (946, '2022-03-02 20:57:29', 'take-shelter', 'Take Shelter', 'Jeff Nichols', '6.54', '2011-09-30', 'Such a good buildup in a movie. Maybe a little slow and the payoff is dulled by the psychiatry aspect. But a very good one-time watch.'),
 (947, '2022-03-05 05:00:02', 'starfish', 'Starfish', 'A.T. White', '5.14', '2019-03-14', 'So slow. So dull. The good effects are so far between that it isn\'t worth waiting for.'),
@@ -994,61 +994,7 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (955, '2022-03-18 23:54:45', 'green-zone', 'Green Zone', 'Rajiv Chandrasekaran', '6.54', '2010-03-11', 'A bit Hollywood, but the payoff message is good. Just tell the truth.'),
 (956, '2022-03-19 00:00:38', 'found', 'Found', 'David Alford', '4.12', '2020-11-24', 'The script placed the wrong people in the wrong roles. The man is an effeminate weakling. The woman is the tough guy sheriff. I couldn\'t buy it if I tried. It started off with some beautiful camera work and hope for a good picture. That hope quickly disintegrates as the script plays out.'),
 (957, '2022-03-21 05:40:10', 'starman', 'Starman', 'John Carpenter', '5.98', '1984-12-14', 'Very well done for a movie of this time period. Jeff Bridges and Karen Allen do a great job and the movie doesn\'t bog you down with a super slow script. Unfortunately it makes a creepy and blasphemous parallel to Jesus about an hour and a half in (and a couple more later) that is inexcusable. '),
-(958, '2022-03-22 06:07:40', 'young-billy-young', 'Young Billy Young', 'Burt Kennedy', '6.02', '1969-10-15', 'Some interesting camera work. Also some very strange and whimsical music. The overall film wasn\'t too bad - but I\'m still not a fan of the flashback montage.'),
-(959, '2022-03-23 14:49:37', 'a-walk-in-the-sun', 'Walk in the Sun, A', 'Lewis Milestone', '6.87', '1945-12-25', 'Really captures the timeless tradition of Soldiers mocking their own organization as a means of coping with brutal situations. That this was released so near the conclusion of WWII is interesting.'),
-(960, '2022-03-29 05:46:52', 'midway', 'Midway', 'Roland Emmerich', '7.21', '2019-11-08', 'Halfway through this movie, I was thinking it really wasn\'t all that good. But by the end, it was really good.'),
-(961, '2022-03-30 19:55:41', 'unplanned', 'Unplanned', 'Cary Solomon', '6.00', '2019-03-29', 'The film spends too much time on displaying the (should be) obvious atrocity called abortion. Toward the end, ironically, the main characters (post-realization) are celebrating the day of death (Halloween). This might be useful as a tool for those ignorant on abortion. But for Christians against abortion, I wouldn\'t recommend this unless you need a reminder of how reprehensible abortion is.'),
-(962, '2022-03-30 06:51:36', 'finding-faith', 'Finding Faith', 'Justin Rossbacher', '5.09', '2013-01-15', 'Christians are used to low production quality. But I still wonder why some things are done. B-movie soundtrack is distractingly bad, and the script places actors above their skill level. All of this makes for a movie that is sad in story and cringe in display. At least it ends well.'),
-(963, '2022-03-31 03:39:11', 'a-living-dog', 'Living Dog, A', 'Daniel Raboldt', '6.85', '2021-08-16', 'This is actually a pretty impressive film. The suspense remains throughout - even with next to zero dialogue. It definitely serves up more than the title would suggest.'),
-(964, '2022-04-03 23:15:13', 'short-circuit', 'Short Circuit', 'John Badham', '7.64', '1986-05-09', 'Very impressive and ahead of its time. Very funny (minus the blasphemy which seems rampant in all movies). Ahead of its time - but also right on time.'),
-(965, '2022-04-06 15:50:42', 'thunderbolt-and-lightfoot', 'Thunderbolt and Lightfoot', 'Michael Cimino', '6.01', '1974-05-23', 'This was secularly good. By that I mean there is a certain draw to this sort of story. Unfortunately, it\'s built around an obsession with money and driven home by characters which care nothing for laws. It\'s lawlessness worshipped.'),
-(966, '2022-04-08 02:44:05', 'the-thin-red-line', 'Thin Red Line, The', 'Terrence Malick', '7.58', '1998-12-25', 'There were so many well-known actors in this movie that it was great to see their performances all in one. It was a fairly honest depiction of various perspectives when it comes to war. All said and done, it was a well-shot movie with a great cast. '),
-(967, '2022-04-08 02:45:16', 'morbius', 'Morbius', 'Roy Thomas', '6.00', '2022-04-01', 'I mean... it\'s just another Marvel movie. They are all the same. Somebody has power. Somebody else is evil. Rinse. Repeat. No matter how many times a character is smashed to the ground, they are essentially uninjured. It\'s like WWF for film - which means (to me) that it\'s not really film at all.'),
-(968, '2022-04-06 16:49:04', 'run-silent-run-deep', 'Run Silent, Run Deep', 'Robert Wise', '7.00', '1958-03-27', 'This one was classically good. I enjoy the re-telling of old wars and the men so bold and unfortunate to have fought in them.'),
-(969, '2022-04-08 02:58:12', 'road-house', 'Road House', 'Rowdy Herrington', '6.24', '1989-05-19', 'This is memorable because it is so bad and so good at the same time. It\'s a film that should stay in the 80\'s - but it\'s one that for those who grew up in the 80\'s, it never really will stay there.'),
-(970, '2022-04-08 03:07:48', 'ronin', 'Ronin', 'J.D. Zeik', '6.11', '1998-09-25', 'The single memory I have of this movie is someone making a stupidly long shot with a pistol that wouldn\'t happen in a bazillion lifetimes. That and the villain who is shot is actually pretty funny.'),
-(971, '2022-04-11 18:03:06', 'the-substitute', 'Substitute, The', 'Alan Ormsby', '5.41', '1996-04-19', 'Entertaining I guess - but still puts a lot of emphasis on the power of gangs in our schools.'),
-(972, '2022-04-08 03:12:13', 'the-road', 'Road, The', 'John Hillcoat', '6.23', '2009-11-25', 'Dystopian. Sad. Strange. Compelling. Disturbing. Not a rewatchable film.'),
-(973, '2022-04-09 03:04:09', 'vantage-point', 'Vantage Point', 'Pete Travis', '7.01', '2008-02-22', 'I remember watching this when it came out and being annoyed by its format. A rewatch this year was completely different. I loved it.'),
-(974, '2022-04-10 04:51:27', 'master-chef-australia', 'Master Chef Australia (TV)', 'Michael Venables, Richard Smead, Richard Franc, Jo Siddiqui', '5.00', '2009-01-01', 'in progress'),
-(975, '2022-04-11 17:52:13', 'crack-in-the-world', 'Crack In The World', 'Jon Manchip White', '5.87', '1965-04-15', 'This was kind of a middle-of-the-road disaster movie. There was a lot of dialogue and an uninteresting romantic sub-plot that derailed the epic-ness of what it could have been. Still, there are some great scenes and it\'s not half bad.'),
-(976, '2022-04-11 17:54:48', 'the-substitute-2', 'Substitute 2, The ', 'Steven Pearl', '5.42', '1998-08-01', 'These movies barely have to do with school anymore. Still, this one is somehow better than the first one. It\'s not great. It\'s just better than the first one.'),
-(977, '2022-04-13 02:59:21', 'the-substitute-3', 'Substitute 3, The', 'Robert Radler', '5.39', '1999-08-14', 'This has absolutely nothing left to do about being a substitute teacher. It is now nothing more than a crappy \"sorta\" action movie with corny \"kung-fu\" moments, unnecessary nudity, and idiotic criminals. Not great film.'),
-(978, '2022-04-14 17:45:23', 'all-the-way-boys', 'All the Way Boys', 'Giuseppe Colizzi', '6.94', '1973-06-01', 'Not a very good plot - but the duo of Terence Hill and Bud Spencer is still great. The fact that it\'s dubbed (for me) makes it even better somehow.'),
-(979, '2022-04-15 20:09:00', 'terminal-velocity', 'Terminal Velocity', 'Deran Sarafian', '6.00', '1994-09-23', 'The most standard of 90\'s action movies. And by that I mean it\'s average in every single way possible. Still, when it came out, it was in its day. '),
-(980, '2022-04-15 20:30:05', 'standoff', 'Standoff', 'Adam Alleca', '5.45', '2016-02-26', 'Cruel. Violent. Sad. Biblical themes are strewn throughout and yet the ending soundtrack makes mention of a different religion entirely. A Bible is buried and a priest is the first to be killed. As a film, well put together. But its content, atrocious.'),
-(981, '2022-04-21 00:12:49', 'compadres', 'Compadres', 'Enrique Begné', '5.00', '2016-03-31', 'Labeled as a comedy, but clearly not one. Juvenile violence and sexual themes. Annoying mix of Spanish and English. The beauty of the shots in the beginning was promising. But it winds up very, very bland.'),
-(982, '2022-05-24 18:53:12', 'Jesus-of-Nazareth', 'Jesus of Nazareth', 'Franco Zeffirelli', '7.03', '1977-01-01', 'Sprinkle baptism, blue-eyed Jesus, and some of the other typical Hollywood mistakes. The Chosen is much better. Robert, who plays Jesus, is a bit robotic. It almost appears that the character he is playing (who isn\'t Jesus) is surprised by miracles and requires a shaking hand to summon food. It\'s just a tiny bit strange. Still, with all of the much worse modern takes, this one isn\'t too bad.'),
-(983, '2022-04-21 00:31:09', 'game-of-thrones', 'Game of Thrones', 'David Benioff, D. B. Weiss', '6.52', '2011-01-01', 'There is no doubt that this is well put together. But the content in many ways is not good. Violence, incest, and sexual themes are not necessary and the ending of the whole show is pretty bad.'),
-(984, '2022-04-23 03:20:44', 'phantom-thunderbolt', 'Phantom Thunderbolt', 'Alan James', '5.54', '1933-03-04', 'Very roughly cut and the man\'s hat is ridiculous. Not the best western out there - but since it\'s short, it\'s a decent one-time watch.'),
-(985, '2022-04-26 04:07:34', 'cyborg', 'Cyborg', 'Albert Pyun', '4.94', '1989-04-07', 'Crazy. Violent. Heavily blasphemous. Trash film worth forgetting. Its only popularity was probably due to Jean Claude\'s fame at the time.'),
-(986, '2022-04-24 23:44:14', 'enemy-of-the-state', 'Enemy of the State', 'Tony Scott', '6.48', '1998-11-20', 'Pretty decent intel-style thriller. Scary how many bugs are in the world now 20 years later.'),
-(987, '2022-04-26 18:25:01', 'escape-plan-2', 'Escape Plan 2', 'Steven C. Miller', '5.00', '2018-06-05', 'This movie is far less epic than it thinks it is. More senseless \"hacking\" scenes. Not a plot to remember. The \"most secure ever\" facility lacks security cameras in the cells, microphones in key places, and whose computer is hacked in what seems like 12 seconds. '),
-(988, '2022-04-27 18:23:02', 'fortress', 'Fortress', 'James Cullen Bressack', '4.99', '2021-12-17', 'A bunch of retarded women are in charge of security along with an overly sexualized woman who instantly falls for the random son who shows up. Bad fx. Bad script. B-movie score. It\'s just not good. Midway through, I rescued part of my life back by skipping through it to the end.'),
-(989, '2022-04-27 03:41:16', 'the-devils-own', 'Devil\'s Own, The', 'Alan J. Pakula', '6.00', '1997-03-26', 'Not too bad. It\'s hard not to like Pitt as an Irishman - even if you know the accent is very fake. Alan successfully delivers a movie where you want a villain to survive and win.'),
-(990, '2022-04-28 16:27:21', 'seraphim-falls', 'Seraphim Falls', 'David Von Ancken', '6.32', '2007-01-26', 'Not too bad at first, but gradually fades into meh. Also, more unnecessary mockery of religion in general. Strange.'),
-(991, '2022-04-30 02:31:23', 'broadway-bill', 'Broadway Bill', 'Frank Capra', '6.00', '1934-12-27', 'It was okay. Nothing too special. Great one-time watch.'),
-(992, '2022-04-29 07:00:54', 'last-knights', 'Last Knights', 'Kazuaki Kiriya', '7.24', '2015-04-03', 'Really good story and a view of honor which doesn\'t seem to exist any longer.'),
-(993, '2022-05-03 15:56:31', 'flight-of-fury', 'Flight of Fury', 'Joe Halpin', '5.24', '2007-02-20', 'I only remember this because of a 3 month period where Segal was super popular. Now this is a comedy.'),
-(994, '2022-05-03 16:01:06', 'above-suspicion', 'Above Suspicion', 'Phillip Noyce', '5.00', '2021-05-14', 'Meh. The plot was not interesting.'),
-(995, '2022-05-06 22:39:02', 'sprinter', 'Sprinter', 'Storm Saulter', '6.48', '2019-09-06', 'Pretty good movie, but could have done with a few more deleted scenes to shorten it up some. The crime/sex sub-plots were unnecessary.'),
-(996, '2022-05-07 03:44:23', 'mr-majestyk', 'Mr. Majestyk', 'Richard Fleischer', '6.28', '1974-07-17', 'Typical 70s movie with Bronson. You get exactly what you expect. Some absolutely crazy pickup driving at the end was cool.'),
-(997, '2022-05-11 23:22:48', 'the-philadelphia-experiment', 'Philadelphia Experiment, The', 'Paul Ziller', '5.45', '2012-07-28', 'Watch this if you really want to watch a good B movie. By that I mean it\'s at the top of its class if the class is B-movie. It\'s not bad. It\'s not great. It\'s not great. Yes, I said it twice.'),
-(998, '2022-05-16 18:06:00', 'breakout', 'Breakout', 'Tom Gries', '5.57', '1975-05-22', 'There was some very unnecessary sexualization. Also some decent action. Strange to see Duvall, Quaid, and Bronson in a film together.'),
-(999, '2022-05-12 16:50:53', 'the-circle', 'Circle, The', 'James Ponsoldt', '6.98', '2017-04-28', 'A modern day horror movie  that blind dodo birds will not care about. The ending is a bit confused.'),
-(1000, '2022-05-12 20:40:16', 'a-hole-in-the-head', 'Hole In The Head, A', 'Frank Capra', '6.01', '1959-09-15', 'Sinatra has an annoying girlfriend and has trouble getting money. Not much new here yet - 30 minutes in. Near the end of the film, not much has changed. It\'s not a bad film, but it\'s no \"Pursuit of Happiness\".'),
-(1001, '2022-05-13 03:37:25', 'heat-1987', 'Heat (1987)', 'William Goldman', '5.00', '1987-03-13', 'One hour in and I\'m waiting for the plot to develop in some way. But instead it just seems to be a movie about some weird mercenary in Vegas. Kinda dull. The one relief was Peter MacNicol\'s humorous fight lessons. What a cornball of a movie.'),
-(1002, '2022-05-13 05:48:01', 'the-impossible', 'Impossible, The', 'J. A. Bayona', '8.09', '2012-12-04', 'Well directed and gripping throughout. Being based on a true story is the cherry on top of a terrific film. The score at the end makes this one a bit of a lingerer.'),
-(1003, '2022-05-14 16:56:54', 'daylight', 'Daylight', 'Rob Cohen', '5.47', '1996-12-06', 'I like Stallone, but this movie is like watching a corny TV series. All of the usual things happen and somehow there is no emotion despite the implication that there should be some. All in all, just a corny movie.'),
-(1004, '2022-05-15 22:53:34', 'the-call', 'Call, The', 'Jon Bokenkamp', '6.00', '2013-03-14', 'Decent one-time watch. Frustrating choices made by the characters seems to be par for the course with this style of movie.'),
-(1005, '2022-05-15 22:55:46', 'for-richer-or-poorer', 'For Richer or Poorer', 'Bryan Spicer', '5.24', '1997-12-12', 'A mildly funny movie that was decent for its time at the height of Tim Allen\'s fame.'),
-(1006, '2022-05-15 22:57:23', 'the-game', 'Game, The', 'David Fincher', '6.01', '1997-09-12', 'A sorta cerebral film which reminds me of Total Recall. Not incredibly memorable beyond that.'),
-(1007, '2022-05-15 23:00:45', 'behind-enemy-lines', 'Behind Enemy Lines', 'John Moore', '6.10', '2001-11-30', 'Not sure what it is, but I enjoy Owen Wilson in serious roles. The memory of this one is more like a great TV movie complete with traditional action movie tropes. But still good.'),
-(1008, '2022-05-16 23:42:39', 'the-sisters-brothers', 'Sisters Brothers, The', 'Jacques Audiard', '4.50', '2018-10-19', '20 minutes in and I can\'t tell if it\'s a comedy or not. None of these men seem tough enough to be in an old western. The whole movie feels Hollywood spit-shined. 45 minutes in and the Hollywood garbage is confirmed when a major character is introduced as cis gendered. Truly a sister brother. Weird. Odd. Strange. Not a western. DNF.'),
-(1009, '2022-05-18 14:35:02', 'the-long-riders', 'Long Riders, The', 'Walter Hill', '6.59', '1980-05-16', 'Some unnecessary scenes - but overall a great coming-of-age western about Jesse James with some well-known actors. I enjoyed it.'),
-(1010, '2022-05-18 17:26:44', 'walk-the-line', 'Walk The Line', 'James Mangold', '7.01', '2005-11-18', 'The actual history of Johnny as far as music goes is pretty standard. Depression, drugs, sex, etc. It seems it\'s really just God\'s timing with it all that put Mr. Cash where he was - along with that deep voice (also a gift from God).'),
-(1011, '2022-05-24 17:20:11', 'point-last-seen', 'Point Last Seen', 'Elodie Keene', '5.55', '1998-11-24', 'Super corny. Not a great script. Some pretty generic stereotypes and even some misinterpreted Bible verses. A bit too monologue-ish. But in the end, it\'s okay.'),
-(1012, '2022-05-25 00:42:52', 'lost-horizon', 'Lost Horizon', 'Frank Capra', '7.24', '1937-09-01', 'A masterpiece from Capra in terms of storytelling and direction. The mythological place called Shangri-La is, of course, silly and philosophically unrealistic. But if viewed as a story outside of reality, it\'s pretty good. In true Hollywood fashion, Christianity is stolen from while being denigrated.');
+(958, '2022-03-22 06:07:40', 'young-billy-young', 'Young Billy Young', 'Burt Kennedy', '6.02', '1969-10-15', 'Some interesting camera work. Also some very strange and whimsical music. The overall film wasn\'t too bad - but I\'m still not a fan of the flashback montage.');
 
 --
 -- Indexes for dumped tables
@@ -1068,7 +1014,7 @@ ALTER TABLE `movies`
 -- AUTO_INCREMENT for table `movies`
 --
 ALTER TABLE `movies`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1013;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=959;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
