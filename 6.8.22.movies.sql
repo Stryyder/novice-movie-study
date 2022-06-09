@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 25, 2022 at 02:45 AM
+-- Generation Time: Jun 09, 2022 at 08:26 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -1018,7 +1018,7 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (979, '2022-04-15 20:09:00', 'terminal-velocity', 'Terminal Velocity', 'Deran Sarafian', '6.00', '1994-09-23', 'The most standard of 90\'s action movies. And by that I mean it\'s average in every single way possible. Still, when it came out, it was in its day. '),
 (980, '2022-04-15 20:30:05', 'standoff', 'Standoff', 'Adam Alleca', '5.45', '2016-02-26', 'Cruel. Violent. Sad. Biblical themes are strewn throughout and yet the ending soundtrack makes mention of a different religion entirely. A Bible is buried and a priest is the first to be killed. As a film, well put together. But its content, atrocious.'),
 (981, '2022-04-21 00:12:49', 'compadres', 'Compadres', 'Enrique Begné', '5.00', '2016-03-31', 'Labeled as a comedy, but clearly not one. Juvenile violence and sexual themes. Annoying mix of Spanish and English. The beauty of the shots in the beginning was promising. But it winds up very, very bland.'),
-(982, '2022-05-24 18:53:12', 'Jesus-of-Nazareth', 'Jesus of Nazareth', 'Franco Zeffirelli', '7.03', '1977-01-01', 'Sprinkle baptism, blue-eyed Jesus, and some of the other typical Hollywood mistakes. The Chosen is much better. Robert, who plays Jesus, is a bit robotic. It almost appears that the character he is playing (who isn\'t Jesus) is surprised by miracles and requires a shaking hand to summon food. It\'s just a tiny bit strange. Still, with all of the much worse modern takes, this one isn\'t too bad.'),
+(982, '2022-06-09 05:59:53', 'Jesus-of-Nazareth', 'Jesus of Nazareth', 'Franco Zeffirelli', '7.06', '1977-01-01', 'Sprinkle baptism, blue-eyed Jesus, and some of the other typical Hollywood mistakes. The Chosen is much better. Robert, who plays Jesus, is a bit robotic. It almost appears that the character he is playing (who isn\'t Jesus) is surprised by miracles and requires a shaking hand to summon food. It\'s just a tiny bit strange. Still, with all of the much worse modern takes, this one isn\'t too bad.'),
 (983, '2022-04-21 00:31:09', 'game-of-thrones', 'Game of Thrones', 'David Benioff, D. B. Weiss', '6.52', '2011-01-01', 'There is no doubt that this is well put together. But the content in many ways is not good. Violence, incest, and sexual themes are not necessary and the ending of the whole show is pretty bad.'),
 (984, '2022-04-23 03:20:44', 'phantom-thunderbolt', 'Phantom Thunderbolt', 'Alan James', '5.54', '1933-03-04', 'Very roughly cut and the man\'s hat is ridiculous. Not the best western out there - but since it\'s short, it\'s a decent one-time watch.'),
 (985, '2022-04-26 04:07:34', 'cyborg', 'Cyborg', 'Albert Pyun', '4.94', '1989-04-07', 'Crazy. Violent. Heavily blasphemous. Trash film worth forgetting. Its only popularity was probably due to Jean Claude\'s fame at the time.'),
@@ -1048,7 +1048,22 @@ INSERT INTO `movies` (`id`, `stamp`, `cover`, `movie`, `director`, `rating`, `re
 (1009, '2022-05-18 14:35:02', 'the-long-riders', 'Long Riders, The', 'Walter Hill', '6.59', '1980-05-16', 'Some unnecessary scenes - but overall a great coming-of-age western about Jesse James with some well-known actors. I enjoyed it.'),
 (1010, '2022-05-18 17:26:44', 'walk-the-line', 'Walk The Line', 'James Mangold', '7.01', '2005-11-18', 'The actual history of Johnny as far as music goes is pretty standard. Depression, drugs, sex, etc. It seems it\'s really just God\'s timing with it all that put Mr. Cash where he was - along with that deep voice (also a gift from God).'),
 (1011, '2022-05-24 17:20:11', 'point-last-seen', 'Point Last Seen', 'Elodie Keene', '5.55', '1998-11-24', 'Super corny. Not a great script. Some pretty generic stereotypes and even some misinterpreted Bible verses. A bit too monologue-ish. But in the end, it\'s okay.'),
-(1012, '2022-05-25 00:42:52', 'lost-horizon', 'Lost Horizon', 'Frank Capra', '7.24', '1937-09-01', 'A masterpiece from Capra in terms of storytelling and direction. The mythological place called Shangri-La is, of course, silly and philosophically unrealistic. But if viewed as a story outside of reality, it\'s pretty good. In true Hollywood fashion, Christianity is stolen from while being denigrated.');
+(1012, '2022-05-25 01:17:43', 'lost-horizon', 'Lost Horizon', 'Frank Capra', '8.28', '1937-09-01', 'A masterpiece from Capra in terms of storytelling and direction. The mythological place called Shangri-La is, of course, silly and philosophically unrealistic. But if viewed as a story outside of reality, it\'s pretty good. In true Hollywood fashion, Christianity is stolen from while being denigrated.'),
+(1013, '2022-05-25 03:52:27', 'the-maze-runner', 'Maze Runner, The', 'Wes Ball', '7.43', '2014-09-19', 'Pretty decent survival, mystery, maze movie. Unique and interesting sci-fi. The premise that wicked is good is a little twisted - but no movie gets it all right.'),
+(1014, '2022-05-25 04:19:32', 'theres-a-noose-waiting-for-you-trinity', 'There\'s a Noose Waiting for You Trinity', 'Alfonso Balcázar', '5.21', '1972-12-14', 'A gunslinger with long hair like a woman is strange. This was very slow but had its unique moments. I had to skip through it though.'),
+(1015, '2022-05-26 17:09:55', 'hour-of-the-gun', 'Hour of the Gun', 'John Sturges', '7.16', '1967-11-01', 'A classic story with a classic cast. Roles like this cemented James Garner\'s legacy and helped to boost the film careers of the rest too.'),
+(1016, '2022-05-29 14:11:15', 'the-flash-1990', 'Flash, The (TV)', 'Danny Bilson, Paul De Meo', '5.01', '1990-01-01', 'in progress'),
+(1017, '2022-05-28 07:07:40', 'the-bounty', 'Bounty, The', 'Roger Donaldson', '7.06', '1984-05-04', 'An entertaining movie, no doubt. It\'s a good movie to examine leadership styles and the ramifications of certain decisions.'),
+(1018, '2022-05-29 14:10:51', 'the-girl-with-all-the-gifts', 'Girl With All The Gifts, The', 'Colm McCarthy', '5.00', '2016-09-23', 'Well... it\'s a zombie movie. So you get what you expect. The professional production quality is there. But this is a type of film I no longer enjoy. Senseless. Violent. '),
+(1019, '2022-05-31 03:49:38', 'the-neverending-story', 'Neverending Story, The', 'Wolfgang Petersen', '6.98', '1984-07-20', 'Not sure how this one holds up in time, but it\'s clear that for a child of the 80s, this could be a strong memory. As a film, it\'s a bit looney. But the overall message is pretty good.'),
+(1020, '2022-05-31 01:40:25', 'attack-force-z', 'Attack Force Z', 'Tim Burstall', '6.34', '1982-06-11', 'Felt like an average TV war movie. I was surprised to see Mel Gibson and Sam Neill in it.'),
+(1021, '2022-06-01 05:14:50', 'geronimo', 'Geronimo', 'Arnold Laven', '6.19', '1962-05-01', 'A blue-eyed Indian is strange, but perhaps there is some racial commentary to be had there. This film is 60 years ago, but a world away.'),
+(1022, '2022-06-04 07:16:21', 'heist', 'Heist', 'Scott Mann', '6.00', '2015-11-13', 'Rigggghhht a tiny woman cop punches Batista and draws blood like she broke his jaw. Lots of nonsense in this one, but still entertaining.'),
+(1023, '2022-06-05 05:29:05', 'thunder-road', 'Thunder Road', 'Arthur Ripley', '5.89', '1958-05-10', 'Robert Mitchum, with the coolest and calmest face in the biz, proves once again that crime is a worthless endeavor. Kinda slow. Kinda boring.'),
+(1024, '2022-06-06 00:42:26', 'platoon-leader', 'Platoon Leader', 'Aaron Norris', '6.37', '1988-10-01', 'Gruesome. Packed full of action. Shows a grim and fairly accurate view of the horrors of war.'),
+(1025, '2022-06-07 06:35:56', 'the-client', 'Client, The', 'Joel Schumacher', '6.07', '1994-07-20', 'Starts really good but sort of devolves into a bit of a teenage adventure movie by the end.'),
+(1026, '2022-06-08 15:55:31', 'the-gallant-hours', 'Gallant Hours, The', 'Robert Montgomery', '6.21', '1960-06-22', 'More like a documentary than a film. Instead of showing the violence of war, this shows some of the psychology of leadership. Decent but very slow.'),
+(1027, '2022-06-09 05:50:25', 'duel-at-diablo', 'Duel At Diablo', 'Ralph Nelson', '5.00', '1966-06-15', 'in progress');
 
 --
 -- Indexes for dumped tables
@@ -1068,7 +1083,7 @@ ALTER TABLE `movies`
 -- AUTO_INCREMENT for table `movies`
 --
 ALTER TABLE `movies`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1013;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1028;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
